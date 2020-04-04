@@ -13,7 +13,6 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
-    `gatsby-plugin-sass`,
     "gatsby-plugin-postcss",
     {
       resolve: "gatsby-plugin-purgecss",
