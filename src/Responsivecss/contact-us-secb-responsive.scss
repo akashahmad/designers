@@ -1,0 +1,339 @@
+@media (max-width: 1199px) and (min-width: 1024px) {
+    .Contact-us-page-main{
+        display: none;
+    }
+    .main-heading{
+        margin-top: 13rem;
+    }
+    .get-in-touch{
+        width:100%;
+    }
+    .Quick-find-us{
+        width:29%;
+    }
+ }
+@media (max-width: 1023px) and (min-width: 992px) {
+    .Contact-us-page-main{
+        display: none;
+    }
+    .get-in-touch{
+        width:100%;
+    }
+ }
+@media (max-width: 991px) and (min-width: 768px) {
+    .mobile-view-image{
+        display:block!important;
+        margin-top:20px;
+    }
+    .Contact-us-page-main{
+        display: none;
+    }
+    .main-heading{
+        h1{
+            font-size: 24px;
+        }
+    }
+    .contact-us-main{
+        flex-direction: column;
+        .get-in-touch{
+            width:100%;
+            flex-direction: column;
+            .dotts{
+                display: none;
+            }
+            .contact-us-form-start{
+                flex-direction: column;
+                width:100%;
+                .contact-us-form{
+                    width:100%;
+                    flex-direction: column;
+                    .full-name-input{
+                        width:100%;
+                    }
+                    .Email-phonenumber{
+                        flex-direction: column;
+                        .Phone-number{
+                            padding: 10px 0px 10px 0px;
+                        }
+                    }
+                }
+            }
+                             .Quick-find-us{
+                                width:100%;
+                                margin-left: 0;
+                                padding:10px;
+        }
+                                .quick-find-img{
+                                    display: none;
+            }
+        }
+    }
+    .contact-us-mobile{
+        margin-top: -22rem;
+        margin-left: 20px;
+        width:100%;
+    }
+    .mobile-view-image{
+        width:100%;
+    }
+    .contact-us-secb{
+        padding-left:0!important;
+        padding-right:0!important;
+    }
+    .phone {
+        width: 100%;
+    }
+ }
+@media (max-width: 767px) and (min-width: 685px) {
+    .mobile-view-image{
+        display:block!important;
+        margin-top:20px;
+    }
+    .Contact-us-page-main{
+        display: none;
+    }
+    .main-heading{
+        h1{
+            font-size: 24px;
+        }
+    }
+    .contact-us-main{
+        flex-direction: column;
+        .get-in-touch{
+            width:100%;
+            flex-direction: column;
+            .dotts{
+                display: none;
+            }
+            .contact-us-form-start{
+                flex-direction: column;
+                width:100%;
+                .contact-us-form{
+                    width:100%;
+                    flex-direction: column;
+                    .full-name-input{
+                        width:100%;
+                    }
+                    .Email-phonenumber{
+                        flex-direction: column;
+                        .Phone-number{
+                            padding: 10px 0px 10px 0px;
+                        }
+                    }
+                }
+            }
+                             .Quick-find-us{
+                                width:100%;
+                                margin-left: 0;
+                                padding:10px;
+        }
+                                .quick-find-img{
+                                    display: none;
+            }
+        }
+    }
+    .contact-us-mobile{
+        margin-top: -18rem;
+        margin-left: 20px;
+        width:100%;
+    }
+    .mobile-view-image{
+        width:100%;
+    }
+    .contact-us-secb{
+        padding-left:0!important;
+        padding-right:0!important;
+    }
+    .phone {
+        width: 100%;
+    }
+ }
+@media (max-width: 684px) and (min-width: 568px) {
+    .mobile-view-image{
+        display:block!important;
+        margin-top:20px;
+    }
+    .Contact-us-page-main{
+        display: none;
+    }
+    .main-heading{
+        h1{
+            font-size: 24px;
+        }
+    }
+    .contact-us-main{
+        flex-direction: column;
+        .get-in-touch{
+            width:100%;
+            flex-direction: column;
+            .dotts{
+                display: none;
+            }
+            .contact-us-form-start{
+                flex-direction: column;
+                width:100%;
+                .contact-us-form{
+                    width:100%;
+                    flex-direction: column;
+                    .full-name-input{
+                        width:100%;
+                    }
+                    .Email-phonenumber{
+                        flex-direction: column;
+                        .Phone-number{
+                            padding: 10px 0px 10px 0px;
+                        }
+                    }
+                }
+            }
+                             .Quick-find-us{
+                                width:100%;
+                                margin-left: 0;
+                                padding:10px;
+        }
+                                .quick-find-img{
+                                    display: none;
+            }
+        }
+    }
+    .contact-us-mobile{
+        margin-top: -18rem;
+        margin-left: 20px;
+        width:100%;
+    }
+    .mobile-view-image{
+        width:100%;
+    }
+    .contact-us-secb{
+        padding-left:0!important;
+        padding-right:0!important;
+    }
+    .phone {
+        width: 100%;
+    }
+ }
+@media (max-width: 567px) and (min-width: 480px) {
+    .mobile-view-image{
+        display:block!important;
+        margin-top:20px;
+    }
+    .Contact-us-page-main{
+        display: none;
+    }
+    .main-heading{
+        h1{
+            font-size: 24px;
+        }
+    }
+    .contact-us-main{
+        flex-direction: column;
+        .get-in-touch{
+            width:100%;
+            flex-direction: column;
+            .dotts{
+                display: none;
+            }
+            .contact-us-form-start{
+                flex-direction: column;
+                width:100%;
+                .contact-us-form{
+                    width:100%;
+                    flex-direction: column;
+                    .full-name-input{
+                        width:100%;
+                    }
+                    .Email-phonenumber{
+                        flex-direction: column;
+                        .Phone-number{
+                            padding: 10px 0px 10px 0px;
+                        }
+                    }
+                }
+            }
+                             .Quick-find-us{
+                                width:100%;
+                                margin-left: 0;
+                                padding:10px;
+        }
+                                .quick-find-img{
+                                    display: none;
+            }
+        }
+    }
+    .contact-us-mobile{
+        margin-top: -13rem;
+        margin-left: 20px;
+        width:100%;
+    }
+    .mobile-view-image{
+        width:100%;
+    }
+    .contact-us-secb{
+        padding-left:0!important;
+        padding-right:0!important;
+    }
+    .phone {
+        width: 100%;
+    }
+ }
+@media (max-width: 479px) and (min-width: 320px) { 
+    .mobile-view-image{
+        display:block!important;
+        margin-top:20px;
+    }
+    .Contact-us-page-main{
+        display: none;
+    }
+    .main-heading{
+        h1{
+            font-size: 24px;
+        }
+    }
+    .contact-us-main{
+        flex-direction: column;
+        .get-in-touch{
+            width:100%;
+            flex-direction: column;
+            .dotts{
+                display: none;
+            }
+            .contact-us-form-start{
+                flex-direction: column;
+                width:100%;
+                .contact-us-form{
+                    width:100%;
+                    flex-direction: column;
+                    .full-name-input{
+                        width:100%;
+                    }
+                    .Email-phonenumber{
+                        flex-direction: column;
+                        .Phone-number{
+                            padding: 10px 0px 10px 0px;
+                        }
+                    }
+                }
+            }
+                             .Quick-find-us{
+                                width:100%;
+                                margin-left: 0;
+                                padding:10px;
+        }
+                                .quick-find-img{
+                                    display: none;
+            }
+        }
+    }
+    .contact-us-mobile{
+        margin-top: -13rem;
+        margin-left: 20px;
+        width:100%;
+    }
+    .mobile-view-image{
+        width:100%;
+    }
+    .contact-us-secb{
+        padding-left:0!important;
+        padding-right:0!important;
+    }
+}

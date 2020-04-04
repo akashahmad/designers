@@ -1,0 +1,194 @@
+@media (max-width: 1199px) and (min-width: 1024px) { }
+@media (max-width: 1023px) and (min-width: 992px) { }
+@media (max-width: 991px) and (min-width: 768px) {
+    .who-we-are-mob-first-sec{
+        display: block;
+    }
+    .display-image{
+        display: block;
+    }
+    .who-we-are-main{
+        display:none;
+    }
+    .who-we-are-mob-first-sec{
+        .display-image{
+            .main-image{
+                width:100%;
+                height:80vh;
+            }
+        }
+        .heading-main-who-we-are {
+            position: absolute;
+            margin-top: -20rem;
+            margin-left: 10px;
+            p{
+                width: 284px;
+            }
+        }
+    }
+    .who-we-are-mob-first-sec{
+        animation: transform 2s ;
+         animation-duration: 3s;
+          height: 20vh;
+         position:relative;
+         
+     }
+        @keyframes transform {
+        from {
+        transform: translateY(300%);
+
+    }
+}
+ }
+@media (max-width: 767px) and (min-width: 685px) {
+    .who-we-are-mob-first-sec{
+        display: block;
+    }
+    .display-image{
+        display: block;
+    }
+    .who-we-are-main{
+        display:none;
+    }
+    .who-we-are-mob-first-sec{
+        .display-image{
+            .main-image{
+                width:100%;
+                height:80vh;
+            }
+        }
+        .heading-main-who-we-are {
+            position: absolute;
+            margin-top: -20rem;
+            margin-left: 10px;
+            p{
+                width: 284px;
+            }
+        }
+    }
+    .who-we-are-mob-first-sec{
+        animation: transform 2s ;
+         animation-duration: 3s;
+          height: 20vh;
+         position:relative;
+         
+     }
+        @keyframes transform {
+        from {
+        transform: translateY(300%);
+
+    }
+}
+}
+@media (max-width: 684px) and (min-width: 568px) { 
+    .who-we-are-mob-first-sec{
+        display: block!important;
+    }
+    .display-image{
+        display: block;
+    }
+    .who-we-are-main{
+        display:none;
+    }
+    .who-we-are-mob-first-sec{
+        .display-image{
+            .main-image{
+                width:100%;
+                height:80vh;
+            }
+        }
+        .heading-main-who-we-are {
+            position: absolute;
+            margin-top: -20rem;
+            margin-left: 10px;
+            p{
+                width: 284px;
+            }
+        }
+    }
+    .who-we-are-mob-first-sec{
+        animation: transform 2s ;
+         animation-duration: 3s;
+          height: 20vh;
+         position:relative;
+         
+     }
+        @keyframes transform {
+        from {
+        transform: translateY(300%);
+
+    }
+}
+
+}
+@media (max-width: 567px) and (min-width: 480px) {
+    .who-we-are-mob-first-sec{
+        display: block;
+    }
+    .display-image{
+        display: block;
+    }
+    .who-we-are-main{
+        display:none;
+    }
+    .who-we-are-mob-first-sec{
+        .heading-main-who-we-are {
+            position: absolute;
+            margin-top: -20rem;
+            margin-left: 10px;
+            p{
+                width: 284px;
+            }
+        }
+    }
+    .who-we-are-mob-first-sec{
+        animation: transform 2s ;
+         animation-duration: 3s;
+          height: 20vh;
+         position:relative;
+         
+     }
+        @keyframes transform {
+        from {
+        transform: translateY(300%);
+
+    }
+}
+
+ }
+@media (max-width: 479px) and (min-width: 320px) { 
+    .who-we-are-mob-first-sec{
+        display: block;
+    }
+    .display-image{
+        display: block;
+    }
+    .who-we-are-main{
+        display:none;
+    }
+    .who-we-are-mob-first-sec{
+        .heading-main-who-we-are {
+            position: absolute;
+            margin-top: -20rem;
+            margin-left: 10px;
+            p{
+                width: 284px;
+            }
+        }
+    }
+    .who-we-are-mob-first-sec{
+        animation: transform 2s ;
+         animation-duration: 3s;
+          height: 20vh;
+         position:relative;
+         
+     }
+        @keyframes transform {
+        from {
+        transform: translateY(300%);
+
+    }
+}
+
+  
+}

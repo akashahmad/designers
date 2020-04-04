@@ -1,0 +1,205 @@
+@media (max-width: 1199px) and (min-width: 1024px) {
+    .home-page-main{
+     .home-page-first-sec{
+        .home-page-text{
+            margin-left:6rem!important;
+        }
+        .ambitions{
+            white-space: normal!important;
+            h1{
+                br{display: none!important;}
+            }
+            p{
+                width: 302px!important;
+            }
+        }
+        }
+    } 
+ }
+@media (max-width: 1023px) and (min-width: 992px) {
+    .home-page-main{
+        .home-page-first-sec{
+           .home-page-text{
+               margin-left:6rem!important;
+           }
+           .ambitions{
+               white-space: normal!important;
+               h1{
+                   br{display: none!important;}
+               }
+               p{
+                   width: 302px!important;
+               }
+           }
+           }
+       } 
+ }
+@media (max-width: 991px) and (min-width: 768px) {
+    .home-page-mobile{
+        display: block!important;
+        .mobile-view-header{
+            img.background-mobile-image {
+                width: 100%;
+            }
+            .mobile-view-heading{
+                h1{
+                    margin-top:-35rem;
+                    margin-left: 23px;
+                }
+                p{
+                    margin-left: 23px;
+                }
+            }
+        }
+    }
+    .mobile-view-header{
+        animation: transform 2s ;
+         animation-duration: 3s;
+          height: 20vh;
+         position:relative;
+         
+     }
+        @keyframes transform {
+        from {
+        transform: translateY(300%);
+
+    }
+}
+.home-page-first-sec{
+    display:none!important;
+}
+ }
+@media (max-width: 767px) and (min-width: 685px) {
+    .home-page-mobile{
+        display: block!important;
+        .mobile-view-header{
+            .mobile-view-heading{
+                h1{
+                    margin-top:-35rem;
+                    margin-left: 23px;
+                }
+                p{
+                    margin-left: 23px;
+                }
+            }
+        }
+    }
+    .mobile-view-header{
+        animation: transform 2s ;
+         animation-duration: 3s;
+          height: 20vh;
+         position:relative;
+         
+     }
+        @keyframes transform {
+        from {
+        transform: translateY(300%);
+
+    }
+}
+.home-page-first-sec{
+    display:none!important;
+}
+ }
+@media (max-width: 684px) and (min-width: 568px) { 
+    .home-page-mobile{
+        display: block!important;
+        .mobile-view-header{
+            .mobile-view-heading{
+                h1{
+                    margin-top:-35rem;
+                    margin-left: 23px;
+                }
+                p{
+                    margin-left: 23px;
+                }
+            }
+        }
+    }
+    .mobile-view-header{
+        animation: transform 2s ;
+         animation-duration: 3s;
+          height: 20vh;
+         position:relative;
+         
+     }
+        @keyframes transform {
+        from {
+        transform: translateY(300%);
+
+    }
+}
+.home-page-first-sec{
+    display:none!important;
+}
+}
+@media (max-width: 567px) and (min-width: 480px) {
+    .home-page-main{
+        margin-top:0!important;
+    }
+    .home-page-mobile{
+        display: block!important;
+        .mobile-view-header{
+            .mobile-view-heading{
+                h1{
+                    margin-top:-23rem;
+                    margin-left: 23px;
+                }
+                p{
+                    margin-left: 23px;
+                }
+            }
+        }
+    }
+    .mobile-view-header{
+        animation: transform 2s ;
+         animation-duration: 3s;
+          height: 20vh;
+         position:relative;
+         
+     }
+        @keyframes transform {
+        from {
+        transform: translateY(300%);
+
+    }
+}
+.home-page-first-sec{
+    display:none!important;
+}
+ }
+@media (max-width: 479px) and (min-width: 320px) {
+    .home-page-main{
+        margin-top:0!important;
+    }
+    .home-page-mobile{
+        display: block!important;
+        .mobile-view-header{
+            .mobile-view-heading{
+                h1{
+                    margin-top:-23rem;
+                    margin-left: 23px;
+                }
+                p{
+                    margin-left: 23px;
+                }
+            }
+        }
+    }
+    .mobile-view-header{
+        animation: transform 2s ;
+         animation-duration: 3s;
+          height: 20vh;
+         position:relative;
+         
+     }
+        @keyframes transform {
+        from {
+        transform: translateY(300%);
+
+    }
+}
+.home-page-first-sec{
+    display:none!important;
+}
+ }

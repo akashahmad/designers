@@ -1,0 +1,168 @@
+@media (max-width: 1199px) and (min-width: 1024px) { }
+@media (max-width: 1023px) and (min-width: 992px) {
+ }
+@media (max-width: 991px) and (min-width: 768px) {
+    .our-services-page-main{
+        display:none;
+    }
+    .our-services-page-main-mobile-view{
+        display: block;
+        padding:0!important;
+        .image-text{
+            .our-services-mobile-image{
+                .mobile-services-image{
+                    width:100%;
+                    height:80vh;
+                }
+            }
+        }
+        .our-services-mobile-heading{
+            margin-left:25px!important;
+            margin-top: -20rem;
+            p{
+                width: 448px;
+            }
+        }
+        .image-text{
+            animation: transform 2s ;
+             animation-duration: 3s;
+              height: 20vh;
+             position:relative;
+             
+         }
+            @keyframes transform {
+            from {
+            transform: translateY(300%);
+    
+        }
+    }
+ }
+ }
+@media (max-width: 767px) and (min-width: 685px) {
+    .our-services-page-main{
+        display:none;
+    }
+    .our-services-page-main-mobile-view{
+        display: block;
+        padding:0!important;
+        .image-text{
+            .our-services-mobile-image{
+                .mobile-services-image{
+                    width:100%;
+                    height:80vh;
+                }
+            }
+        }
+        .our-services-mobile-heading{
+            margin-left:25px!important;
+            margin-top: -20rem;
+            p{
+                width: 448px;
+            }
+        }
+        .image-text{
+            animation: transform 2s ;
+             animation-duration: 3s;
+              height: 20vh;
+             position:relative;
+             
+         }
+            @keyframes transform {
+            from {
+            transform: translateY(300%);
+    
+        }
+    }
+ }
+ }
+@media (max-width: 684px) and (min-width: 568px) {
+    .our-services-page-main{
+        display:none;
+    }
+    .our-services-page-main-mobile-view{
+        display: block;
+        padding:0!important;
+        .image-text{
+            .our-services-mobile-image{
+                .mobile-services-image{
+                    width:100%;
+                    height:80vh;
+                }
+            }
+        }
+        .our-services-mobile-heading{
+            margin-left:25px!important;
+            margin-top: -20rem;
+        }
+        .image-text{
+            animation: transform 2s ;
+             animation-duration: 3s;
+              height: 20vh;
+             position:relative;
+             
+         }
+            @keyframes transform {
+            from {
+            transform: translateY(300%);
+    
+        }
+    }
+ }
+ }
+@media (max-width: 567px) and (min-width: 480px) {
+    .our-services-page-main{
+        display:none;
+    }
+    .our-services-page-main-mobile-view{
+        display: block;
+        padding:0!important;
+        .image-text{
+            .our-services-mobile-image{
+                .mobile-services-image{
+                    width:100%
+                }
+            }
+        }
+        .our-services-mobile-heading{
+            margin-top: -20rem;
+        }
+        .image-text{
+            animation: transform 2s ;
+             animation-duration: 3s;
+              height: 20vh;
+             position:relative;
+             
+         }
+            @keyframes transform {
+            from {
+            transform: translateY(300%);
+    
+        }
+    }
+ }
+ }
+@media (max-width: 479px) and (min-width: 320px) {
+    .our-services-page-main{
+        display:none;
+    }
+    .our-services-page-main-mobile-view{
+        display: block;
+        padding:0!important;
+        .our-services-mobile-heading{
+            margin-top: -20rem;
+        }
+        .image-text{
+            animation: transform 2s ;
+             animation-duration: 3s;
+              height: 20vh;
+             position:relative;
+             
+         }
+            @keyframes transform {
+            from {
+            transform: translateY(300%);
+    
+        }
+    }
+ }
+}
