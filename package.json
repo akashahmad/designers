@@ -5,6 +5,7 @@
   "version": "0.1.206",
   "author": "Florentin Eckl <ecklf@icloud.com>",
   "dependencies": {
+    "aos": "^2.3.4",
     "gatsby-plugin-sass": "^2.2.1",
     "node-sass": "^4.13.1",
     "react": "16.13.1",

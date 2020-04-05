@@ -1,0 +1,119 @@
+// style of home-page-sec-B
+
+.sec-B-main{
+    .what-we-do{
+        .secB-start{
+            h1{
+                width:355px;  
+            }
+        }
+        .dead{
+        .SecB-credentials{
+            box-shadow: 0 0 12px 0 rgba(215, 215, 215, 0.55);
+            position: relative;
+            height: 434px;
+            overflow: hidden;
+            width: 312px;
+            margin-right: 35px;
+            padding: 40px 29px;
+            border-radius: 8px;
+            padding: 41px 29px 0 30px;
+            .product-design{
+                transition: transform 1s;
+                transform-style: preserve-3d;
+                .card-background-img{
+                    .back-img{
+                          height: 481px;
+                            width: 170px;
+                            margin-left: 54px;
+                    }
+                }
+                .rectangle-image {
+                    width: 71px;
+                }
+                .product-design-text{
+                    .design-text {
+                        width: 242px;
+                    }
+                    .design-textB {
+                        width: 242px;
+                        margin-top: 10px;
+                    }
+                }
+            }
+        }
+        }
+    }
+}
+.threedott {
+    height: 122px;
+    margin-top: 9rem;
+}
+// PartB scss Starts
+.home-page-second-part-main{
+    .image-mobile{
+        display:none;
+    }
+    .who-we-are{
+        margin-top:76px;
+        .partB-image{
+            display: flex;
+            justify-content: flex-end;
+            width: 600px;
+        }
+        .partB-start{
+            justify-content: center;
+            h1{
+                width: 446px;
+            }
+            .diamond-image{
+                width:616px;
+            }
+            .second-part-text{
+                p{
+                    width:472px;
+                }
+                
+            }
+            .read-succes-story-button{
+            .read-success-button{
+                width: 244px;
+                 height: 50px;
+            }
+        }
+        }
+    }
+}
+.SecB-credentials:hover .product-design  {
+    transform: scale(1.1)!important;
+  }
+  .animated-new-area{
+      overflow: hidden;
+  }
+  .what-we-do{
+      position: relative;
+      margin-top: 64px;
+      padding: 0px 64px;
+      justify-content: space-between;
+  }
+  .side-image-leaf{
+    position: absolute;
+    right: -15px;
+    top: -243px;
+    z-index: -1;
+    width: 148px;
+  }
+  .card-background-img{
+    position: absolute;
+    right: 0;
+    width: 196px;
+    top:0;
+    height: 100%;
+  }
+.dead{
+    position: relative;
+    right: 135px;
+}
+.second-part-text{
+    margin:20px 0;
+}

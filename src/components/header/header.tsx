@@ -52,7 +52,7 @@ export default () => {
             <div className="logo flex justify-center">
               {" "}
               <Link to="/">
-                <img className="mob-header" src={Logo} alt="logo" />
+                <img className="mob-header w-64" src={Logo} alt="logo"  />
               </Link>
             </div>
           </div>

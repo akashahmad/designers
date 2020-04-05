@@ -28,14 +28,12 @@ export default () => {
             </div>
             <div className="ambitions">
               <h1
-                className="f-s-62 f-clr-black f-fm l-h-1-1 f-w-b home-page-heading-main "
-                data-aos="fade-right"
-                data-aos-duration="2000"
+                className="f-s-48 f-clr-black f-fm l-h-1-1 f-w-b home-page-heading-main "
               >
                 Let’s talk about your <br />
                 great ambitions
               </h1>
-              <p className="f-s-24 f-fm f-clr-gray mt-4">
+              <p className="f-s-20 f-fm f-clr-gray mt-4">
                 We partner with organizations that are looking to create <br />
                 greater impact in their work and the world around them.
               </p>
@@ -48,7 +46,7 @@ export default () => {
                   className=" imageDiv image0 "
                   style={{
                     width: "520px",
-                    height: "500px",
+                    height: "515px",
                     marginTop: "-31rem",
                   }}
                 />
@@ -56,7 +54,7 @@ export default () => {
                   className=" imageDiv image1 fadeInClass"
                   style={{
                     width: "520px",
-                    height: "500px",
+                    height: "515px",
                     marginTop: "-31rem",
                   }}
                 />
@@ -64,7 +62,7 @@ export default () => {
                   className=" imageDiv image2 fadeInClass"
                   style={{
                     width: "520px",
-                    height: "500px",
+                    height: "515px",
                     marginTop: "-31rem",
                   }}
                 />
@@ -72,7 +70,7 @@ export default () => {
                   className=" imageDiv image3 "
                   style={{
                     width: "520px",
-                    height: "500px",
+                    height: "515px",
                     marginTop: "-31rem",
                   }}
                 />

@@ -24,10 +24,12 @@
                 }
             }
         .home-page-heading-main{
-            width:514px;
+            width: 514px;
+            margin-bottom: 28px;
         }
         p{
             width:541px;
+            word-spacing: 1px;
         }
     }
 }
@@ -45,7 +47,8 @@
 
             .back-img{
             display: flex;
-            width: 673px;
+            height: 100%;
+            right: 0;
         }
 
             .imagesContainer img {
@@ -64,9 +67,9 @@
             .imgDiv0 {
                 margin-top: 10rem;
                 position: absolute;
-                right: 7rem;
+                right: 8rem;
                 bottom: 0;
-                top: 8rem;
+                top: 10rem;
         }
          .imgDiv00 {
             margin-top: 2rem;
@@ -106,11 +109,14 @@
             animation-timing-function: linear;
         }
         .ambitions{
-                width:559px;
-                white-space: nowrap;
-                overflow: hidden;
-                animation: type 4s steps(90, end);
-                animation: type2 4s steps(90, end);
+            width: 559px;
+            white-space: nowrap;
+            overflow: hidden;
+            top: -22px;
+            position: relative;
+            animation: type 4s steps(90, end);
+            animation: type2 4s steps(90, end);
+            right: -25px;
                 
             }
                 @keyframes type{
@@ -135,6 +141,9 @@
             transform: translateY(300%);
 
         }
+}
+.bean{
+    width:140px;
 }
 .home-page-mobile{
     display:none;

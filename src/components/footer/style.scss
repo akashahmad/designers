@@ -1,0 +1,95 @@
+// footer style scss
+
+.the-designers-footer{
+    margin-top:18rem;
+    background-image: url('../../images/gatsby-icon.png');
+    .contact-us-image{
+        // margin-top: 100rem;
+        .contact-us-popup{
+            margin-top: -7rem;
+            height: 280px;
+            width: 70%;
+            align-items: center;
+            .new-class{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                /* justify-content: center; */
+                justify-content: space-between;
+                width: 100%;
+            }
+            // border:1px solid black;
+            .Button-contact-us {
+                display: flex;
+                align-items: center;
+                .BtN {
+                    position: absolute;
+                    button.contact-us {
+                        font-size: 18px;
+                        padding: 10px 56px;
+                        border-radius: 10px;
+                    }
+                }
+            }
+                         .dotted-img{
+                            .dotts {
+                                height: 275px;
+                }
+            }
+        }
+    }
+                              .footer-image-designers{
+                                        .footer-image{
+                                           height:500px;
+                                            width:100%;
+        }
+        
+    }
+                                        .footer-image-lists{
+                                            .flex-setting{
+                                                display: flex;
+                                                justify-content: space-between;
+                                                align-items: center;
+                                                .image-container{
+                                                    width:150px;
+                                                    cursor: pointer;
+                                                    img{
+                                                        width:100%;
+                                                        height:100%;
+                                                    }
+                                                }
+                                                .ul-setting li{
+                                                    float: left;
+                                                    width: 28px;
+                                                    margin-right: 27px;
+                                                    cursor: pointer;
+                                                    cursor: pointer;
+                                                    img{
+                                                        width:100%;
+                                                    }
+                                                }
+
+                                            }
+                                            
+                                        .footer-links{
+                                            position: absolute;
+                                            margin-top: -18rem!important;
+                                            width: 100%;
+                                            .new-dev{
+                                                width:70%;
+                                            }
+                                            .twitter-icon{
+                                                .twiiter-pic{
+                                                    height:28px;
+                                                }
+                                                .football-pic{
+                                                    height:28px;
+                                                }
+                                            .copyrights{
+                                                margin-top: 200px;
+                                            }
+                                        }
+                                         }
+                }
+}
+
