@@ -10,11 +10,6 @@ interface Props {}
 
 function Index({}: Props): ReactElement {
   const [isMenuOpen, setMenuOpen] = useState(false)
-  useEffect(() => {
-    if (typeof window === "undefined" || !window.document) {
-      return
-    }
-  }, [])
   return (
     <>
       <div>
