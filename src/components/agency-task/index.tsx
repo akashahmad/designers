@@ -1,14 +1,14 @@
 import React from "react"
 import AOS from "aos"
 import "aos/dist/aos.css"
+typeof document !== "undefined" && AOS.init()
 export default () => {
-  AOS.init()
   return (
     <section className="agency">
       <div className="agency-main">
         <div className="agency-primary">
           <div className="agency-head" data-aos="fade-right">
-            <div className="leaf-image"></div>
+            <div className="leaf-image" />
             <div className="agency-header">
               <h2>We have done lot of Agency Task</h2>
             </div>

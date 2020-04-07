@@ -30,17 +30,17 @@ export default () => {
               <ul>
                 <li className="active">
                   <Link to="#">
-                    <i className="fa fa-facebook"></i>
+                    <i className="fa fa-facebook" />
                   </Link>
                 </li>
                 <li>
                   <Link to="#">
-                    <i className="fa fa-twitter"></i>
+                    <i className="fa fa-twitter" />
                   </Link>
                 </li>
                 <li>
                   <Link to="#">
-                    <i className="fa fa-globe"></i>
+                    <i className="fa fa-globe" />
                   </Link>
                 </li>
               </ul>

@@ -2,8 +2,8 @@ import React from "react"
 import { Link } from "gatsby"
 import AOS from "aos"
 import "aos/dist/aos.css"
+typeof document !== "undefined" && AOS.init()
 export default () => {
-  AOS.init()
   return (
     <section className="home-header">
       <div className="home-main">
@@ -58,7 +58,7 @@ export default () => {
                 data-aos="fade-up"
                 data-aos-duration="2000"
               >
-                <div className="slider-image"></div>
+                <div className="slider-image" />
                 <div className="follower-image">
                   <img src={require("../../images/boti.png")} />
                 </div>

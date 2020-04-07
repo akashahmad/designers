@@ -1,12 +1,11 @@
 import React from "react"
 import AOS from "aos"
 import "aos/dist/aos.css"
-
+typeof document !== "undefined" && AOS.init()
 export default () => {
-  AOS.init()
   return (
     <section className="who-we">
-      <div className="three-dots"></div>
+      <div className="three-dots" />
       <div className="whowe-primary">
         <div className="whowe-secondery">
           <div
@@ -43,7 +42,7 @@ export default () => {
             data-aos-delay="50"
             data-aos-duration="2000"
           >
-            <div className="image-bg"></div>
+            <div className="image-bg" />
           </div>
         </div>
       </div>

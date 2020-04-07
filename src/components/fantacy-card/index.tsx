@@ -1,8 +1,8 @@
 import React from "react"
 import AOS from "aos"
 import "aos/dist/aos.css"
+typeof document !== "undefined" && AOS.init()
 export default () => {
-  AOS.init()
   return (
     <section className="fantacy">
       <div className="fantacy-container">

@@ -1,4 +1,4 @@
-import React, { ReactElement, useState } from "react"
+import React, { ReactElement, useState, useEffect } from "react"
 import Header from "../components/home-page-header/index"
 import Footer from "../components/footer/index"
 import Fantacy from "../components/fantacy-card/index"
@@ -10,6 +10,11 @@ interface Props {}
 
 function Index({}: Props): ReactElement {
   const [isMenuOpen, setMenuOpen] = useState(false)
+  useEffect(() => {
+    if (typeof window === "undefined" || !window.document) {
+      return
+    }
+  }, [])
   return (
     <>
       <div>

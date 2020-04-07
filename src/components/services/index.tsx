@@ -1,11 +1,11 @@
 import React from "react"
 import AOS from "aos"
 import "aos/dist/aos.css"
+typeof document !== "undefined" && AOS.init()
 export default () => {
-  AOS.init()
   return (
     <section className="our-sevices">
-      <div className="our-sevices-image"></div>
+      <div className="our-sevices-image" />
       <div className="our-services-main">
         <div className="our-sevices-primary">
           <div
