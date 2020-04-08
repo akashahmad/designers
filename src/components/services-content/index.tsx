@@ -4,7 +4,7 @@ export default () => {
     <section className="services-content">
       <div className="services-primary">
         <div>
-          <div className="head-content">
+          <div className="head-content para-font-size ">
             <h2>We help brands to create preference, loyalty and value</h2>
             <p>
               Sed ut perspiciatis unde omnis iste natus error sit voluptatem

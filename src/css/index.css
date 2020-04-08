@@ -467,8 +467,13 @@
     display: flex;
     justify-content: center;
 }
-.services-content .head-content{
-
+.services-content .services-primary{
+    width:80%;
+}
+.services-content .services-primary .head-content h2{
+    font-size: 44px;
+    line-height: 1.2;
+    font-weight: 600;
 }
 /* services page end */
 
