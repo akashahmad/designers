@@ -467,13 +467,43 @@
     display: flex;
     justify-content: center;
 }
-.services-content .services-primary{
+.services-content .services-primary>div{
     width:80%;
+}
+.services-content .services-primary .head-content{
+    padding: 0px 47px;
 }
 .services-content .services-primary .head-content h2{
     font-size: 44px;
     line-height: 1.2;
     font-weight: 600;
+    padding: 12px 0;
+}
+.services-content .services-primary .head-content p{
+    padding-top:30px;
+}
+.services-content  .card-content{
+    display: flex;
+    justify-content: space-between;
+    padding:0 47px;
+}
+.services-content  .card-content .diamond-container{
+    width: 347px;
+    padding: 40px;
+}
+.services-content  .card-content .diamond-container h2{
+    line-height: 1.2;
+    font-weight: 600;
+    font-size: 22px;
+    padding: 24px 0;
+}
+.services-content  .card-content .diamond-container p{
+    padding: 0 0 16px;
+}
+.services-content  .card-content .diamond-container .diamond-image{
+    background-image: url('../images/diamond2.png.png');
+    width:20px;
+    height:20px;
 }
 /* services page end */
 
