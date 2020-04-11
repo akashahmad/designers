@@ -5,7 +5,7 @@ import Nav from "../../components/navigation/index"
 typeof document !== "undefined" && AOS.init()
 export default () => {
   return (
-    <section className="home-header services-header">
+    <section className="home-header whowe-header">
       <div className="home-main">
         <div className="home-setting">
           <div className="home-primary">

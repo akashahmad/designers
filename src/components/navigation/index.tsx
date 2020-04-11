@@ -5,16 +5,16 @@ export default () => {
     <section>
       <ul>
         <li>
-          <Link to="">Who We Are</Link>
+          <Link to="whowe">Who We Are</Link>
         </li>
         <li>
-          <Link to="">Services</Link>
+          <Link to="services">Services</Link>
         </li>
         <li>
           <Link to="#">Protfolio</Link>
         </li>
         <li>
-          <Link to="#">Contact Us</Link>
+          <Link to="contact">Contact Us</Link>
         </li>
       </ul>
     </section>

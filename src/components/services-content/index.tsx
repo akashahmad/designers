@@ -1,11 +1,17 @@
 import React from "react"
+import AOS from "aos"
+import "aos/dist/aos.css"
+typeof document !== "undefined" && AOS.init()
 export default () => {
   return (
     <section className="services-content">
       <div className="services-primary">
         <div>
-          <div className="head-content para-font-size ">
-            <h2>We help brands to create preference, loyalty and value</h2>
+          <div className="head-content para-font-size " data-aos="fade-up">
+            <h2>
+              We help brands to create preference,
+              <br /> loyalty and value
+            </h2>
             <p>
               Sed ut perspiciatis unde omnis iste natus error sit voluptatem
               accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
@@ -24,6 +30,64 @@ export default () => {
               voluptate velit esse quam nihil molestiae consequatur, vel illum
               qui dolorem eum fugiat quo voluptas nulla pariatur
             </p>
+          </div>
+          <div className="card-content">
+            <div>
+              <div className="diamond-container" data-aos="fade-right">
+                <div className="diamond-image"></div>
+                <h2>Product Design</h2>
+                <p>
+                  Every product must make a statement and we’re ready to create
+                  it with holistic approach to design.
+                </p>
+                <p>
+                  We translate your business goals and objectives into
+                  insightful UX, remarkable UI and distinctive{" "}
+                </p>
+              </div>
+            </div>
+            <div>
+              <div className="diamond-container" data-aos="fade-left">
+                <div className="diamond-image"></div>
+                <h2>Product Design</h2>
+                <p>
+                  Every product must make a statement and we’re ready to create
+                  it with holistic approach to design.
+                </p>
+                <p>
+                  We translate your business goals and objectives into
+                  insightful UX, remarkable UI and distinctive{" "}
+                </p>
+              </div>
+            </div>
+            <div>
+              <div className="diamond-container" data-aos="fade-right">
+                <div className="diamond-image"></div>
+                <h2>Product Design</h2>
+                <p>
+                  Every product must make a statement and we’re ready to create
+                  it with holistic approach to design.
+                </p>
+                <p>
+                  We translate your business goals and objectives into
+                  insightful UX, remarkable UI and distinctive{" "}
+                </p>
+              </div>
+            </div>
+            <div>
+              <div className="diamond-container" data-aos="fade-left">
+                <div className="diamond-image"></div>
+                <h2>Product Design</h2>
+                <p>
+                  Every product must make a statement and we’re ready to create
+                  it with holistic approach to design.
+                </p>
+                <p>
+                  We translate your business goals and objectives into
+                  insightful UX, remarkable UI and distinctive{" "}
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </div>

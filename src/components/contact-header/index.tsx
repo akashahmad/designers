@@ -5,7 +5,7 @@ import Nav from "../../components/navigation/index"
 typeof document !== "undefined" && AOS.init()
 export default () => {
   return (
-    <section className="home-header services-header">
+    <section className="home-header contact-header">
       <div className="home-main">
         <div className="home-setting">
           <div className="home-primary">
@@ -29,20 +29,23 @@ export default () => {
               data-aos-duration="2000"
             >
               <div className="content-div para-font-size">
-                <h2>Who We Are</h2>
+                <h2>Contact Us </h2>
                 <p>
-                  It’s important for us to adhere our values, as they embody our
-                  agency and define the way that we work.
+                  Lorem ipsum dolor sit amet, con sectetu adipiscing elit. In
+                  sagittis egestas ante, sed viverra nunc.k.
                 </p>
               </div>
             </div>
             <div className="home-right-slider">
               <div
-                className="stroke-container"
+                className="without-stroke"
                 data-aos="zoom-in"
                 data-aos-duration="2000"
               >
-                <div className="services-head-image" />
+                <div className="services-head-image">
+                  <div className="dotted-contact small-dots"></div>
+                  <div className="dotted-contact large-dots"></div>
+                </div>
               </div>
             </div>
           </div>
