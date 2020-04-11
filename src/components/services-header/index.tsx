@@ -13,7 +13,7 @@ export default () => {
             <div className="logo-home">
               <div className="logo-container">
                 <Link to="/">
-                  <img src={require("../../images/black.png")} alt="" />
+                  <img src={require("../../images/Black.png")} alt="" />
                 </Link>
               </div>
             </div>
