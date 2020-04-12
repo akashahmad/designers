@@ -24,7 +24,7 @@ export default () => {
           </div>
           <div className="footer-logo">
             <div className="footer-logo-img">
-              <img src={require("../../images/black.png")} alt="" />
+              <img src={require("../../images/Black.png")} alt="" />
             </div>
             <div className="logo-footer">
               <ul>

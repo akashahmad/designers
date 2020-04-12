@@ -8,7 +8,7 @@ export default () => {
       <div className="agency-main">
         <div className="agency-primary">
           <div className="agency-head" data-aos="fade-right">
-            <div className="leaf-image" />
+            <div className="leaf-image vert-move" />
             <div className="agency-header">
               <h2>We have done lot of Agency Task</h2>
             </div>

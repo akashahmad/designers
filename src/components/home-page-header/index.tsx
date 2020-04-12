@@ -1,7 +1,9 @@
 import React from "react"
 import Nav from "../../components/navigation/index"
 import AOS from "aos"
+import { Link } from "gatsby"
 import "aos/dist/aos.css"
+
 typeof document !== "undefined" && AOS.init()
 export default () => {
   return (
@@ -11,7 +13,10 @@ export default () => {
           <div className="home-primary">
             <div className="logo-home">
               <div className="logo-container">
-                <img src={require("../../images/black.png")} alt="" />
+                <Link to="/">
+                  {" "}
+                  <img src={require("../../images/Black.png")} alt="" />
+                </Link>
               </div>
             </div>
             <div className="navigation-home">
@@ -25,6 +30,7 @@ export default () => {
       </div>
       <div className="slider-section">
         <div className="image-gril"></div>
+        <div className="image-pink vert-move"></div>
         <div className="home-setting">
           <div className="content-slider">
             <div
@@ -50,7 +56,7 @@ export default () => {
                 <div className="follower-image">
                   <img src={require("../../images/boti.png")} alt="" />
                 </div>
-                <div className="been-image">
+                <div className="been-image vert-move">
                   <img src={require("../../images/bean.svg")} alt="" />
                   <img
                     className="dots-been"
