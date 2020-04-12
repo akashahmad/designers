@@ -31,28 +31,44 @@ export default () => {
             <div className="logo-footer">
               <ul>
                 <li className="active">
-                  <Link to="https://www.facebook.com/geekshub.io">
+                  <a
+                    href="https://www.facebook.com/geekshub.io"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <div className="link-images social-link-fb"></div>
                     <div className="link-images social-link-fb-white"></div>
-                  </Link>
+                  </a>
                 </li>
                 <li>
-                  <Link to="https://twitter.com/Geeks__Hub">
+                  <a
+                    href="https://twitter.com/Geeks__Hub"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <div className="link-images social-link-tw"></div>
                     <div className="link-images social-link-tw-white"></div>
-                  </Link>
+                  </a>
                 </li>
                 <li>
-                  <Link to="https://www.instagram.com/geeks._.hub">
+                  <a
+                    href="https://www.instagram.com/geeks._.hub"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <div className="link-images social-link-insta"></div>
                     <div className="link-images social-link-insta-white"></div>
-                  </Link>
+                  </a>
                 </li>
                 <li>
-                  <Link to="https://www.linkedin.com/company/43286270">
+                  <a
+                    href="https://www.linkedin.com/company/43286270"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <div className="link-images social-link-linkedin"></div>
                     <div className="link-images social-link-linkedin-white"></div>
-                  </Link>
+                  </a>
                 </li>
               </ul>
             </div>
