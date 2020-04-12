@@ -24,6 +24,7 @@ export default () => {
         </div>
       </div>
       <div className="slider-section">
+        <div className="image-gril"></div>
         <div className="home-setting">
           <div className="content-slider">
             <div
