@@ -33,8 +33,8 @@ export default () => {
             data-aos-delay="50"
             data-aos-duration="2000"
           >
-            <div className="card-container">
-              <div className="head-img vert-move ">
+            <div className="card-container card-set">
+              <div className="head-img vert-card service-card">
                 <img src={require("../../images/whiterect.png")} alt="" />
               </div>
               <div className="card-content para-font-size">
@@ -45,8 +45,8 @@ export default () => {
                 </p>
               </div>
             </div>
-            <div className="card-container">
-              <div className="head-img vert-move ">
+            <div className="card-container card-set">
+              <div className="head-img vert-card service-card">
                 <img src={require("../../images/ribbon.png")} alt="" />
               </div>
               <div className="card-content para-font-size">
@@ -56,8 +56,8 @@ export default () => {
                 </p>
               </div>
             </div>
-            <div className="card-container">
-              <div className="head-img vert-move ">
+            <div className="card-container card-set">
+              <div className="head-img vert-card service-card">
                 <img src={require("../../images/whiterect.png")} alt="" />
               </div>
               <div className="card-content para-font-size">
@@ -65,8 +65,8 @@ export default () => {
                 <p>Transform your idea into the next killer mobile app</p>
               </div>
             </div>
-            <div className="card-container">
-              <div className="head-img vert-move ">
+            <div className="card-container card-set">
+              <div className="head-img vert-card service-card">
                 <img src={require("../../images/ribbon.png")} alt="" />
               </div>
               <div className="card-content para-font-size">
