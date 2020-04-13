@@ -21,7 +21,8 @@ export default () => {
                 Contact Us
               </button>
             </div>
-            <div className="button-bl"></div>
+            {/* <div className="button-bl vert-balloon"></div>
+            <div className="squre-angle vert-balloon"></div> */}
           </div>
           <div className="footer-logo">
             <div className="footer-logo-img">
