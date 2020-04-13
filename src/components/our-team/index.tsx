@@ -17,8 +17,8 @@ export default () => {
                 data-aos="flip-left"
               ></div>
               <div className="name-profile">
-                <h3>Aqash ahmad</h3>
-                <p>CEO</p>
+                <h3>Akash Ahmad</h3>
+                <p>Co-Founder and CTO</p>
               </div>
               <div className="social-link">
                 <div className="social-container">
@@ -42,55 +42,7 @@ export default () => {
               ></div>
               <div className="name-profile">
                 <h3>Muqarrab Khan</h3>
-                <p>CEO UI/UX Designer</p>
-              </div>
-              <div className="social-link">
-                <div className="social-container">
-                  <a href="/#">
-                    <i className="fa fa-facebook"></i>
-                  </a>
-                </div>
-                <div className="social-container">
-                  <a href="/#">
-                    <i className="fa fa-facebook"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div>
-            <div className="team-primary">
-              <div
-                className="team-container-img profile-three"
-                data-aos="flip-left"
-              ></div>
-              <div className="name-profile">
-                <h3>Afzal Tanoli</h3>
-                <p>CEO</p>
-              </div>
-              <div className="social-link">
-                <div className="social-container">
-                  <a href="/#">
-                    <i className="fa fa-facebook"></i>
-                  </a>
-                </div>
-                <div className="social-container">
-                  <a href="/#">
-                    <i className="fa fa-facebook"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div>
-            <div className="team-primary">
-              <div
-                className="team-container-img profile-four"
-                data-aos="flip-left"
-              ></div>
-              <div className="name-profile">
-                <h3>Stive Tom</h3>
-                <p>Brand Identity</p>
+                <p>Co-Founder UI/UX Designer</p>
               </div>
               <div className="social-link">
                 <div className="social-container">
