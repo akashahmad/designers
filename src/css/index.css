@@ -198,6 +198,7 @@
     box-shadow: 0 1px 10px 0 hsla(0, 0%, 51%, 0.22);
     border-radius: 8px;
     transition: all .4s ease-in-out;
+    position: relative;
 }
 .card-container:hover{
     -ms-transform: scale(1.1); /* IE 9 */
@@ -206,6 +207,13 @@
 }
 .card-container .head-img{
     width: 64px;
+}
+.service-card{
+    position: absolute;
+    top:0;
+}
+.card-set .card-content{
+   margin-top: 30px;
 }
 .card-container .head-img img{
     width:100%;
@@ -1239,4 +1247,36 @@
 @keyframes balloon {
     0% { transform: translateY(0); }
     100% { transform: translateY(10px); }
+}
+.vert-pink {
+    -webkit-animation: other-diamond 1s infinite  alternate;
+    animation: other-diamond 2s infinite  alternate;
+}
+.vert-pink {
+    -webkit-animation: lines 1s infinite  alternate;
+    animation: lines 2s infinite  alternate;
+}
+@-webkit-keyframes lines {
+    0% { width:222px; }
+    100% { width:190px; }
+}
+@keyframes lines {
+    0% { width:222px; }
+    100% { width:190px; }
+}
+.vert-card {
+    -webkit-animation: card 1s infinite  alternate;
+    animation: card 2s infinite  alternate;
+}
+.vert-card {
+    -webkit-animation: card 1s infinite  alternate;
+    animation: card 2s infinite  alternate;
+}
+@-webkit-keyframes card {
+    0% { width:64px; }
+    100% { width:58px; }
+}
+@keyframes card {
+    0% { width:64px; }
+    100% { width:58px; }
 }
