@@ -1,7 +1,5 @@
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
-
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
-
 <p align="center">
   <a href="https://gatsby-typescript-tailwind.netlify.com/">
     <img alt="Gatsby TypeScript Tailwind" src="./docs/logo.svg" width="230" />
@@ -18,8 +16,8 @@ Gatsby TypeScript Tailwind
     Navigate into your new site’s directory and start it up.
 
     ```zsh
-    git clone https://github.com/impulse/gatsby-typescript-tailwind
-    cd gatsby-typescript-tailwind/
+    git clone https://github.com/akashahmad/geekshub
+    cd geekshub/
     gatsby develop
     ```
 
@@ -43,6 +41,3 @@ Looking for more guidance? Full documentation for Gatsby lives [on the website](
 
 MIT
 
-<!-- ALL-CONTRIBUTORS-LIST:END -->
-
-This project follows the [all-contributors](https://github.com/akashahmad) specification. Contributions of any kind welcome!

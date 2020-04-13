@@ -39,7 +39,6 @@
     "gatsby-plugin-typescript": "2.3.1",
     "gatsby-source-filesystem": "2.2.2",
     "gatsby-transformer-sharp": "2.4.4",
-    "husky": "4.2.3",
     "lint-staged": "10.1.1",
     "prettier": "1.19.1",
     "tailwindcss": "1.2.0",
@@ -69,11 +68,6 @@
   },
   "bugs": {
     "url": "https://github.com/impulse/gatsby-typescript-tailwind/issues"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
   },
   "lint-staged": {
     "*.{ts,tsx,js,jsx}": [
