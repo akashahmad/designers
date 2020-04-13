@@ -34,7 +34,7 @@ export default () => {
           <div className="card-content">
             <div>
               <div className="diamond-container" data-aos="fade-right">
-                <div className="diamond-image"></div>
+                <div className="diamond-image vert-diamond"></div>
                 <h2>Product Design</h2>
                 <p>
                   Every product must make a statement and we’re ready to create
@@ -48,7 +48,7 @@ export default () => {
             </div>
             <div>
               <div className="diamond-container" data-aos="fade-left">
-                <div className="diamond-image"></div>
+                <div className="diamond-image vert-diamond"></div>
                 <h2>Product Design</h2>
                 <p>
                   Every product must make a statement and we’re ready to create
@@ -62,7 +62,7 @@ export default () => {
             </div>
             <div>
               <div className="diamond-container" data-aos="fade-right">
-                <div className="diamond-image"></div>
+                <div className="diamond-image vert-diamond"></div>
                 <h2>Product Design</h2>
                 <p>
                   Every product must make a statement and we’re ready to create
@@ -76,7 +76,7 @@ export default () => {
             </div>
             <div>
               <div className="diamond-container" data-aos="fade-left">
-                <div className="diamond-image"></div>
+                <div className="diamond-image vert-diamond"></div>
                 <h2>Product Design</h2>
                 <p>
                   Every product must make a statement and we’re ready to create

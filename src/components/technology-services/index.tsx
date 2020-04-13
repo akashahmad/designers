@@ -12,28 +12,32 @@ export default () => {
           <div>
             <div className="tech-container">
               <div className="circle-tech react-color vert-move">
-                <span>React JS</span>
+                <img src={require("../../images/reactjs.png")} />
               </div>
               <div className="circle-tech nodejs-color vert-other ">
-                <span>Node Js</span>
+                <img src={require("../../images/nodejs.png")} />
               </div>
               <div className="circle-tech mysql-color vert-move">
-                <span>My SQL</span>
+                <img src={require("../../images/MySQL.png")} />
               </div>
               <div className="circle-tech next-color vert-other ">
-                <span>Next</span>
+                <img
+                  src={require("../../images/next-js-logo-7929BCD36F-seeklogo.com.png")}
+                />
               </div>
               <div className="circle-tech mongo-color vert-move">
-                <span>Mongo BD</span>
+                <img
+                  src={require("../../images/mongo-db-design-mongodb-logo-mongodb-11562879783zbmzcchmau.png")}
+                />
               </div>
               <div className="circle-tech gatsby-color vert-other ">
-                <span>Gatsby</span>
+                <img src={require("../../images/gatsby.png")} />
               </div>
               <div className="circle-tech rest-color vert-move">
-                <span>Rest Api</span>
+                <img src={require("../../images/rest-api.png")} />
               </div>
               <div className="circle-tech graph-color vert-other ">
-                <span>GraphQL</span>
+                <img src={require("../../images/graphql.png")} />
               </div>
             </div>
           </div>

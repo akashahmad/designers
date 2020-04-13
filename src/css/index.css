@@ -158,11 +158,11 @@
 .fantacy .fantacy-container{
     display:flex; 
     justify-content: space-between;
-    width: 86%;
+    width: 1218px;
 }
 .fantacy .fantacy-container .text-container>div{
     padding: 0 15px;
-    width: 380px;
+    width: 400px;
 }
 .fantacy .fantacy-container .text-container h2{
     line-height: 1.2;
@@ -170,7 +170,7 @@
     font-size: 40px;
 }
 .card-main{
-    width: 770px;
+    width: 726px;
     display: flex;
 }
 /* common start */
@@ -293,7 +293,8 @@
     background-image: url('../images/layer2.png');
     background-size:contain;
     background-repeat: no-repeat;
-
+    position: relative;
+    right: 15%;
 }
 /* who we are section end */
 /* product section start */
@@ -315,7 +316,7 @@
     background-repeat: no-repeat;
 }
 .our-sevices .our-services-main{
-    width:86%;
+    width:1218px;
 }
 .our-sevices .services-card-container{
     display: flex;
@@ -354,9 +355,7 @@
 }
 .agency .agency-primary .agency-head{
     position: relative;
-    padding: 0 90px;
     top: 25px;
-    left: 22px;
 }
 .agency .agency-primary .agency-head .leaf-image{
     background-image: url('../images/leaves.png');
@@ -520,6 +519,7 @@
 .project-score .tech-container .circle-tech span{
     text-align: center;
     padding-top: 4px;
+    color:#000;
 }
 .project-score .tech-container .circle-tech span:nth-child(2){
     color: #ef5737;
@@ -759,12 +759,12 @@
    background-image: url('../images/orange.png');
    width: 100%;
    height: 100%;
-   background-size: contain;
+   background-size: cover;
    background-repeat: no-repeat;
    top: 0;
    position: absolute;
    z-index: -1;
-   right:-65px;
+   right:-18px;
 }
 .without-stroke{
     width: 517px;
@@ -776,7 +776,6 @@
     background-repeat: no-repeat;
     position: relative;
     overflow: hidden;
-    position: relative;
 }
 .without-stroke .dotted-contact{
     background-image: url('../images/b-dots.png');
@@ -787,14 +786,14 @@
     width: 48px;
     height: 52px;
     position: absolute;
-    bottom: 287px;
+    bottom: 228px;
     left: 107px;
 }
 .without-stroke .large-dots{
     width: 101px;
     height: 108px;
     position: absolute;
-    bottom: 167px;
+    bottom: 113px;
     left: 58px;
 }
 .contact-form .contact-primary .contact-head h2{
@@ -818,7 +817,7 @@
     position: relative;
 }
 .form-container .form-div{
-    width:585px;
+    width:66%;
     box-shadow: 0 1px 10px 0px hsla(0,0%,51%,.25);
     padding:25px;
     position: relative;
@@ -850,12 +849,12 @@
 }
 .quick-links{
     box-shadow: 0 1px 10px 0px hsla(0,0%,51%,.25);
-    width:325px;
+    width:31%;
     padding: 25px;
     background-color:#fff;
 }
 .contact-header{
-    height: 634px;
+    height: 726px;
 }
 .form-container .btn-container{
     text-align: center;
@@ -868,7 +867,6 @@
 .quick-links .quick-head h2{
    color:#ef5737;
    font-weight: bold;
-   padding-bottom:40px;
 }
 .quick-detail{
     margin:50px 0
@@ -898,7 +896,7 @@
     width: 214px;
 }
 .home-header .image-gril{
-    background-image: url('../images/lines.png');
+    background-image: url('../images/lines2.png');
     position: absolute;
     top: 9px;
     left: 0;
@@ -907,7 +905,7 @@
     background-size: contain;
 }
 .home-header .image-pink{
-    background-image: url('../images/pink.png');
+    background-image: url('../images/bgpink.png');
     position: absolute;
     left: 21%;
     background-repeat: no-repeat;
@@ -1013,16 +1011,6 @@
 .footer .footer-logo-img{
     width: 114px;
 }
-.footer .logo-footer ul li:hover{
-    background:#ef5737;
-    color:#fff;
-    box-shadow: 1px 9px 20px 0 rgba(239, 87, 57, 0.1);
-}
-.footer .logo-footer ul .active{
-    background:#ef5737;
-    color:#fff;
-    box-shadow: 1px 9px 20px 0 rgba(239, 87, 57, 0.1);
-}
 .footer .copy-right-section{
     display: flex;
     justify-content: center;
@@ -1031,6 +1019,84 @@
 .footer .copy-right-section p{
     color:#9e9e9e;
     font-size: 14px;
+}
+.footer .link-images{
+    width: 20px;
+    height: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.footer .social-link-fb{
+    background-image: url('../images/fborange.png');
+    display: block;
+}
+.footer .social-link-fb-white{
+    background-image: url('../images/facebook.png');
+    display: none;
+}
+.footer .social-link-tw{
+    background-image: url('../images/tworange.png');
+    display: block;
+}
+.footer .social-link-tw-white{
+    background-image: url('../images/twitter.png');
+    display: none;
+}
+.footer .social-link-insta{
+    background-image: url('../images/instaorange.png');
+    display: block;
+}
+.footer .social-link-insta-white{
+    background-image: url('../images/instagram.png');
+    display: none;
+}
+.footer .social-link-linkedin{
+    background-image: url('../images/linkedinorange.png');
+    display: block;
+}
+.footer .social-link-linkedin-white{
+    background-image: url('../images/linkedin.png');
+    display: none;
+}
+.footer .logo-footer ul li:hover{
+    background:#ef5737;
+    color:#fff;
+    box-shadow: 1px 9px 20px 0 rgba(239, 87, 57, 0.1);
+    cursor: pointer;
+}
+.footer .logo-footer ul li:hover .social-link-fb{
+    display: none;
+}
+.footer .logo-footer ul li:hover .social-link-fb-white{
+    display:block;
+}
+.footer .logo-footer ul li:hover .social-link-tw{
+    display: none;
+}
+.footer .logo-footer ul li:hover .social-link-tw-white{
+    display:block;
+}
+.footer .logo-footer ul li:hover .social-link-insta{
+    display: none;
+}
+.footer .logo-footer ul li:hover .social-link-insta-white{
+    display:block;
+}
+.footer .logo-footer ul li:hover .social-link-linkedin{
+    display: none;
+}
+.footer .logo-footer ul li:hover .social-link-linkedin-white{
+    display:block;
+}
+.button-bl{
+    position: absolute;
+    bottom:0px;
+    background-color:pink;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    right: -52px;
+    bottom: -63px;
 }
 /* footer section END  */
 
@@ -1128,4 +1194,20 @@
 @keyframes other {
     0% { transform: translateY(0); }
     100% { transform: translateY(10px); }
+}
+.vert-diamond {
+    -webkit-animation: other-diamond 1s infinite  alternate;
+    animation: other-diamond 2s infinite  alternate;
+}
+.vert-diamond {
+    -webkit-animation: other-diamond 1s infinite  alternate;
+    animation: other-diamond 2s infinite  alternate;
+}
+@-webkit-keyframes other-diamond {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(10px); }
+}
+@keyframes other-diamond {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(10px); }
 }

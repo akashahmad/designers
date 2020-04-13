@@ -15,7 +15,7 @@ export default () => {
             data-aos-duration="2000"
           >
             <div className="content para-font-size">
-              <span>OUR SERVICES</span>
+              <span>Our Services</span>
               <h2>
                 We transform your product into the business tool it's meant to
                 be
@@ -34,7 +34,7 @@ export default () => {
             data-aos-duration="2000"
           >
             <div className="card-container">
-              <div className="head-img">
+              <div className="head-img vert-move ">
                 <img src={require("../../images/whiterect.png")} alt="" />
               </div>
               <div className="card-content para-font-size">
@@ -46,7 +46,7 @@ export default () => {
               </div>
             </div>
             <div className="card-container">
-              <div className="head-img">
+              <div className="head-img vert-move ">
                 <img src={require("../../images/ribbon.png")} alt="" />
               </div>
               <div className="card-content para-font-size">
@@ -57,7 +57,7 @@ export default () => {
               </div>
             </div>
             <div className="card-container">
-              <div className="head-img">
+              <div className="head-img vert-move ">
                 <img src={require("../../images/whiterect.png")} alt="" />
               </div>
               <div className="card-content para-font-size">
@@ -66,7 +66,7 @@ export default () => {
               </div>
             </div>
             <div className="card-container">
-              <div className="head-img">
+              <div className="head-img vert-move ">
                 <img src={require("../../images/ribbon.png")} alt="" />
               </div>
               <div className="card-content para-font-size">

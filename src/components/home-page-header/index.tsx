@@ -1,5 +1,5 @@
 import React from "react"
-import Nav from "../../components/navigation/index"
+import Header from "../../components/header/index"
 import AOS from "aos"
 import { Link } from "gatsby"
 import "aos/dist/aos.css"
@@ -8,26 +8,7 @@ typeof document !== "undefined" && AOS.init()
 export default () => {
   return (
     <section className="home-header">
-      <div className="home-main">
-        <div className="home-setting">
-          <div className="home-primary">
-            <div className="logo-home">
-              <div className="logo-container">
-                <Link to="/">
-                  {" "}
-                  <img src={require("../../images/Black.png")} alt="" />
-                </Link>
-              </div>
-            </div>
-            <div className="navigation-home">
-              <div className="svg-bg">
-                <img src={require("../../images/Shape2.jpg")} alt="" />
-              </div>
-              <Nav />
-            </div>
-          </div>
-        </div>
-      </div>
+      <Header />
       <div className="slider-section">
         <div className="image-gril"></div>
         <div className="image-pink vert-move"></div>

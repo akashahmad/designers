@@ -21,6 +21,7 @@ export default () => {
                 Contact Us
               </button>
             </div>
+            <div className="button-bl"></div>
           </div>
           <div className="footer-logo">
             <div className="footer-logo-img">
@@ -29,18 +30,27 @@ export default () => {
             <div className="logo-footer">
               <ul>
                 <li className="active">
-                  <Link to="#">
-                    <i className="fa fa-facebook" />
+                  <Link to="https://www.facebook.com/geekshub.io">
+                    <div className="link-images social-link-fb"></div>
+                    <div className="link-images social-link-fb-white"></div>
                   </Link>
                 </li>
                 <li>
-                  <Link to="#">
-                    <i className="fa fa-twitter" />
+                  <Link to="https://twitter.com/Geeks__Hub">
+                    <div className="link-images social-link-tw"></div>
+                    <div className="link-images social-link-tw-white"></div>
                   </Link>
                 </li>
                 <li>
-                  <Link to="#">
-                    <i className="fa fa-globe" />
+                  <Link to="https://www.instagram.com/geeks._.hub">
+                    <div className="link-images social-link-insta"></div>
+                    <div className="link-images social-link-insta-white"></div>
+                  </Link>
+                </li>
+                <li>
+                  <Link to="https://www.linkedin.com/company/43286270">
+                    <div className="link-images social-link-linkedin"></div>
+                    <div className="link-images social-link-linkedin-white"></div>
                   </Link>
                 </li>
               </ul>
@@ -48,7 +58,7 @@ export default () => {
           </div>
           <div className="copy-right-section">
             <p>
-              © Copyright 2019 &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;All Rights
+              © Copyright 2020 &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;All Rights
               Reserved
             </p>
           </div>

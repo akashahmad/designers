@@ -5,7 +5,7 @@ typeof document !== "undefined" && AOS.init()
 export default () => {
   return (
     <section className="who-we">
-      <div className="three-dots" />
+      <div className="three-dots vert-move" />
       <div className="whowe-primary">
         <div className="whowe-secondery">
           <div
@@ -14,7 +14,7 @@ export default () => {
             data-aos-delay="50"
             data-aos-duration="2000"
           >
-            <div className="diamond-img">
+            <div className="diamond-img vert-move ">
               <img src={require("../../images/diamond.png")} alt="" />
             </div>
             <div className="content para-font-size">
