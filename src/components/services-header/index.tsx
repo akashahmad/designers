@@ -1,7 +1,6 @@
 import React from "react"
 import Header from "../../components/header/index"
 import AOS from "aos"
-import { Link } from "gatsby"
 import "aos/dist/aos.css"
 
 typeof document !== "undefined" && AOS.init()
