@@ -24,7 +24,7 @@ export default () => {
                       <Link to="/who-we-are">Who We Are</Link>
                     </li>
                     <li>
-                      <Link to="/our-services">Services</Link>
+                      <Link to="/our-services">Our Services</Link>
                     </li>
                     <li>
                       <Link to="/contact-us">Contact Us</Link>
