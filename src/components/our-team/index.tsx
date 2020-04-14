@@ -9,7 +9,7 @@ export default () => {
         <section className="our-team">
             <div className="our-team-primary">
                 <div className="our-team-head">
-                    <h2>Our Team</h2>
+                    <h2>Founders</h2>
                 </div>
                 <div className="responsive-slider-team">
                     <Carousel showThumbs={false} showArrows={false} showStatus={false}>
@@ -66,7 +66,7 @@ export default () => {
                     <div>
                         <div className="team-primary">
                             <div
-                                className="team-container-img profile-two"
+                                className="team-container-img profile-one"
                                 data-aos="flip-left"
                             ></div>
                             <div className="name-profile">
@@ -90,7 +90,7 @@ export default () => {
                     <div>
                         <div className="team-primary">
                             <div
-                                className="team-container-img profile-one"
+                                className="team-container-img profile-two"
                                 data-aos="flip-left"
                             ></div>
                             <div className="name-profile">
