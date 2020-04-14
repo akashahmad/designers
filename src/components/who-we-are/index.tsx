@@ -15,7 +15,7 @@ export default () => {
             data-aos-duration="2000"
           >
             <div className="diamond-img vert-move ">
-              <img src={require("../../images/diamond.png")} alt="" />
+              <img src={require("../../images/diamond.png")} alt="GeeksHub-Media" />
             </div>
             <div className="content para-font-size">
               <span>Who We Are</span>

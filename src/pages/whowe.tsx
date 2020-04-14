@@ -1,4 +1,4 @@
-import React, { ReactElement, useState, useEffect } from "react"
+import React from "react"
 import Header from "../components/whowe-header/index"
 import Footer from "../components/footer/index"
 import About from "../components/about-whowe"

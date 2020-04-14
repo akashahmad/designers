@@ -1,7 +1,6 @@
 import React from "react"
 import Header from "../../components/header/index"
 import AOS from "aos"
-import { Link } from "gatsby"
 import "aos/dist/aos.css"
 
 typeof document !== "undefined" && AOS.init()
@@ -43,24 +42,24 @@ export default () => {
               >
                 <div className="slider-image" />
                 <div className="follower-image">
-                  <img src={require("../../images/boti.png")} alt="" />
+                  <img src={require("../../images/boti.png")} alt="GeeksHub-Media" />
                 </div>
                 <div className="been-image vert-move">
-                  <img src={require("../../images/bean.svg")} alt="" />
+                  <img src={require("../../images/bean.svg")} alt="GeeksHub-Media" />
                   <img
                     className="dots-been"
                     src={require("../../images/b-dots.png")}
-                    alt=""
+                    alt="GeeksHub-Media"
                   />
                   <img
                     className="dots-right"
                     src={require("../../images/b-dots.png")}
-                    alt=""
+                    alt="GeeksHub-Media"
                   />
                 </div>
               </div>
               <div className="below-side">
-                <img src={require("../../images/side-image.jpg")} alt="" />
+                <img src={require("../../images/side-image.jpg")} alt="GeeksHub-Media" />
               </div>
             </div>
           </div>

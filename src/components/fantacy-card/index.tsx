@@ -24,7 +24,7 @@ export default () => {
         >
           <div className="card-container">
             <div className="head-img">
-              <img src={require("../../images/product design.png")} alt="" />
+              <img src={require("../../images/product design.png")} alt="GeeksHub-Media" />
             </div>
             <div className="card-content para-font-size">
               <h2>Product Design</h2>
@@ -40,7 +40,7 @@ export default () => {
           </div>
           <div className="card-container">
             <div className="head-img">
-              <img src={require("../../images/moonpng.png")} alt="" />
+              <img src={require("../../images/moonpng.png")} alt="GeeksHub-Media" />
             </div>
             <div className="card-content para-font-size">
               <h2>Creative Web Solution</h2>

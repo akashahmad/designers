@@ -1,5 +1,4 @@
 import React from "react"
-import { Link } from "gatsby"
 import AOS from "aos"
 import "aos/dist/aos.css"
 import Header from "../../components/header/index"
