@@ -10,7 +10,7 @@ export default () => {
       <Header />
       <div className="slider-section">
         <div className="image-gril"></div>
-        <div className="image-pink vert-pink"></div>
+        <div className="image-pink"></div>
         <div className="home-setting">
           <div className="content-slider">
             <div

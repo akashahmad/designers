@@ -25,9 +25,6 @@ export default () => {
                   <Link to="services">Services</Link>
                 </li>
                 <li>
-                  <Link to="#">Protfolio</Link>
-                </li>
-                <li>
                   <Link to="contact">Contact Us</Link>
                 </li>
               </ul>
