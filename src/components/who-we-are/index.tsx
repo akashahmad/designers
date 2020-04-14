@@ -36,6 +36,7 @@ export default () => {
               </button>
             </div>
           </div>
+          <div className="res-bg-image"></div>
           <div
             className="image-container"
             data-aos="zoom-in"

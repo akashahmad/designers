@@ -1,6 +1,8 @@
-import React from "react"
-import AOS from "aos"
-import "aos/dist/aos.css"
+import React from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+import { Carousel } from 'react-responsive-carousel';
 typeof document !== "undefined" && AOS.init()
 export default () => {
   return (
@@ -86,6 +88,19 @@ export default () => {
                 </div>
               </div>
             </div>
+          </div>
+          <div className="task-slider">
+          <Carousel showThumbs={false}>
+                <div>
+                    <img src={require('../../images/c1.png')} />
+                </div>
+                <div>
+                    <img src={require('../../images/c2.png')} />
+                </div>
+                <div>
+                    <img src={require('../../images/c3.png')} />
+                </div>
+            </Carousel>
           </div>
         </div>
       </div>

@@ -358,6 +358,7 @@
     display: flex;
     justify-content: center;
 }
+.task-slider{display: none;}
 .agency .agency-primary{
     position: relative;
 }
@@ -1255,25 +1256,11 @@
     0% { transform: translateY(0); }
     100% { transform: translateY(10px); }
 }
-.vert-card {
-    -webkit-animation: card 1s infinite  alternate;
-    animation: card 2s infinite  alternate;
-}
-.vert-card {
-    -webkit-animation: card 1s infinite  alternate;
-    animation: card 2s infinite  alternate;
-}
-@-webkit-keyframes card {
-    0% { width:64px; }
-    100% { width:58px; }
-}
-@keyframes card {
-    0% { width:64px; }
-    100% { width:58px; }
-}
-
 /* responsive start */
-
+  /* check */
+  .home-header .navigation-responsive{
+    display: none;
+}
 /* header start */
 @media (max-width: 479px) and (min-width: 320px){
     .home-header .home-setting{
@@ -1307,10 +1294,11 @@
     }
     .home-header .home-primary{
         padding: 18px;
+        display: flex;
+        align-items: center;
     }
     .home-header .bars-responsive span:nth-child(1){
-        width: 20px;
-        
+        width: 20px; 
     }
     .home-header .bars-responsive span:nth-child(2){
         width: 41px;
@@ -1348,16 +1336,8 @@
     .home-header .navigation-container ul li{
         margin: 30px 0;
     }
-    .home-header .logo-responsive{
-        display: flex;
-        justify-content: center;
-    }
     .home-header .logo-responsive .logo-container{
         width: 112px!important;
-    }
-    /* check */
-    .home-header .navigation-responsive{
-        display: none;
     }
     /* slider responsive start */
     .home-header .slider-section{
@@ -1365,8 +1345,6 @@
     }
     .home-header .responsive-slider{
         padding: 84px 18px;
-    }
-    .home-header .responsive-slider{
         display: block;
     }
     .home-header .responsive-slider .header-res-content h2{
@@ -1396,9 +1374,9 @@
         75%  {background-image: url('../images/slider-res1.png');}
         100% {background-image: url('../images/layer-6.png');}
     }
-     /* slider responsive start */
+     /* slider responsive end */
 
-     /* footer responsive */
+     /* footer responsive start*/
      .footer .footer-primary .footer-main .footer-banner{
          flex-direction: column;
          padding:20px;
@@ -1453,7 +1431,7 @@
          width: 61px;
          background-size:cover;
      }
-     /* footer responsive */
+     /* footer responsive end*/
      /* fantacy section start */
      .fantacy{
         padding: 55px 0 0px;
@@ -1516,8 +1494,8 @@
      }
      .who-we{
          padding:0;
-     }
-     /* whowe section end */
+     } 
+     /* whowe section end
      /* service section start  */
      .our-sevices .our-sevices-primary{
        flex-direction: column;
@@ -1538,6 +1516,34 @@
          padding-bottom:20px;
      }
      /* service section end  */
+     /* task agency */
+     .agency .agency-primary .task-container-primary{
+         display: none;
+     }
+     .agency .agency-primary .agency-head .leaf-image{
+         display: none;
+     }
+     .agency .agency-primary .agency-head .agency-header {
+        width: 295px;
+    }
+    .agency .agency-primary .agency-head{
+        position: unset;
+    }
+    .agency .agency-primary .agency-head .agency-header h2{
+        font-size:34px;
+    }
+    .agency-head{
+        padding:18px;
+    }
+    .agency .task-slider{
+        display: block;
+    }
+    .agency .task-slider{
+        display: block;
+        margin: 33px 0;
+     }
+     /* task agency  */
+     
 }
 @media (max-width: 574px) and (min-width: 480px){
     .home-header .home-setting{
@@ -1730,24 +1736,18 @@
  }
  .card-main{
      width:unset;
-     flex-direction: column;
      padding:18px;
-     justify-content: center;
-     align-items: center;
  }
- .fantacy .fantacy-container .text-container>div{
-     width:unset;
-     padding: 5px 18px 44px 18px;
-     width:50%;
-     align-items: center;
- }
- .card-container{
-    margin: 0 0px 36px 0;
-    width: 48%;
- }
+ .card-container {
+    width: 238px;
+}
+.fantacy .fantacy-container .text-container>div{
+    width:unset;
+    padding: 5px 18px 44px 18px;
+    width:50%;
+}
  .text-container{
      display: flex;
-     justify-content: center;
  }
  .fantacy .fantacy-container .text-container h2{
      font-size:34px;
@@ -1814,6 +1814,16 @@
       justify-content: space-between;
   }
   /* service section end  */
+     /* task agency start */
+ .agency .agency-primary .task-container-primary .task-container{
+    width: 254px;
+    height: 205px;
+}
+.agency .agency-main{
+    width:unset;
+    padding:18px;
+}
+/* agency task section end */
 }
 @media (max-width: 991px) and (min-width: 768px){
     .home-header .home-setting{
@@ -2004,16 +2014,13 @@
  }
  .card-main{
      width:unset;
-     flex-direction: column;
-     padding:18px;
-     justify-content: center;
-     align-items: center;
+     padding: 18px;
+     justify-content: space-between;
  }
  .fantacy .fantacy-container .text-container>div{
      width:unset;
      padding: 5px 18px 44px 18px;
      width:50%;
-     align-items: center;
  }
  .card-container{
     margin: 0 0px 36px 0;
@@ -2027,8 +2034,6 @@
      font-size:34px;
  }
  /* fantacy section end */
-      
-/* footer responsive */
 /* whowe section start  */
 .who-we .whowe-primary .whowe-secondery{
     flex-direction: column-reverse;
@@ -2090,6 +2095,15 @@
       justify-content: space-between;
   }
   /* service section end  */
+   /* task agency start */
+ .agency .agency-primary .task-container-primary .task-container{
+    width:352px;
+}
+.agency .agency-main{
+    width:unset;
+    padding:18px;
+}
+/* task agency end */
 }
 @media (max-width: 684px) and (min-width: 575px){
     .home-header .home-setting{
@@ -2279,25 +2293,21 @@
      padding-top: 40px;
  }
  .card-main{
-     width:unset;
-     flex-direction: column;
-     padding:18px;
-     justify-content: center;
-     align-items: center;
- }
- .fantacy .fantacy-container .text-container>div{
-     width:unset;
-     padding: 5px 18px 44px 18px;
-     width:50%;
-     align-items: center;
- }
+    width:unset;
+    padding: 18px;
+    justify-content: space-between;
+}
+.fantacy .fantacy-container .text-container>div{
+    width:unset;
+    padding: 5px 18px 44px 18px;
+    width:50%;
+}
  .card-container{
     margin: 0 0px 36px 0;
     width: 48%;
  }
  .text-container{
      display: flex;
-     justify-content: center;
  }
  .fantacy .fantacy-container .text-container h2{
      font-size:34px;
@@ -2364,6 +2374,17 @@
       justify-content: space-between;
   }
   /* service section end  */
+    /* task agency start */
+    .agency .agency-primary .task-container-primary .task-container{
+        width: 295px;
+        height: 225px;
+    }
+    .agency .agency-main{
+        width:unset;
+        padding:18px;
+    }
+    /* agency task section end */
+  
 }
 @media (max-width: 767px) and (min-width: 685px){
     .home-header .home-setting{
@@ -2554,25 +2575,21 @@
      padding-top: 40px;
  }
  .card-main{
-     width:unset;
-     flex-direction: column;
-     padding:18px;
-     justify-content: center;
-     align-items: center;
- }
- .fantacy .fantacy-container .text-container>div{
-     width:unset;
-     padding: 5px 18px 44px 18px;
-     width:50%;
-     align-items: center;
- }
+    width:unset;
+    padding: 18px;
+    justify-content: space-between;
+}
+.fantacy .fantacy-container .text-container>div{
+    width:unset;
+    padding: 5px 18px 44px 18px;
+    width:50%;
+}
  .card-container{
     margin: 0 0px 36px 0;
     width: 48%;
  }
  .text-container{
      display: flex;
-     justify-content: center;
  }
  .fantacy .fantacy-container .text-container h2{
      font-size:34px;
@@ -2639,6 +2656,15 @@
       justify-content: space-between;
   }
   /* service section end  */
+    /* task agency start */
+ .agency .agency-primary .task-container-primary .task-container{
+    width:337px;
+}
+.agency .agency-main{
+    width:unset;
+    padding:18px;
+}
+/* agency task section end */
 }
 @media (max-width: 1199px) and (min-width: 1024px){
     .home-header .home-setting {
@@ -2701,7 +2727,14 @@
     .our-sevices .our-services-main {
         width: unset;
     }
+     /* task agency start */
+    .agency .agency-primary .task-container-primary .task-container{
+        width:456px;
+    }
+    .agency .agency-main{
+        width:unset;
+        padding:36px;
+    }
+    /* task agency end */
 }
-
-
 /* responsive end */

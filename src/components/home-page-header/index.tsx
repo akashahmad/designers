@@ -9,6 +9,14 @@ export default () => {
   return (
     <section className="home-header">
       <Header />
+      <div className="slider-image-res">
+        <div className="responsive-slider">
+          <div className="header-res-content">
+              <h2>Let’s talk about your great ambitions</h2>
+              <p>We partner with organizations that are looking to create greater impact in their work and the world around them.</p>
+          </div>
+        </div>
+      </div>
       <div className="slider-section">
         <div className="image-gril"></div>
         <div className="image-pink"></div>

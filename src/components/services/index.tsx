@@ -17,13 +17,12 @@ export default () => {
             <div className="content para-font-size">
               <span>Our Services</span>
               <h2>
-                We transform your product into the business tool it's meant to
-                be
+                We transform your product into the business tool it's meant to be
               </h2>
             </div>
             <div className="btn-div">
               <button className="btn-orange-color who-btn">
-                Read Success Story
+                 View Services
               </button>
             </div>
           </div>
@@ -33,8 +32,8 @@ export default () => {
             data-aos-delay="50"
             data-aos-duration="2000"
           >
-            <div className="card-container card-set">
-              <div className="head-img vert-card service-card">
+            <div className="card-container">
+              <div className="head-img">
                 <img src={require("../../images/whiterect.png")} alt="" />
               </div>
               <div className="card-content para-font-size">
