@@ -21,13 +21,13 @@ export default () => {
                 <div>
                   <ul>
                     <li>
-                      <Link to="whowe">Who We Are</Link>
+                      <Link to="/who-we-are">Who We Are</Link>
                     </li>
                     <li>
-                      <Link to="services">Services</Link>
+                      <Link to="/our-services">Services</Link>
                     </li>
                     <li>
-                      <Link to="contact">Contact Us</Link>
+                      <Link to="/contact-us">Contact Us</Link>
                     </li>
                   </ul>
                 </div>
@@ -55,13 +55,13 @@ export default () => {
               </div>
               <ul>
                 <li>
-                  <Link to="whowe">Who We Are</Link>
+                  <Link to="/who-we-are">Who We Are</Link>
                 </li>
                 <li>
-                  <Link to="services">Services</Link>
+                  <Link to="/our-services">Services</Link>
                 </li>
                 <li>
-                  <Link to="contact">Contact Us</Link>
+                  <Link to="/contact-us">Contact Us</Link>
                 </li>
               </ul>
             </div>
