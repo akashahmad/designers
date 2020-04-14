@@ -6,6 +6,7 @@ export default () => {
       <div className="footer-primary">
         <div className="footer-main">
           <div className="footer-banner">
+            <div className="dotted-image"></div>
             <div className="content-section">
               <div className="image-left">
                 <img src={require("../../images/footer-img1.png")} alt="" />

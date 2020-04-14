@@ -1261,6 +1261,33 @@
   .home-header .navigation-responsive{
     display: none;
 }
+.contact-image-bg{
+  background-image: url('../images/c1.png');
+  display: flex;
+  align-items: center;
+  height: 374px;
+  background-size:cover;
+  background-repeat: no-repeat;
+  display: none;
+}
+.res-bg-image{
+    background-image: url('../images/c3.png');
+    width: 100%;
+    height:340px;
+    background-size:cover;
+    background-repeat: no-repeat;
+    margin:33px 0;
+    display:none
+}
+.res-bg-whowe{
+    background-image: url('../images/c4.png');
+    width: 100%;
+    height:340px;
+    background-size:cover;
+    background-repeat: no-repeat;
+    margin:33px 0;
+    display:none
+}
 /* header start */
 @media (max-width: 479px) and (min-width: 320px){
     .home-header .home-setting{
@@ -1485,12 +1512,10 @@
          font-size:34px;
      }
      .res-bg-image{
-         background-image: url('../images/c3.png');
-         width: 100%;
-         height:340px;
-         background-size:cover;
-         background-repeat: no-repeat;
-         margin:33px 0;
+        display: block;
+     }
+     .res-bg-whowe{
+         display: block;
      }
      .who-we{
          padding:0;
@@ -1543,9 +1568,119 @@
         margin: 33px 0;
      }
      /* task agency  */
-     
+     /* contact from start */
+     .contact-form{
+         box-shadow: unset;
+         padding-bottom: unset;
+     }
+     .contact-form .contact-primary{
+         width:unset;
+     }
+     .form-container{
+         flex-direction: column;
+         margin:18px;
+     }
+     .form-container .form-div{
+         width: unset;
+     }
+     .quick-links{
+        width:unset;
+        margin: 51px 0px;
+     }
+     .form-container .text-from textarea{
+         height:188px;
+     }
+     .contact-form .contact-primary .contact-head h2 {
+        text-align: center;
+        font-size: 24px;
+        font-weight: 600;
+        padding: 18px 0;
+    }
+    .jali-container{
+        display: none;
+    }
+    .contact-image-bg{
+        display: flex;
+    }
+     /* contact from start */
+      /* services page start */
+  .services-content .services-primary>div{
+    width:100%;
+}
+.services-content .services-primary .head-content {
+  padding: 0 19px;
+}
+.services-content .card-content{
+    padding:0 15px;
+}
+.services-content .card-content .diamond-container {
+    width: 312px;
+    padding: 0;
+}
+.services-content .card-content{
+    justify-content: center;
+}
+.services-content{
+    overflow: hidden;
+}
+.services-content .card-content .diamond-container{
+    padding: 23px 18px 10px 60px;
+}
+.services-content .card-content .diamond-container .diamond-image{
+    left: 3px;
+    top: 52px;
+}
+/* services page end */
+.tech-services .technologies .tech-container{
+    flex-direction: column;
+}
+.tech-services .technologies .tech-been{
+    width: 256px;
+    height: 20%;
+}
+.contact-header .services-head-image, .tech-services .technologies .tech-dots{
+    height: 19%;
+    bottom: -31px;
+    width: 51%;
+}
+.tech-services .technologies .technologies-primary{
+        padding: 0 0;
+}
+.circle-tech:nth-child(even) {
+    position: relative;
+    top: 3%;
+    right: -50%;
+  }
+  /* services end */
+.whowe-response .whowe-primary .whowe-secondery {
+    flex-direction: column;
+}
+/* who we detail start  */
+.what-we-detail .what-we-primary .whatwe-main{
+    flex-direction: column;
+    width:100%;
+}
+.what-we-detail .what-we-primary .image-container .img-two{
+    float: unset;
+    margin: 0 auto;
+    left:unset;
+}
+.what-we-detail .content-container{
+    width:unset;
+}
+.what-we-detail .content-container h2{
+    font-size: 28px;
+}
+.what-we-detail .what-we-primary .image-container .img-one{
+    width: unset;
+}
+/* who we detail end */
+
 }
 @media (max-width: 574px) and (min-width: 480px){
+    .contact-image-bg{
+        display: flex;
+    }
     .home-header .home-setting{
         width:100%;
     }
@@ -1780,12 +1915,10 @@
      font-size:34px;
  }
  .res-bg-image{
-     background-image: url('../images/c3.png');
-     width: 100%;
-     height:340px;
-     background-size:cover;
-     background-repeat: no-repeat;
-     margin:33px 0;
+    display: block;
+ }
+ .res-bg-whowe{
+    display: block;
  }
  .who-we{
      padding:0;
@@ -1824,8 +1957,87 @@
     padding:18px;
 }
 /* agency task section end */
+/* contact form  */
+.contact-form .contact-primary{
+    width:90%;
+}
+.form-container .form-div{
+    width: 60%;
+}
+.quick-links{
+    width:35%;
+}
+/* contact form  */
+   /* service page  */
+   .services-content .services-primary>div{
+    width:88%;
+}
+.services-content .card-content .diamond-container {
+    width: 248px;
+    padding: 40px 10px;
+}
+.services-content .card-content .diamond-container .diamond-image{
+    left: -37px;
+    top: 69px;
+}
+.services-content .services-primary .head-content h2{
+    font-size:27px;
+}
+.services-content .card-content{
+    justify-content: center;
+}
+/* service page end */
+/* tech service section */
+.tech-services .technologies .technologies-primary>div{
+    width: 90%;
+}
+.tech-services .technologies .tech-container{
+    width:unset;
+}
+.tech-services .technologies .tech-container .circle-tech{
+    width: 68px;
+    height: 68px;
+    padding:10px;
+}
+.tech-services .technologies .tech-dots{
+    width:130px;
+}
+.tech-services .technologies .tech-been{
+    width: 233px;
+    height: 70%;
+}
+.tech-services .tech-head h2{
+    padding: 20px 0;
+}
+/* tech service section end */
+.whowe-response .whowe-primary .whowe-secondery {
+    flex-direction: column;
+}
+/* who we detail start  */
+.what-we-detail .what-we-primary .whatwe-main{
+    flex-direction: column;
+    width:100%;
+}
+.what-we-detail .what-we-primary .image-container .img-two{
+    float: unset;
+    margin: 0 auto;
+    left:unset;
+}
+.what-we-detail .content-container{
+    width:unset;
+}
+.what-we-detail .content-container h2{
+    font-size: 28px;
+}
+.what-we-detail .what-we-primary .image-container .img-one{
+    width: unset;
+}
+/* who we detail end */
 }
 @media (max-width: 991px) and (min-width: 768px){
+    .contact-image-bg{
+        display: flex;
+    }
     .home-header .home-setting{
         width:100%;
     }
@@ -2061,12 +2273,10 @@
      font-size:34px;
  }
  .res-bg-image{
-     background-image: url('../images/c3.png');
-     width: 100%;
-     height:340px;
-     background-size:cover;
-     background-repeat: no-repeat;
-     margin:33px 0;
+    display: block;
+ }
+ .res-bg-whowe{
+    display: block;
  }
  .who-we{
      padding:0;
@@ -2104,8 +2314,78 @@
     padding:18px;
 }
 /* task agency end */
+/* contact form  */
+.contact-form .contact-primary{
+    width:90%;
+}
+.form-container .form-div{
+    width: 65%;
+}
+/* contact form  */
+/* service page  */
+.services-content .services-primary>div{
+    width:100%;
+}
+.services-content .card-content .diamond-container {
+    width: 248px;
+    padding: 40px 10px;
+}
+.services-content .card-content .diamond-container .diamond-image{
+    left: -37px;
+    top: 69px;
+}
+/* service page end */
+/* tech service section */
+.tech-services .technologies .technologies-primary>div{
+    width: 90%;
+}
+.tech-services .technologies .tech-container{
+    width:unset;
+}
+.tech-services .technologies .tech-container .circle-tech{
+    width: 68px;
+    height: 68px;
+    padding:10px;
+}
+.tech-services .technologies .tech-dots{
+    width:130px;
+}
+.tech-services .technologies .tech-been{
+    width: 314px;
+    height: 94%;
+}
+.tech-services .tech-head h2{
+    padding: 20px 0;
+}
+/* tech service section end */
+.whowe-response .whowe-primary .whowe-secondery {
+    flex-direction: column;
+}
+/* who we detail start  */
+.what-we-detail .what-we-primary .whatwe-main{
+    flex-direction: column;
+    width:100%;
+}
+.what-we-detail .what-we-primary .image-container .img-two{
+    float: unset;
+    margin: 0 auto;
+    left:unset;
+}
+.what-we-detail .content-container{
+    width:unset;
+}
+.what-we-detail .content-container h2{
+    font-size: 28px;
+}
+.what-we-detail .what-we-primary .image-container .img-one{
+    width: unset;
+}
+/* who we detail end */
 }
 @media (max-width: 684px) and (min-width: 575px){
+    .contact-image-bg{
+        display: flex;
+    }
     .home-header .home-setting{
         width:100%;
     }
@@ -2340,12 +2620,10 @@
      font-size:34px;
  }
  .res-bg-image{
-     background-image: url('../images/c3.png');
-     width: 100%;
-     height:340px;
-     background-size:cover;
-     background-repeat: no-repeat;
-     margin:33px 0;
+     display: block;
+ }
+ .res-bg-whowe{
+    display: block;
  }
  .who-we{
      padding:0;
@@ -2384,9 +2662,88 @@
         padding:18px;
     }
     /* agency task section end */
-  
+    /* contact form  */
+.contact-form .contact-primary{
+    width:90%;
+}
+.form-container .form-div{
+    width: 60%;
+}
+.quick-links{
+    width:35%;
+}
+/* contact form  */
+/* service page  */
+.services-content .services-primary>div{
+    width:100%;
+}
+.services-content .card-content{
+    overflow: hidden;
+}
+.services-content .card-content .diamond-container {
+    width: 248px;
+    padding: 40px 10px;
+}
+.services-content .card-content .diamond-container .diamond-image{
+    left: -37px;
+    top: 69px;
+}
+/* service page end */
+ /* tech service section */
+
+.tech-services .technologies .technologies-primary>div{
+    width: 90%;
+}
+.tech-services .technologies .tech-container{
+    width:unset;
+}
+.tech-services .technologies .tech-container .circle-tech{
+    width: 68px;
+    height: 68px;
+    padding:15px;
+}
+.tech-services .technologies .tech-been{
+    width: 245px;
+    height: 71%;
+}
+.tech-services .technologies .tech-dots{
+    width:111px;
+}
+.tech-services .technologies{
+    margin:0;
+}
+.tech-services .tech-head h2{
+    padding: 10px 0;
+}
+/* tech service section end */
+.whowe-response .whowe-primary .whowe-secondery {
+    flex-direction: column;
+}
+/* who we detail start  */
+.what-we-detail .what-we-primary .whatwe-main{
+    flex-direction: column;
+    width:100%;
+}
+.what-we-detail .what-we-primary .image-container .img-two{
+    float: unset;
+    margin: 0 auto;
+    left:unset;
+}
+.what-we-detail .content-container{
+    width:unset;
+}
+.what-we-detail .content-container h2{
+    font-size: 28px;
+}
+.what-we-detail .what-we-primary .image-container .img-one{
+    width: unset;
+}
+/* who we detail end */
 }
 @media (max-width: 767px) and (min-width: 685px){
+    .contact-image-bg{
+        display: flex;
+    }
     .home-header .home-setting{
         width:100%;
     }
@@ -2622,12 +2979,10 @@
      font-size:34px;
  }
  .res-bg-image{
-     background-image: url('../images/c3.png');
-     width: 100%;
-     height:340px;
-     background-size:cover;
-     background-repeat: no-repeat;
-     margin:33px 0;
+    display: block;
+ }
+ .res-bg-whowe{
+    display: block;
  }
  .who-we{
      padding:0;
@@ -2665,6 +3020,83 @@
     padding:18px;
 }
 /* agency task section end */
+    /* contact form  */
+    .contact-form .contact-primary{
+        width:90%;
+    }
+    .form-container .form-div{
+        width: 60%;
+    }
+    .quick-links{
+        width:35%;
+    }
+    /* contact form  */
+    /* service page  */
+.services-content .services-primary>div{
+    width:88%;
+}
+.services-content .card-content .diamond-container {
+    width: 248px;
+    padding: 40px 10px;
+}
+.services-content .card-content .diamond-container .diamond-image{
+    left: -37px;
+    top: 69px;
+}
+.services-content .services-primary .head-content h2{
+    font-size:27px;
+}
+/* service page end */
+ /* tech service section */
+
+ .tech-services .technologies .technologies-primary>div{
+    width: 90%;
+}
+.tech-services .technologies .tech-container{
+    width:unset;
+}
+.tech-services .technologies .tech-container .circle-tech{
+    width: 68px;
+    height: 68px;
+    padding:15px;
+}
+.tech-services .technologies .tech-been{
+    width: 245px;
+    height: 71%;
+}
+.tech-services .technologies .tech-dots{
+    width:111px;
+}
+.tech-services .technologies{
+    margin:0;
+}
+.tech-services .tech-head h2{
+    padding: 10px 0;
+}
+/* tech service section end */
+.whowe-response .whowe-primary .whowe-secondery {
+    flex-direction: column;
+}
+/* who we detail start  */
+.what-we-detail .what-we-primary .whatwe-main{
+    flex-direction: column;
+    width:100%;
+}
+.what-we-detail .what-we-primary .image-container .img-two{
+    float: unset;
+    margin: 0 auto;
+    left:unset;
+}
+.what-we-detail .content-container{
+    width:unset;
+}
+.what-we-detail .content-container h2{
+    font-size: 28px;
+}
+.what-we-detail .what-we-primary .image-container .img-one{
+    width: unset;
+}
+/* who we detail end */
 }
 @media (max-width: 1199px) and (min-width: 1024px){
     .home-header .home-setting {
@@ -2736,5 +3168,52 @@
         padding:36px;
     }
     /* task agency end */
+    /* contact form */
+    .without-stroke {
+        width: 517px;
+        height: 508px;
+        right: -15px;
+        top: -139px;
+    }
+    .image-pink{
+        top: -145px;
+        left: 11%;
+        background-repeat: no-repeat;
+    }
+    /* contact form */
+    /* service page  */
+.services-content .services-primary>div{
+    width:100%;
+}
+.services-content .card-content .diamond-container {
+    width: 300px;
+    padding: 40px 10px;
+}
+.services-content .card-content .diamond-container .diamond-image{
+    left: -37px;
+    top: 69px;
+}
+/* service page end */
+/* tech service section */
+.tech-services .technologies .technologies-primary>div{
+    width: 90%;
+}
+.tech-services .technologies .tech-container{
+    width:90%;
+}
+.tech-services .technologies .tech-container .circle-tech{
+    width: 80px;
+    height: 80px;
+}
+/* tech service section end */
+.what-we-detail .what-we-primary .image-container .img-one{
+    width:365px;
+}
+.what-we-detail .what-we-primary .image-container .img-two{
+    left: 50px;
+}
+.what-we-detail .content-container {
+    width: 379px;
+}
 }
 /* responsive end */

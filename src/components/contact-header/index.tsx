@@ -8,6 +8,13 @@ export default () => {
   return (
     <section className="home-header contact-header">
       <Header />
+      <div className="contact-image-bg">
+        <div className="responsive-slider">
+          <div className="header-res-content">
+              <h2>Contact</h2>
+          </div>
+        </div>
+      </div>
       <div className="slider-section">
         <div className="image-gril"></div>
         <div className="image-pink"></div>

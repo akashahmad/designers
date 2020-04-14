@@ -4,7 +4,7 @@ import "aos/dist/aos.css"
 typeof document !== "undefined" && AOS.init()
 export default () => {
   return (
-    <section className="who-we who-we-page shadow-who-we">
+    <section className="who-we who-we-page shadow-who-we whowe-response">
       <div className="three-dots" />
       <div className="whowe-primary">
         <div className="whowe-secondery">
@@ -40,6 +40,7 @@ export default () => {
               </p>
             </div>
           </div>
+          <div className="res-bg-whowe"></div>
           <div
             className="image-container"
             data-aos="zoom-in"

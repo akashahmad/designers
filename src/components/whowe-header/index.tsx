@@ -8,6 +8,15 @@ export default () => {
   return (
     <section className="home-header whowe-header">
       <Header />
+      <div className="slider-image-res">
+        <div className="responsive-slider">
+          <div className="header-res-content">
+              <h2>Who We Are</h2>
+              <p> It’s important for us to adhere our values, as they embody our
+                  agency and define the way that we work.</p>
+          </div>
+        </div>
+      </div>
       <div className="slider-section">
         <div className="image-gril"></div>
         <div className="image-pink"></div>

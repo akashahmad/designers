@@ -11,8 +11,8 @@ export default () => {
       <Header />
       <About />
       <Detail />
-      <Projects />
-      <Ourteam />
+      {/* <Projects /> */}
+      {/* <Ourteam /> */}
       <Footer />
     </div>
   )
