@@ -15,7 +15,7 @@ export default () => {
               <div className="logo-responsive">
                 <div className="logo-container">
                   <Link to="/">
-                    <img src={require("../../images/Black.png")} alt="GeeksHub-Media" />
+                    <img src={require("../../images/geekshub-black-logo.png")} alt="GeeksHub-Media" />
                   </Link>
                 </div>
                 <div>
@@ -40,7 +40,7 @@ export default () => {
             <div className="logo-home">
               <div className="logo-container">
                 <Link to="/">
-                  <img src={require("../../images/Black.png")} alt="GeeksHub-Media" />
+                  <img src={require("../../images/geekshub-black-logo.png")} alt="GeeksHub-Media" />
                 </Link>
               </div>
             </div>

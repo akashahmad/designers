@@ -30,7 +30,7 @@ export default () => {
                     </div>
                     <div className="footer-logo">
                         <div className="footer-logo-img">
-                            <img src={require("../../images/Black.png")} alt="GeeksHub-Media"/>
+                            <img src={require("../../images/geekshub-black-logo.png")} alt="GeeksHub-Media"/>
                         </div>
                         <div className="logo-footer">
                             <ul>

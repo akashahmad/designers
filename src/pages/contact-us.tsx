@@ -22,7 +22,7 @@ export default () => {
                   content="We build business web and application development services that balance code, cost, and compliance. Premium quality. Ethical sourcing."/>
             <meta property="og:url" content="https://www.geekshub.org/"/>
             <meta property="og:site_name" content="GeeksHub"/>
-            <meta property="og:image" content="/static/images/Black.png"/>
+            <meta property="og:image" content={require("../images/geekshub-black-logo.png")}/>
             <meta property="og:image:width" content="420"/>
             <meta property="og:image:height" content="420"/>
             <meta name="twitter:card" content="summary"/>
@@ -30,7 +30,7 @@ export default () => {
                   content="We build business web and application development services that balance code, cost, and compliance. Premium quality. Ethical sourcing."/>
             <meta name="twitter:title" content="We build sustainable app and web development services."/>
             <meta name="twitter:site" content="@Geeks__Hub"/>
-            <meta name="twitter:image" content="/static/images/Black.png"/>
+            <meta name="twitter:image" content={require("../images/geekshub-black-logo.png")}/>
             <meta name="twitter:creator" content="@Geeks__Hub"/>
             <meta property="DC.date.issued" content="date when website was created"/>
             <meta name="google-site-verification" content="JSDvTu058M1UuhdASFVpudUNAhW8rLEJGaIVj4VmyuE"/>
