@@ -34,16 +34,16 @@ export default () => {
             </div>
             <div className="quick-detail">
               <h3>Email:</h3>
-              <p>info@yoursite.com</p>
+              <p>info@geekshub.org</p>
             </div>
             <div className="quick-detail">
-              <h3>+88 (0) 682648101</h3>
+              <h3>+92 (0) 3333453636</h3>
               <p>Monday–Friday 9am-6pm</p>
             </div>
             <div className="quick-detail">
               <h3>Address</h3>
-              <p>51 Somestreet Cambridge,</p>
-              <p>CB4 3AA, United Kingdom</p>
+              <p>Suit 8/A First floor IT Park</p>
+              <p>Abbottabad, Pakistan</p>
             </div>
           </div>
         </div>

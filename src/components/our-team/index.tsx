@@ -22,7 +22,7 @@ export default () => {
                                     <h3>Akash Ahmad</h3>
                                     <p>Co-Founder and CTO</p>
                                 </div>
-                                <div className="social-link">
+                                {/* <div className="social-link">
                                     <div className="social-container">
                                         <a href="/#">
                                             <i className="fa fa-facebook"></i>
@@ -33,7 +33,7 @@ export default () => {
                                             <i className="fa fa-facebook"></i>
                                         </a>
                                     </div>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                         <div className="slider-settings">
@@ -46,7 +46,7 @@ export default () => {
                                     <h3>Muqarrab Khan</h3>
                                     <p>Co-Founder and UI/UX Designer</p>
                                 </div>
-                                <div className="social-link">
+                                {/* <div className="social-link">
                                     <div className="social-container">
                                         <a href="/#">
                                             <i className="fa fa-facebook"></i>
@@ -57,7 +57,7 @@ export default () => {
                                             <i className="fa fa-facebook"></i>
                                         </a>
                                     </div>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                     </Carousel>
@@ -73,7 +73,7 @@ export default () => {
                                 <h3>Akash Ahmad</h3>
                                 <p>Co-Founder and CTO</p>
                             </div>
-                            <div className="social-link">
+                            {/* <div className="social-link">
                                 <div className="social-container">
                                     <a href="/#">
                                         <i className="fa fa-facebook"></i>
@@ -84,7 +84,7 @@ export default () => {
                                         <i className="fa fa-facebook"></i>
                                     </a>
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                     <div>
@@ -97,7 +97,7 @@ export default () => {
                                 <h3>Muqarrab Khan</h3>
                                 <p>Co-Founder and UI/UX Designer</p>
                             </div>
-                            <div className="social-link">
+                            {/* <div className="social-link">
                                 <div className="social-container">
                                     <a href="/#">
                                         <i className="fa fa-facebook"></i>
@@ -108,7 +108,7 @@ export default () => {
                                         <i className="fa fa-facebook"></i>
                                     </a>
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </div>
