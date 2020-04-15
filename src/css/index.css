@@ -146,9 +146,6 @@
     width:75%;
     padding: 54px 0;
 }
-.home-header .navigation-responsive{
-    display: none;
-}
 .home-header .responsive-slider{
     display: none;
 }
@@ -568,29 +565,30 @@
 .our-team .our-team-primary{
      width:80%;
 }
-.our-team .team .team-primary{
+.team-primary{
     width: 253px;
+    background-color:#fff;
 }
-.our-team .team .team-primary .name-profile{
+.team-primary .name-profile{
     text-align: center;
     padding: 21px 0 7px 0;
 }
-.our-team .team .team-primary .name-profile h3{
+.team-primary .name-profile h3{
     font-size: 18px;
     font-weight: bold;
     color: #222222;
 }
-.our-team .team .team-primary .name-profile p{
+.team-primary .name-profile p{
     line-height: 2.25;
     letter-spacing: normal;
     font-size: 16px;
     color: rgba(239, 87, 55, 0.8);
 }
-.our-team .team .team-primary .social-link{
+.team-primary .social-link{
     display: flex;
     justify-content: center;
 }
-.our-team .team .team-primary .social-link .social-container{
+.team-primary .social-link .social-container{
     display: flex;
     justify-content: center;
     float: left;
@@ -610,7 +608,7 @@
     display: flex;
     justify-content: space-evenly;
 }
-.our-team .team .team-primary .team-container-img{
+.team-primary .team-container-img{
     width: 100%;
     height: 211px;
    background-repeat: no-repeat;
@@ -732,6 +730,7 @@
     align-items: center;
     box-shadow: 1px 14px 18px 0 hsla(0, 0%, 51%, 0.17);
     color: #fff;
+    background-color:#fff;
 }
 .circle-tech:nth-child(odd) {
     position: relative;
@@ -1257,10 +1256,6 @@
     100% { transform: translateY(10px); }
 }
 /* responsive start */
-  /* check */
-  .home-header .navigation-responsive{
-    display: none;
-}
 .contact-image-bg{
   background-image: url('../images/c1.png');
   display: flex;
@@ -1288,6 +1283,26 @@
     margin:33px 0;
     display:none
 }
+.responsive-slider-team{
+    display: none;
+}
+.responsive-slider-team .carousel .slide{
+    background-color:#fff;
+}
+.responsive-slider-team .slider-settings{
+    display:flex;
+    justify-content: center;
+}
+.responsive-slider-team .control-dotscontrol-dots{
+    margin-top: 30px;
+}
+.responsive-slider-team .carousel-slider{
+    height: 380px;
+}
+.responsive-slider-team .control-dots li{
+    background-color:#e8a233!important;
+}
+
 /* header start */
 @media (max-width: 479px) and (min-width: 320px){
     .home-header .home-setting{
@@ -1311,7 +1326,7 @@
         display: flex;
         flex-direction: column;
         align-items: flex-end;
-        z-index: -1;
+        z-index: 1;
     }
     .home-header .bars-responsive>span{
         background-color: #ef5737;
@@ -1339,9 +1354,11 @@
     .home-header .navigation-responsive{
         position: absolute;
         top: 0;
+        position: fixed;
         right: 0;
         left: 0;
         bottom: 0;
+        z-index: 1;
     }
     .home-header .overlay-bg{
         background: rgba(39, 30, 30, 0.37);
@@ -1429,7 +1446,7 @@
          width:unset;
          justify-content: center;
          margin:40px 0;
-         z-index: 1;
+         z-index: 0;
      }
      .footer .footer-primary .footer-main .footer-banner p{
          padding-right:unset;
@@ -1675,7 +1692,30 @@
     width: unset;
 }
 /* who we detail end */
-
+/* project score */
+.project-score .tech-container{
+    width:100%!important;
+}
+.project-score .technologies .tech-been {
+    width: 305px!important;
+    height: 208px;
+}
+.project-score .circle-tech:nth-child(odd){
+    top: 40px;
+}
+.project-score .technologies .tech-container {
+    flex-direction: column;
+    padding-left: 0;
+}
+/* project score */
+/* team section start */
+.team{
+    display: none!important;
+}
+.responsive-slider-team{
+    display: block;
+}
+/* team section end */
 }
 @media (max-width: 574px) and (min-width: 480px){
     .contact-image-bg{
@@ -1702,7 +1742,7 @@
         display: flex;
         flex-direction: column;
         align-items: flex-end;
-        z-index: -1;
+        z-index: 1;
     }
     .home-header .bars-responsive>span{
         background-color: #ef5737;
@@ -1729,9 +1769,11 @@
     .home-header .navigation-responsive{
         position: absolute;
         top: 0;
+        position: fixed;
         right: 0;
         left: 0;
         bottom: 0;
+        z-index: 1;
     }
     .home-header .overlay-bg{
         background: rgba(39, 30, 30, 0.37);
@@ -1756,14 +1798,13 @@
     .home-header .logo-responsive{
         display: flex;
         justify-content: center;
+        flex-direction: column;
     }
     .home-header .logo-responsive .logo-container{
         width: 112px!important;
     }
     /* check */
-    .home-header .navigation-responsive{
-        display: none;
-    }
+
     /* slider responsive start */
     .home-header .slider-section{
         display:none;
@@ -1829,7 +1870,7 @@
     width:unset;
     justify-content: center;
     margin:40px 0;
-    z-index: 1;
+    z-index: 0;
 }
 .footer .footer-primary .footer-main .footer-banner p{
     padding-right:unset;
@@ -2033,6 +2074,24 @@
     width: unset;
 }
 /* who we detail end */
+.project-score .technologies .tech-been {
+    width: 330px!important;
+    height: 258px;
+}
+.project-score .technologies .technologies-primary>div{
+    width:100%;
+}
+.project-score .tech-container {
+    width: 96%!important;
+}
+/* team section start */
+.team{
+    display: none!important;
+}
+.responsive-slider-team{
+    display: block;
+}
+/* team section end */
 }
 @media (max-width: 991px) and (min-width: 768px){
     .contact-image-bg{
@@ -2059,7 +2118,8 @@
         display: flex;
         flex-direction: column;
         align-items: flex-end;
-        z-index: -1;
+        z-index: 1;
+        cursor:pointer;
     }
     .home-header .bars-responsive>span{
         background-color: #ef5737;
@@ -2087,8 +2147,10 @@
         position: absolute;
         top: 0;
         right: 0;
+        position:fixed;
         left: 0;
         bottom: 0;
+        z-index: 1;
     }
     .home-header .overlay-bg{
         background: rgba(39, 30, 30, 0.37);
@@ -2113,13 +2175,10 @@
     .home-header .logo-responsive{
         display: flex;
         justify-content: center;
+        flex-direction: column;
     }
     .home-header .logo-responsive .logo-container{
         width: 112px!important;
-    }
-    /* check */
-    .home-header .navigation-responsive{
-        display: none;
     }
     /* slider responsive start */
     .home-header .slider-section{
@@ -2186,7 +2245,7 @@
     width:unset;
     justify-content: center;
     margin:40px 0;
-    z-index: 1;
+    z-index: 0;
 }
 .footer .footer-primary .footer-main .footer-banner p{
     padding-right:unset;
@@ -2381,6 +2440,24 @@
     width: unset;
 }
 /* who we detail end */
+.project-score .technologies .tech-been {
+    width: 330px!important;
+    height: 258px;
+}
+.project-score .technologies .technologies-primary>div{
+    width:100%;
+}
+.project-score .tech-container {
+    width: 87%!important;
+}
+/* team section start */
+.team{
+    display: none!important;
+}
+.responsive-slider-team{
+    display: block;
+}
+/* team section end */
 }
 @media (max-width: 684px) and (min-width: 575px){
     .contact-image-bg{
@@ -2407,7 +2484,7 @@
         display: flex;
         flex-direction: column;
         align-items: flex-end;
-        z-index: -1;
+        z-index: 1;
     }
     .home-header .bars-responsive>span{
         background-color: #ef5737;
@@ -2435,7 +2512,9 @@
         position: absolute;
         top: 0;
         right: 0;
+        position: fixed;
         left: 0;
+        z-index: 1;
         bottom: 0;
     }
     .home-header .overlay-bg{
@@ -2461,13 +2540,10 @@
     .home-header .logo-responsive{
         display: flex;
         justify-content: center;
+        flex-direction: column;
     }
     .home-header .logo-responsive .logo-container{
         width: 112px!important;
-    }
-    /* check */
-    .home-header .navigation-responsive{
-        display: none;
     }
     /* slider responsive start */
     .home-header .slider-section{
@@ -2533,7 +2609,7 @@
         width:unset;
         justify-content: center;
         margin:40px 0;
-        z-index: 1;
+        z-index: 0;
     }
     .footer .footer-primary .footer-main .footer-banner p{
         padding-right:unset;
@@ -2739,6 +2815,24 @@
     width: unset;
 }
 /* who we detail end */
+.project-score .technologies .tech-been {
+    width: 330px!important;
+    height: 258px;
+}
+.project-score .technologies .technologies-primary>div{
+    width:100%;
+}
+.project-score .tech-container {
+    width: 87%!important;
+}
+/* team section start */
+.team{
+    display: none!important;
+}
+.responsive-slider-team{
+    display: block;
+}
+/* team section end */
 }
 @media (max-width: 767px) and (min-width: 685px){
     .contact-image-bg{
@@ -2794,7 +2888,9 @@
         top: 0;
         right: 0;
         left: 0;
+        position:fixed;
         bottom: 0;
+        z-index: 1;
     }
     .home-header .overlay-bg{
         background: rgba(39, 30, 30, 0.37);
@@ -2819,13 +2915,10 @@
     .home-header .logo-responsive{
         display: flex;
         justify-content: center;
+        flex-direction: column;
     }
     .home-header .logo-responsive .logo-container{
         width: 112px!important;
-    }
-    /* check */
-    .home-header .navigation-responsive{
-        display: none;
     }
     /* slider responsive start */
     .home-header .slider-section{
@@ -2892,7 +2985,7 @@
     width:unset;
     justify-content: center;
     margin:40px 0;
-    z-index: 1;
+    z-index: 0;
 }
 .footer .footer-primary .footer-main .footer-banner p{
     padding-right:unset;
@@ -3097,6 +3190,24 @@
     width: unset;
 }
 /* who we detail end */
+.project-score .technologies .tech-been {
+    width: 330px!important;
+    height: 258px;
+}
+.project-score .technologies .technologies-primary>div{
+    width:100%;
+}
+.project-score .tech-container {
+    width: 87%!important;
+}
+/* team section start */
+.team{
+    display: none!important;
+}
+.responsive-slider-team{
+    display: block;
+}
+/* team section end */
 }
 @media (max-width: 1199px) and (min-width: 1024px){
     .home-header .home-setting {

@@ -1,10 +1,15 @@
-import React from "react"
+import React, { useState } from "react";
 import { Link } from "gatsby"
+
 export default () => {
+  const [isToggled, setToggled] = useState(true);
+ const  handleClick =()=> {
+   setToggled(!isToggled)
+ }
   return (
     <section>
       <div className="home-main">
-        <div className="navigation-responsive">
+        {isToggled && <div className="navigation-responsive">
           <div className="overlay-bg">
             <div className="navigation-container">
               <div className="logo-responsive">
@@ -29,7 +34,7 @@ export default () => {
               </div>
             </div>
           </div>
-        </div>
+        </div>}
         <div className="home-setting">
           <div className="home-primary">
             <div className="logo-home">
@@ -40,7 +45,7 @@ export default () => {
               </div>
             </div>
             <div className="navigation-home">
-              <div className="bars-responsive">
+              <div className="bars-responsive" onClick={handleClick}>
                 <span></span>
                 <span></span>
                 <span></span>
