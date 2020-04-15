@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Link } from "gatsby"
 
 export default () => {
-  const [isToggled, setToggled] = useState(true);
+  const [isToggled, setToggled] = useState(false);
  const  handleClick =()=> {
    setToggled(!isToggled)
  }
