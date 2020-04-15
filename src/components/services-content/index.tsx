@@ -10,7 +10,6 @@ export default () => {
           <div className="head-content para-font-size " data-aos="fade-up">
             <h2>
               We help brands to create preference,<br />loyalty and value
-
             </h2>
             <p>
               We are here to help you achieve success in your business that you dreamed of. With our help,
@@ -72,7 +71,7 @@ export default () => {
                 </p>
                 <p>
                   We translate your business goals and objectives into
-                  insightful UX, remarkable UI and distinctive{" "}
+                  insightful UX, remarkable UI
                 </p>
               </div>
             </div>
