@@ -27,8 +27,8 @@ export default () => {
               <div className="content-div para-font-size">
                 <h2>Contact Us </h2>
                 <p>
-                  Lorem ipsum dolor sit amet, con sectetu adipiscing elit. In
-                  sagittis egestas ante, sed viverra nunc.k.
+                  We’d love to learn more about your project, business, and users. 
+                  Drop us a note to tell us more about what you’re looking to do!
                 </p>
               </div>
             </div>
