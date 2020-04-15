@@ -1302,7 +1302,9 @@
 .responsive-slider-team .control-dots li{
     background-color:#e8a233!important;
 }
-
+.navigation-container{
+    display: none;
+}
 /* header start */
 @media (max-width: 479px) and (min-width: 320px){
     .home-header .home-setting{
