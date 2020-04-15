@@ -16,7 +16,7 @@ export default () => {
                 <meta name="description"
                       content="We build business web and application development services that balance code, cost, and compliance. Premium quality. Ethical sourcing."/>
                 <meta name="keywords"
-                      content="Development, Mobile Development, UX/UI, NodeJS, javascript, web design, web dev"/>
+                      content="Development, Mobile Development, UX/UI, NodeJS, javascript, web design, web dev, geekshub, geeks, hub, geekshub.org"/>
                 <meta name="author" content="GeeksHub"/>
                 <meta property="og:title" content="We build sustainable app and web development services."/>
                 <meta property="og:description"
