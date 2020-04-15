@@ -3,8 +3,11 @@ module.exports = {
         title: `Gatsby Typescript Tailwind`,
         description: `An example config of Gatsby + TypeScript + Tailwind CSS`,
         author: `@gatsbyjs`,
+        siteUrl: `https://www.example.com`,
+
     },
     plugins: [
+        `gatsby-plugin-sitemap`,
         `gatsby-plugin-react-helmet`,
         {
             resolve: `gatsby-source-filesystem`,
@@ -66,6 +69,7 @@ module.exports = {
                 anonymize: true,
             },
         },
+
         // this (optional) plugin enables Progressive Web App + Offline functionality
         // To learn more, visit: https://gatsby.dev/offline
         // `gatsby-plugin-offline`,
