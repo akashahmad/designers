@@ -37,7 +37,7 @@ export default () => {
                     >
                         <div className="card-container">
                             <div className="head-img">
-                                <img src={require("../../images/whiterect.png")} alt="GeeksHub-Media"/>
+                                <img src={require("../../images/whiterect.png")} alt="GeeksHub-Media" loading="lazy"/>
                             </div>
                             <div className="card-content para-font-size">
                                 <h2>Creative Design</h2>
@@ -49,7 +49,7 @@ export default () => {
                         </div>
                         <div className="card-container card-set">
                             <div className="head-img vert-card service-card">
-                                <img src={require("../../images/ribbon.png")} alt="GeeksHub-Media"/>
+                                <img src={require("../../images/ribbon.png")} alt="GeeksHub-Media" loading="lazy"/>
                             </div>
                             <div className="card-content para-font-size">
                                 <h2>Web App Development</h2>
@@ -60,7 +60,7 @@ export default () => {
                         </div>
                         <div className="card-container card-set">
                             <div className="head-img vert-card service-card">
-                                <img src={require("../../images/whiterect.png")} alt="GeeksHub-Media"/>
+                                <img src={require("../../images/whiterect.png")} alt="GeeksHub-Media" loading="lazy"/>
                             </div>
                             <div className="card-content para-font-size">
                                 <h2>Mobile App Development</h2>
@@ -69,7 +69,7 @@ export default () => {
                         </div>
                         <div className="card-container card-set">
                             <div className="head-img vert-card service-card">
-                                <img src={require("../../images/ribbon.png")} alt="GeeksHub-Media"/>
+                                <img src={require("../../images/ribbon.png")} alt="GeeksHub-Media" loading="lazy"/>
                             </div>
                             <div className="card-content para-font-size">
                                 <h2>Technology Modernization</h2>

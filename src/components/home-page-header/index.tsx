@@ -42,24 +42,24 @@ export default () => {
               >
                 <div className="slider-image" />
                 <div className="follower-image">
-                  <img src={require("../../images/boti.png")} alt="GeeksHub-Media" />
+                  <img src={require("../../images/boti.png")} alt="GeeksHub-Media" loading="lazy"/>
                 </div>
                 <div className="been-image vert-move">
-                  <img src={require("../../images/bean.svg")} alt="GeeksHub-Media" />
+                  <img src={require("../../images/bean.svg")} alt="GeeksHub-Media" loading="lazy" />
                   <img
                     className="dots-been"
                     src={require("../../images/b-dots.png")}
-                    alt="GeeksHub-Media"
+                    alt="GeeksHub-Media" loading="lazy"
                   />
                   <img
                     className="dots-right"
                     src={require("../../images/b-dots.png")}
-                    alt="GeeksHub-Media"
+                    alt="GeeksHub-Media" loading="lazy"
                   />
                 </div>
               </div>
               <div className="below-side">
-                <img src={require("../../images/side-image.jpg")} alt="GeeksHub-Media" />
+                <img src={require("../../images/side-image.jpg")} alt="GeeksHub-Media" loading="lazy" />
               </div>
             </div>
           </div>

@@ -15,7 +15,7 @@ export default () => {
               <div className="logo-responsive">
                 <div className="logo-container">
                   <Link to="/">
-                    <img src={require("../../images/geekshub-black-logo.png")} alt="GeeksHub-Media" />
+                    <img src={require("../../images/geekshub-black-logo.png")} alt="GeeksHub-Media" loading="lazy" />
                   </Link>
                 </div>
                 <div>
@@ -40,7 +40,7 @@ export default () => {
             <div className="logo-home">
               <div className="logo-container">
                 <Link to="/">
-                  <img src={require("../../images/geekshub-black-logo.png")} alt="GeeksHub-Media" />
+                  <img src={require("../../images/geekshub-black-logo.png")} alt="GeeksHub-Media" loading="lazy" />
                 </Link>
               </div>
             </div>
@@ -51,7 +51,7 @@ export default () => {
                 <span></span>
               </div>
               <div className="svg-bg">
-                <img src={require("../../images/Shape2.jpg")} alt="GeeksHub-Media" />
+                <img src={require("../../images/Shape2.jpg")} alt="GeeksHub-Media" loading="lazy" />
               </div>
               <ul>
                 <li>

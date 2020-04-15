@@ -92,13 +92,13 @@ export default () => {
           <div className="task-slider">
           <Carousel showThumbs={false}>
                 <div>
-                    <img src={require('../../images/c1.jpg')} alt="GeeksHub-Media"/>
+                    <img src={require('../../images/c1.jpg')} alt="GeeksHub-Media" loading="lazy"/>
                 </div>
                 <div>
-                    <img src={require('../../images/c2.jpg')} alt="GeeksHub-Media"/>
+                    <img src={require('../../images/c2.jpg')} alt="GeeksHub-Media" loading="lazy"/>
                 </div>
                 <div>
-                    <img src={require('../../images/c3.jpg')} alt="GeeksHub-Media"/>
+                    <img src={require('../../images/c3.jpg')} alt="GeeksHub-Media" loading="lazy"/>
                 </div>
             </Carousel>
           </div>

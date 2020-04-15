@@ -15,7 +15,7 @@ export default () => {
             data-aos-duration="2000"
           >
             <div className="diamond-img">
-              <img src={require("../../images/diamond.png")} alt="GeeksHub-Media" />
+              <img src={require("../../images/diamond.png")} alt="GeeksHub-Media" loading="lazy" />
             </div>
             <div className="content para-font-size">
               <span>About</span>
