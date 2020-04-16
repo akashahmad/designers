@@ -1,5 +1,4 @@
 import React from "react"
-import Header from "../../components/header/index"
 import AOS from "aos"
 import "aos/dist/aos.css"
 
@@ -7,7 +6,6 @@ typeof document !== "undefined" && AOS.init()
 export default () => {
   return (
     <section className="home-header">
-      <Header />
       <div className="slider-image-res">
         <div className="responsive-slider">
           <div className="header-res-content">
@@ -27,10 +25,11 @@ export default () => {
               data-aos-duration="2000"
             >
               <div className="content-div para-font-size">
-                <h2>Let’s talk about your great ambitions</h2>
+                <h2>Our Agency Services</h2>
                 <p>
-                  We partner with organizations that are looking to create
-                  greater impact in their work and the world around them.
+                 We, being a team of self-driven enthusiasts are determined to bring to you
+                 the ease and reliability in your business that we believe you deserve
+                 by providing you and your users the finest running web and mobile application experience.
                 </p>
               </div>
             </div>
@@ -40,7 +39,7 @@ export default () => {
                 data-aos="fade-up"
                 data-aos-duration="2000"
               >
-                <div className="slider-image" />
+                <div className="slider-image"/>
                 <div className="follower-image">
                   <img src={require("../../images/boti.png")} alt="GeeksHub-Media" loading="lazy" />
                 </div>

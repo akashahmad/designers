@@ -1,6 +1,9 @@
 import React, {useState} from "react"
 export default () => {
     const [isSubmited, setIsSubmitted] = useState(false);
+    const [name, setName] = useState('');
+    const [email, setEmail] = useState('');
+    const [content, setContent] = useState('');
     const submitHandler = (event) => {
         setIsSubmitted(true);
     }
@@ -15,7 +18,10 @@ export default () => {
                     <div className="form-div">
                         <div className="jali-container"></div>
                         <div className="form-main">
-                            {isSubmited?<h2>Form Successfully Submitted. We'll Get Back To You Soon!</h2>:
+                            {isSubmited?<div className="container-success">
+                                <div className="tick-image"></div>
+                                  <div><h2>Form Successfully Submitted. We'll Get Back To You Soon!</h2></div>
+                                </div>:
                                 <form onSubmit={(event) => submitHandler(event)}>
                                 <div className="name-input">
                                     <input type="text" placeholder="Name" required/>

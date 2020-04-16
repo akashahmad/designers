@@ -5,6 +5,7 @@ import About from "../components/about-whowe"
 import Detail from "../components/whatwe-detail"
 import Projects from "../components/project-score"
 import Ourteam from "../components/our-team"
+import Headernav from "../components/header/index"
 import {Helmet} from "react-helmet"
 
 export default () => {
@@ -38,6 +39,7 @@ export default () => {
             <meta property="DC.date.issued" content="date when website was created"/>
             <meta name="google-site-verification" content="JSDvTu058M1UuhdASFVpudUNAhW8rLEJGaIVj4VmyuE"/>
         </Helmet>
+        <Headernav />
         <Header />
         <About />
         <Detail />

@@ -7,7 +7,7 @@ export default () => {
    setToggled(!isToggled)
  }
   return (
-    <section>
+    <section className="home-header new-header">
       <div className="home-main">
         {isToggled && <div className="navigation-responsive">
           <div className="overlay-bg">

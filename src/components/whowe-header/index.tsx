@@ -1,12 +1,10 @@
 import React from "react"
 import AOS from "aos"
 import "aos/dist/aos.css"
-import Header from "../../components/header/index"
 typeof document !== "undefined" && AOS.init()
 export default () => {
   return (
     <section className="home-header whowe-header">
-      <Header />
       <div className="slider-image-res">
         <div className="responsive-slider">
           <div className="header-res-content">

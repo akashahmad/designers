@@ -5,6 +5,7 @@ import Fantacy from "../components/fantacy-card/index"
 import Whowe from "../components/who-we-are/index"
 import Services from "../components/services/index"
 import Agency from "../components/agency-task/index"
+import Headernav from "../components/header/index"
 import {Helmet} from "react-helmet"
 
 
@@ -39,6 +40,7 @@ export default () => {
             <meta property="DC.date.issued" content="date when website was created"/>
             <meta name="google-site-verification" content="JSDvTu058M1UuhdASFVpudUNAhW8rLEJGaIVj4VmyuE"/>
         </Helmet>
+        <Headernav />
         <Header />
         <Fantacy />
         <Whowe />

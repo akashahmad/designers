@@ -2,6 +2,7 @@ import React from "react"
 import Header from "../components/contact-header/index"
 import Footer from "../components/footer/index"
 import Contactform from "../components/contact-form"
+import Headernav from "../components/header/index"
 import {Helmet} from "react-helmet"
 
 export default () => {
@@ -35,6 +36,7 @@ export default () => {
             <meta property="DC.date.issued" content="date when website was created"/>
             <meta name="google-site-verification" content="JSDvTu058M1UuhdASFVpudUNAhW8rLEJGaIVj4VmyuE"/>
         </Helmet>
+        <Headernav/>
         <Header />
         <Contactform />
         <Footer />

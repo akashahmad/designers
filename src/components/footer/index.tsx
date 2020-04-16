@@ -25,8 +25,8 @@ export default () => {
                                 </button>
                             </Link>
                         </div>
-                        {/* <div className="button-bl vert-balloon"></div>
-                         <div className="squre-angle vert-balloon"></div> */}
+                        <div className="button-bl vert-balloon"></div>
+                         <div className="rotate-div vert-balloon"><div className="squre-angle"></div></div>
                     </div>
                     <div className="footer-logo">
                         <div className="footer-logo-img">

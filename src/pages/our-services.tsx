@@ -3,6 +3,7 @@ import Header from "../components/services-header/index"
 import Footer from "../components/footer/index"
 import Content from "../components/services-content/index"
 import Services from "../components/technology-services/index"
+import Headernav from "../components/header/index"
 import {Helmet} from "react-helmet"
 
 export default () => {
@@ -36,6 +37,7 @@ export default () => {
                 <meta property="DC.date.issued" content="date when website was created"/>
                 <meta name="google-site-verification" content="JSDvTu058M1UuhdASFVpudUNAhW8rLEJGaIVj4VmyuE"/>
             </Helmet>
+            <Headernav />
             <Header />
             <Content />
             <Services />
