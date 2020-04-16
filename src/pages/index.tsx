@@ -18,13 +18,13 @@ export default () => {
             <meta property="og:locale" content="en_US"/>
             <meta property="og:type" content="website"/>
             <meta name="description"
-                  content="We build business web and application development services that balance code, cost, and compliance. Premium quality. Ethical sourcing."/>
+                  content="We are working with the modern technologies to build web applications and hybrid applications in both corporate and startup environments with broad and diverse experience that balance code, cost, user experience and performance."/>
             <meta name="keywords"
                   content="Development, Mobile Development, UX/UI, NodeJS, javascript, web design, web dev, geekshub, geeks, hub, geekshub.org"/>
             <meta name="author" content="GeeksHub"/>
             <meta property="og:title" content="GeeksHub"/>
             <meta property="og:description"
-                  content="We build business web and application development services that balance code, cost, and compliance. Premium quality. Ethical sourcing."/>
+                  content="We are working with the modern technologies to build web applications and hybrid applications in both corporate and startup environments with broad and diverse experience that balance code, cost, user experience and performance."/>
             <meta property="og:url" content="https://www.geekshub.org/"/>
             <meta property="og:site_name" content="GeeksHub"/>
             <meta property="og:image" content={require("../images/geekshub-black-logo.png")}/>
@@ -32,7 +32,7 @@ export default () => {
             <meta property="og:image:height" content="420"/>
             <meta name="twitter:card" content="summary"/>
             <meta name="twitter:description"
-                  content="We build business web and application development services that balance code, cost, and compliance. Premium quality. Ethical sourcing."/>
+                  content="We are working with the modern technologies to build web applications and hybrid applications in both corporate and startup environments with broad and diverse experience that balance code, cost, user experience and performance."/>
             <meta name="twitter:title" content="GeeksHub"/>
             <meta name="twitter:site" content="@Geeks__Hub"/>
             <meta name="twitter:image" content={require("../images/geekshub-black-logo.png")}/>
