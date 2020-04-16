@@ -3,9 +3,13 @@ export default () => {
     const [isSubmited, setIsSubmitted] = useState(false);
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
+    const [website, setWebsite] = useState('');
     const [content, setContent] = useState('');
     const submitHandler = (event) => {
         setIsSubmitted(true);
+        
+
+
     }
     return (
         <section className="contact-form">
@@ -24,14 +28,14 @@ export default () => {
                                 </div>:
                                 <form onSubmit={(event) => submitHandler(event)}>
                                 <div className="name-input">
-                                    <input type="text" placeholder="Name" required/>
+                                    <input type="text" placeholder="Name" onChange={event => setName(event.target.value)} required/>
                                 </div>
                                 <div className="emailpass">
-                                    <input type="email" placeholder="Email" required/>
-                                    <input type="text" placeholder="Website"/>
+                                    <input type="email" placeholder="Email" onChange={event => setEmail(event.target.value)} required/>
+                                    <input type="text" placeholder="Website" onChange={event => setWebsite(event.target.value)}/>
                                 </div>
                                 <div className="text-from">
-                                    <textarea placeholder="How can we help ?" required/>
+                                    <textarea placeholder="How can we help ?" onChange={event => setContent(event.target.value)} required/>
                                 </div>
                                 <div className="btn-container">
                                     <button type="submit" className="btn-orange-color btn-form">Contact Us</button>

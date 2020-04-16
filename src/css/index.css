@@ -882,7 +882,7 @@ body{
     border:1px solid #e6f1ff;
     padding:8px 15px;
     margin:10px 0;
-    color:#B5AEC0
+    color:#6f6c73;
 }
 .form-container .name-input input{
     width:100%;
@@ -899,7 +899,7 @@ body{
     padding:8px 15px;
     margin:10px 0;
     width:100%;
-    color:#B5AEC0;
+    color: #6f6c73;
     height: 235px;
 }
 .quick-links{
@@ -1305,6 +1305,18 @@ body{
     0% { transform: translateY(0); }
     100% { transform: translateY(10px); }
 }
+.rotate {
+    -webkit-animation: rotation 2s infinite linear;
+}
+
+@-webkit-keyframes rotation {
+    from {
+            -webkit-transform: rotate(0deg);
+    }
+    to {
+            -webkit-transform: rotate(359deg);
+    }
+}
 /* responsive start */
 .contact-image-bg{
   background-image: url('../images/c1.jpg');
@@ -1314,6 +1326,12 @@ body{
   background-size:cover;
   background-repeat: no-repeat;
   display: none;
+}
+.contact-header .responsive-slider{
+    width:100%;
+    height:100%;
+    display: flex!important;
+    align-items: center;
 }
 .res-bg-image{
     background-image: url('../images/c3.jpg');

@@ -10,7 +10,7 @@ export default () => {
                         <div className="dotted-image"></div>
                         <div className="content-section">
                             <div className="image-left">
-                                <img src={require("../../images/footer-img1.jpg")} alt="GeeksHub-Media" loading="lazy"/>
+                                <img src={require("../../images/ftr.png")} alt="GeeksHub-Media" loading="lazy"/>
                             </div>
                             <h3>We are creatives, so it might be about minions and stuff</h3>
                             <p>
@@ -26,7 +26,7 @@ export default () => {
                             </Link>
                         </div>
                         <div className="button-bl vert-balloon"></div>
-                         <div className="rotate-div vert-balloon"><div className="squre-angle"></div></div>
+                         <div className="rotate-div rotate"><div className="squre-angle"></div></div>
                     </div>
                     <div className="footer-logo">
                         <div className="footer-logo-img">
