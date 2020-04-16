@@ -87,6 +87,17 @@ body{
     position: absolute;
     z-index: -1;
 }
+.services-section .slider-image-res{
+    background-image: url('../images/resourservices.jpg')!important;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: none;
+}
+.services-section .image-unset{
+    background-image: unset!important;
+}
 .home-header .slider-section .home-right-slider .slider-image{
     background-image: url('../images/WhoWeAre.png');
     width: 100%;
@@ -1346,6 +1357,7 @@ body{
   height: 374px;
   background-size:cover;
   background-repeat: no-repeat;
+  background-position:center;
   display: none;
 }
 .contact-header .responsive-slider{
@@ -1431,6 +1443,9 @@ body{
     padding: 84px 18px;
 }
 /* slider responsive home page  */
+.contact-header .responsive-slider{
+   background-image: unset!important;
+}
 .home-header .slider-home-res h2{
     font-weight: 700;
     font-size: 25px;
@@ -1442,7 +1457,12 @@ body{
 }
 .home-header .overlay{
     background-color: rgba(0, 0, 0, 0.5);
+    padding: 84px 18px;
 }
+.home-header .p-set{
+    padding:unset!important;
+}
+
 .home-header .slider-home-res{
     animation-name: responsiveslider;
     animation-duration: 25s;
@@ -1466,6 +1486,9 @@ body{
 /* header start */
 @media (max-width: 479px) and (min-width: 320px){
     .home-header .slider-home-res{
+        display: block;
+    }
+    .services-section .slider-image-res{
         display: block;
     }
     .form-container .jaliright-container{
@@ -1886,6 +1909,9 @@ body{
 
 }
 @media (max-width: 574px) and (min-width: 480px){
+    .services-section .slider-image-res{
+        display: block;
+    }
     .home-header .slider-home-res{
         display: block;
     }
@@ -2242,6 +2268,9 @@ body{
 /* team section end */
 }
 @media (max-width: 991px) and (min-width: 768px){
+    .services-section .slider-image-res{
+        display: block;
+    }
     .home-header .slider-home-res{
         display: block;
     }
@@ -2597,6 +2626,9 @@ body{
 /* team section end */
 }
 @media (max-width: 684px) and (min-width: 575px){
+    .services-section .slider-image-res{
+        display: block;
+    }
     .home-header .slider-home-res{
         display: block;
     }
@@ -2953,6 +2985,9 @@ body{
 /* team section end */
 }
 @media (max-width: 767px) and (min-width: 685px){
+    .services-section .slider-image-res{
+        display: block;
+    }
     .home-header .slider-home-res{
         display: block;
     }

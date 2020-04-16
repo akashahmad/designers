@@ -7,7 +7,7 @@ export default () => {
   return (
     <section className="home-header services-section">
       <div className="slider-image-res">
-        <div className="responsive-slider">
+        <div className="responsive-slider image-unset">
           <div className="header-res-content">
             <h2>Our Agency Services</h2>
             <p>

@@ -1,5 +1,8 @@
 import React, {useState} from "react"
+import axios from 'axios';
+// import Data from '../config';
 export default () => {
+    // console.log(Data)
     const [isSubmited, setIsSubmitted] = useState(false);
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
@@ -7,6 +10,16 @@ export default () => {
     const [content, setContent] = useState('');
     const submitHandler = (event) => {
         setIsSubmitted(true);
+    axios.post(`https://geekshub.herokuapp.com/contact`,
+        {
+            "Name": name,
+            "Email": email,
+            "Website": website,
+            "Message": content
+        })
+      .then(res => {
+        console.log(res.statusText)
+      })
     }
     return (
         <section className="contact-form">
