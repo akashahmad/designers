@@ -7,9 +7,9 @@ export default () => {
   return (
     <section className="home-header">
       <div className="slider-image-res">
-        <div className="responsive-slider">
+        <div className="slider-home-res overlay">
           <div className="header-res-content">
-              <h2>Let’s talk about your great ambitions</h2>
+              <h2>Let’s talk about your great ambitionss</h2>
               <p>We partner with organizations that are looking to create greater impact in their work and the world around them.</p>
           </div>
         </div>
@@ -38,7 +38,7 @@ export default () => {
                 data-aos="fade-up"
                 data-aos-duration="2000"
               >
-                <div className="slider-image" />
+                <div className="homepage" />
                 <div className="follower-image">
                   <img src={require("../../images/boti.png")} alt="GeeksHub-Media" loading="lazy"/>
                 </div>
