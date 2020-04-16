@@ -15,7 +15,7 @@ export default () => {
               <div className="logo-responsive">
                 <div className="logo-container">
                   <Link to="/">
-                    <img src={require("../../images/geekshub-black-logo.png")} alt="GeeksHub-Media" loading="lazy" />
+                    <img src={require("../../images/Geek-Hub-Logo-White.png")} alt="GeeksHub-Media" loading="lazy" />
                   </Link>
                 </div>
                 <div>

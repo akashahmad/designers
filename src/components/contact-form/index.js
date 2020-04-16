@@ -7,9 +7,6 @@ export default () => {
     const [content, setContent] = useState('');
     const submitHandler = (event) => {
         setIsSubmitted(true);
-        
-
-
     }
     return (
         <section className="contact-form">
@@ -38,7 +35,7 @@ export default () => {
                                     <textarea placeholder="How can we help ?" onChange={event => setContent(event.target.value)} required/>
                                 </div>
                                 <div className="btn-container">
-                                    <button type="submit" className="btn-orange-color btn-form">Contact Us</button>
+                                    <button type="submit" className="btn-orange-color btn-form">Submit</button>
                                 </div>
                             </form>}
                         </div>
@@ -52,6 +49,7 @@ export default () => {
                             <p>info@geekshub.org</p>
                         </div>
                         <div className="quick-detail">
+                            <h3>Contact Number</h3>
                             <h3>+92 (0) 3333453636</h3>
                             <p>Monday–Friday 9am-6pm</p>
                         </div>

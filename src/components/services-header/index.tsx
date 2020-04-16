@@ -5,12 +5,16 @@ import "aos/dist/aos.css"
 typeof document !== "undefined" && AOS.init()
 export default () => {
   return (
-    <section className="home-header">
+    <section className="home-header services-section">
       <div className="slider-image-res">
         <div className="responsive-slider">
           <div className="header-res-content">
-              <h2>Let’s talk about your great ambitions</h2>
-              <p>We partner with organizations that are looking to create greater impact in their work and the world around them.</p>
+            <h2>Our Agency Services</h2>
+            <p>
+              We, being a team of self-driven enthusiasts are determined to bring to you
+              the ease and reliability in your business that we believe you deserve
+              by providing you and your users the finest running web and mobile application experience.
+                </p>
           </div>
         </div>
       </div>
@@ -27,9 +31,9 @@ export default () => {
               <div className="content-div para-font-size">
                 <h2>Our Agency Services</h2>
                 <p>
-                 We, being a team of self-driven enthusiasts are determined to bring to you
-                 the ease and reliability in your business that we believe you deserve
-                 by providing you and your users the finest running web and mobile application experience.
+                  We, being a team of self-driven enthusiasts are determined to bring to you
+                  the ease and reliability in your business that we believe you deserve
+                  by providing you and your users the finest running web and mobile application experience.
                 </p>
               </div>
             </div>
@@ -39,7 +43,7 @@ export default () => {
                 data-aos="fade-up"
                 data-aos-duration="2000"
               >
-                <div className="slider-image"/>
+                <div className="slider-image" />
                 <div className="follower-image">
                   <img src={require("../../images/boti.png")} alt="GeeksHub-Media" loading="lazy" />
                 </div>
