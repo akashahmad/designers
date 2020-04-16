@@ -36,7 +36,7 @@ export default () => {
             <meta name="twitter:site" content="@Geeks__Hub"/>
             <meta name="twitter:image" content={require("../images/geekshub-black-logo.png")}/>
             <meta name="twitter:creator" content="@Geeks__Hub"/>
-            <meta property="DC.date.issued" content="date when website was created"/>
+            <meta property="DC.date.issued" content="2017-04-04T16:12:12-05:00"/>
             <meta name="google-site-verification" content="JSDvTu058M1UuhdASFVpudUNAhW8rLEJGaIVj4VmyuE"/>
         </Helmet>
         <Headernav />
