@@ -1278,12 +1278,10 @@ body{
       display:flex;
       justify-content: center;
       background-color:#fff;
+      height: 363px;;
   }
   .responsive-slider-team .control-dotscontrol-dots{
       margin-top: 30px;
-  }
-  .responsive-slider-team .carousel.carousel-slider{
-      height: 363px;
   }
   .responsive-slider-team .control-dots li{
       background-color:#e8a233!important;
@@ -1487,9 +1485,6 @@ body{
 /* home slider end */
 /* header start */
 @media (max-width: 479px) and (min-width: 320px){
-    .responsive-slider-team .carousel.carousel-slider {
-        height: 363px;
-    }
     .home-header .slider-home-res{
         display: block;
     }
