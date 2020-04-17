@@ -1277,6 +1277,9 @@ body{
   .our-team .control-dots li{
     background-color:#e8a233!important;
   }
+  .agency .slider-wrapper{
+      background-color: #fff;
+  }
   .responsive-slider-team .slider-settings{
       display:flex;
       justify-content: center;
