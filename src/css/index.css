@@ -1271,10 +1271,13 @@ body{
   .responsive-slider-team{
       display: none;
   }
-  .our-team{
+  .our-team {
       background-color: #fff;
   }
-  .our-team .control-dots li{
+  .our-team .dot{
+    background-color: red;
+}
+  .our-team .control-dots .selected{
     background-color:#e8a233!important;
   }
   .agency .slider-wrapper{
