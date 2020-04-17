@@ -1,6 +1,5 @@
 import React from "react"
 import AOS from "aos"
-import "aos/dist/aos.css"
 import './style.css'
 import {Carousel} from 'react-responsive-carousel';
 typeof document !== "undefined" && AOS.init()
