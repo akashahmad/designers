@@ -12,7 +12,7 @@ export default () => {
                     <h2>Founders</h2>
                 </div>
                 <div className="responsive-slider-team">
-                    <Carousel className="g-class" showThumbs={false} showArrows={false} showStatus={false}>
+                    <Carousel showThumbs={false} showArrows={false} showStatus={false}>
                         <div className="slider-settings">
                             <div className="team-primary">
                                 <div
