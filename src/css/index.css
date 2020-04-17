@@ -1274,9 +1274,6 @@ body{
   .our-team {
       background-color: #fff;
   }
-  .our-team .name-profile{
-     background-color:red;
-  }
   .our-team .control-dots .selected{
     background-color:#e8a233!important;
   }
