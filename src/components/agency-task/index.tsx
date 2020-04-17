@@ -1,7 +1,6 @@
 import React from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
 typeof document !== "undefined" && AOS.init()
 export default () => {
