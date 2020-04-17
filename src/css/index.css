@@ -1284,7 +1284,7 @@ body{
       margin-top: 30px;
   }
   .task-slider .carousel .slide{
-      background-color:#fff;
+      background-color:#fff!important;
   }
   .responsive-slider-team .control-dots li{
       background-color:#e8a233!important;
