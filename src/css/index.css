@@ -1271,8 +1271,8 @@ body{
   .responsive-slider-team{
       display: none;
   }
-  .responsive-slider-team .carousel .slide{
-      background-color:#fff;
+  .our-team{
+      background-color: red;
   }
   .responsive-slider-team .slider-settings{
       display:flex;
