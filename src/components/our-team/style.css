@@ -1,7 +1,4 @@
 
-.responsive-slider-team .dot{
-    background-color: red;
-}
-.responsive-slider-team h3{
-    background-color: red;
+.our-team .control-dots .selected {
+    background-color: #e8a233!important;
 }
