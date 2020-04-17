@@ -1271,8 +1271,8 @@ body{
   .responsive-slider-team{
       display: none;
   }
-  .our-team{
-      background-color: red;
+  .our-team .control-dots li{
+    background-color:#e8a233!important;
   }
   .responsive-slider-team .slider-settings{
       display:flex;
@@ -1285,9 +1285,6 @@ body{
   }
   .task-slider .carousel .slide{
       background-color:#fff!important;
-  }
-  .responsive-slider-team .control-dots li{
-      background-color:#e8a233!important;
   }
   .navigation-container{
       display: none;
