@@ -6,6 +6,9 @@
 body{
     font-family: 'Raleway', sans-serif!important;
 }
+.g-class .dot{
+    background-color:red!important;
+}
 /* home page header section START  */
 .home-header .home-main{
     display: flex;
@@ -1273,12 +1276,6 @@ body{
   }
   .our-team {
       background-color: #fff;
-  }
-  .our-team .carousel .control-dots .dot{
-    background-color: red;
-   } 
-  .our-team .control-dots .selected{
-    background-color:#e8a233!important;
   }
   .agency .slider-wrapper{
       background-color: #fff;
