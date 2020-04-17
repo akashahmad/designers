@@ -67,7 +67,7 @@ export default () => {
                     <div className="copy-right-section">
                         <p>
                             © Copyright 2020 &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;All Rights
-                            Reserved&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<Link to="/privacy">Privacy Policy</Link>
+                            Reserved&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<Link to="/privacy-policy">Privacy Policy</Link>
                         </p>
                     </div>
                 </div>
