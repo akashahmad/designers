@@ -1278,10 +1278,13 @@ body{
       display:flex;
       justify-content: center;
       background-color:#fff;
-      height: 363px;;
+      height: 348px;
   }
   .responsive-slider-team .control-dotscontrol-dots{
       margin-top: 30px;
+  }
+  .task-slider .carousel .slide{
+      background-color:#fff;
   }
   .responsive-slider-team .control-dots li{
       background-color:#e8a233!important;
