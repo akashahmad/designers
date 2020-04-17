@@ -1340,6 +1340,10 @@ body{
       padding: 18px 0;
       color: #fff;
   }
+  .carousel .control-dots{
+      position: relative;
+      top:4px;
+  }
   .home-header .overlay{
       background-color: rgba(0, 0, 0, 0.5);
       padding: 84px 18px;
