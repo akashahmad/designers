@@ -3,6 +3,7 @@
 @tailwind components;
 
 @tailwind utilities;
+@import '../../node_modules/react-responsive-carousel/lib/styles/carousel.min.css';
 body{
     font-family: 'Raleway', sans-serif!important;
 }
