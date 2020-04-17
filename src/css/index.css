@@ -1271,6 +1271,9 @@ body{
   .responsive-slider-team{
       display: none;
   }
+  .our-team{
+      background-color: #fff;
+  }
   .our-team .control-dots li{
     background-color:#e8a233!important;
   }
