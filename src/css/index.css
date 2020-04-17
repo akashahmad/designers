@@ -1357,6 +1357,7 @@ body{
   height: 374px;
   background-size:cover;
   background-repeat: no-repeat;
+  background-position:center;
   display: none;
 }
 .contact-header .responsive-slider{
@@ -1442,6 +1443,9 @@ body{
     padding: 84px 18px;
 }
 /* slider responsive home page  */
+.contact-header .responsive-slider{
+   background-image: unset!important;
+}
 .home-header .slider-home-res h2{
     font-weight: 700;
     font-size: 25px;
@@ -1458,6 +1462,7 @@ body{
 .home-header .p-set{
     padding:unset!important;
 }
+
 .home-header .slider-home-res{
     animation-name: responsiveslider;
     animation-duration: 25s;
