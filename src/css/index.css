@@ -1233,6 +1233,121 @@ body{
 .graph-color{
     background-color: #e535ab!important;
 }
+/* responsive start */
+.contact-image-bg{
+    background-image: url('../images/ReponsiveContactUs.jpg');
+    display: flex;
+    align-items: center;
+    height: 374px;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    display: none;
+  }
+  .contact-header .responsive-slider{
+      width:100%;
+      height:100%;
+      display: flex!important;
+      align-items: center;
+  }
+  .res-bg-image{
+      background-image: url('../images/home.jpg');
+      width: 100%;
+      height:340px;
+      background-size:cover;
+      background-repeat: no-repeat;
+      margin:33px 0;
+      display:none
+  }
+  .res-bg-whowe{
+      background-image: url('../images/aboutus.jpg');
+      width: 100%;
+      height:340px;
+      background-size:cover;
+      background-repeat: no-repeat;
+      margin:33px 0;
+      display:none
+  }
+  .responsive-slider-team{
+      display: none;
+  }
+  .responsive-slider-team .carousel .slide{
+      background-color:#fff;
+  }
+  .responsive-slider-team .slider-settings{
+      display:flex;
+      justify-content: center;
+      background-color:#fff;
+  }
+  .responsive-slider-team .control-dotscontrol-dots{
+      margin-top: 30px;
+  }
+  .responsive-slider-team .carousel.carousel-slider{
+      height: 363px;
+  }
+  .responsive-slider-team .control-dots li{
+      background-color:#e8a233!important;
+  }
+  .navigation-container{
+      display: none;
+  }
+  /* home slider start */
+  .agency .agency-main .carousel .slide{
+      background:#fff!important;
+  }
+  .agency .agency-main .control-dots .dot{
+      background-color:#e8a233!important;
+  }
+  .agency .agency-main .carousel-slider{
+      height: 363px;
+  }
+  .responsive-slider{
+      background: rgba(0, 0, 0, 0.41);
+  }
+  
+    .responsive-slider{
+      background-image:url('../images/ReponsiveWhoWeAre.jpg');
+      background-repeat: no-repeat;
+      background-size:cover;   
+      background-position: center;
+    }
+    .home-header .responsive-slider .header-res-content h2{
+      color:#000;
+      font-weight: bold;
+      font-size:25px;
+      color:#fff
+   }
+   .home-header .responsive-slider .header-res-content p{
+       padding:18px 0;
+       color:#fff
+    }
+    .home-header .responsive-slider .header-res-content{
+       width:85%;
+   }
+   .home-header .responsive-slider{
+      padding: 84px 18px;
+  }
+  /* slider responsive home page  */
+  .contact-header .responsive-slider{
+     background-image: unset!important;
+  }
+  .home-header .slider-home-res h2{
+      font-weight: 700;
+      font-size: 25px;
+      color: #fff;
+  }
+  .home-header .slider-home-res p{
+      padding: 18px 0;
+      color: #fff;
+  }
+  .home-header .overlay{
+      background-color: rgba(0, 0, 0, 0.5);
+      padding: 84px 18px;
+  }
+  .home-header .p-set{
+      padding:unset!important;
+  }
+  
 /* text animations */
 .focus-in-expand-fwd {
 	-webkit-animation: focus-in-expand-fwd 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
@@ -1348,119 +1463,6 @@ body{
     to {
             -webkit-transform: rotate(359deg);
     }
-}
-/* responsive start */
-.contact-image-bg{
-  background-image: url('../images/ReponsiveContactUs.jpg');
-  display: flex;
-  align-items: center;
-  height: 374px;
-  background-size:cover;
-  background-repeat: no-repeat;
-  background-position:center;
-  display: none;
-}
-.contact-header .responsive-slider{
-    width:100%;
-    height:100%;
-    display: flex!important;
-    align-items: center;
-}
-.res-bg-image{
-    background-image: url('../images/home.jpg');
-    width: 100%;
-    height:340px;
-    background-size:cover;
-    background-repeat: no-repeat;
-    margin:33px 0;
-    display:none
-}
-.res-bg-whowe{
-    background-image: url('../images/aboutus.jpg');
-    width: 100%;
-    height:340px;
-    background-size:cover;
-    background-repeat: no-repeat;
-    margin:33px 0;
-    display:none
-}
-.responsive-slider-team{
-    display: none;
-}
-.responsive-slider-team .carousel .slide{
-    background-color:#fff;
-}
-.responsive-slider-team .slider-settings{
-    display:flex;
-    justify-content: center;
-}
-.responsive-slider-team .control-dotscontrol-dots{
-    margin-top: 30px;
-}
-.responsive-slider-team .carousel.carousel-slider{
-    height: 363px;
-}
-.responsive-slider-team .control-dots li{
-    background-color:#e8a233!important;
-}
-.navigation-container{
-    display: none;
-}
-/* home slider start */
-.agency .agency-main .carousel .slide{
-    background:#fff!important;
-}
-.agency .agency-main .control-dots .dot{
-    background-color:#e8a233!important;
-}
-.agency .agency-main .carousel-slider{
-    height: 363px;
-}
-.responsive-slider{
-    background: rgba(0, 0, 0, 0.41);
-}
-
-  .responsive-slider{
-    background-image:url('../images/ReponsiveWhoWeAre.jpg');
-    background-repeat: no-repeat;
-    background-size:cover;   
-    background-position: center;
-  }
-  .home-header .responsive-slider .header-res-content h2{
-    color:#000;
-    font-weight: bold;
-    font-size:25px;
-    color:#fff
- }
- .home-header .responsive-slider .header-res-content p{
-     padding:18px 0;
-     color:#fff
-  }
-  .home-header .responsive-slider .header-res-content{
-     width:85%;
- }
- .home-header .responsive-slider{
-    padding: 84px 18px;
-}
-/* slider responsive home page  */
-.contact-header .responsive-slider{
-   background-image: unset!important;
-}
-.home-header .slider-home-res h2{
-    font-weight: 700;
-    font-size: 25px;
-    color: #fff;
-}
-.home-header .slider-home-res p{
-    padding: 18px 0;
-    color: #fff;
-}
-.home-header .overlay{
-    background-color: rgba(0, 0, 0, 0.5);
-    padding: 84px 18px;
-}
-.home-header .p-set{
-    padding:unset!important;
 }
 
 .home-header .slider-home-res{
