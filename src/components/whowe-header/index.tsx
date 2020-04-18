@@ -8,8 +8,7 @@ export default () => {
         <div className="responsive-slider">
           <div className="header-res-content">
               <h2>Who We Are</h2>
-              <p> It’s important for us to adhere our values, as they embody our
-                  agency and define the way that we work.</p>
+              <p>We are a team derived to achieve our goals efficiently and successfully and we won't settle for anything less than perfect.</p>
           </div>
         </div>
       </div>
@@ -26,9 +25,7 @@ export default () => {
               <div className="content-div para-font-size">
                 <h2>Who We Are</h2>
                 <p>
-                  It’s important for us to adhere our values, as they embody our
-                  agency and define the way that we work.
-                </p>
+                We are a team derived to achieve our goals efficiently and successfully and we won't settle for anything less than perfect.</p>
               </div>
             </div>
             <div className="home-right-slider">
