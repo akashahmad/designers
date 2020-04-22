@@ -40,10 +40,10 @@ export default () => {
                 <div className="diamond-image vert-diamond"></div>
                 <h2>Mobile app development</h2>
                 <p>
-                  Thanks to the new generation technology we are now
-                  able to stay closer to the users through a mobile application.
                   Keeping in mind that a mobile app is an interface between you and your
                   users, it has to be made with standards set accordingly.
+                </p>
+                <p>
                   To match the standards our team of the best UI/UX designers will work and make your user’s time worthwhile.
                 </p>
               </div>

@@ -18,7 +18,7 @@ export default () => {
                     <p>In some special cases we also use cookies provided by trusted third parties. The followingsection details which third party cookies you might encounter through this site.This site uses Google Analytics which is one of the most widespread and trusted analyticssolution on the web for helping us to understand how you use the site and ways that we canimprove your experience. These cookies may track things such as how long you spend on thesite and the pages that you visit so we can continue to produce engaging content.Third-party analytics are used to track and measure usage of this site so that we can continue toproduce engaging content. These cookies may track things such as how long you spend on thesite or pages you visit which helps us to understand how we can improve the site for you.From time to time we test new features and make subtle changes to the way that this site isdelivered. When we are in the process of testing new features, cookies may be used to ensurethat you receive a consistent experience whilst on the site. Doing so helps us understand whichnew features users appreciate the most.</p>
                     <h2>Contact us</h2>
                     <p>If you  have any queries regarding cookies or the information shared on this page, feel free tocontact us</p>
-                    <Link to="/">admin@geekshub.com</Link>
+                    <Link to="/"> info@geekshub.org</Link>
                 </div>
             </div>
         </div>
