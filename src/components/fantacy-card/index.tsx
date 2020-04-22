@@ -44,8 +44,7 @@ export default () => {
             <div className="card-content para-font-size">
               <h2>Creative Web Solution</h2>
               <p>
-                We translate your business goals and objectives into insightful
-                UX, remarkable UI
+                A powerful web application to satisfy your users with a fast and innovative experience working on a modern system that we will develop exclusively for you.
               </p>
             </div>
           </div>
