@@ -33,7 +33,7 @@ export default () => {
               </p>
               <p>
                 We translate your business goals and objectives into insightful
-                UX, remarkable UI and distinctive
+                UX, remarkable UI
               </p>
             </div>
           </div>
@@ -45,7 +45,7 @@ export default () => {
               <h2>Creative Web Solution</h2>
               <p>
                 We translate your business goals and objectives into insightful
-                UX, remarkable UI and distinctive{" "}
+                UX, remarkable UI
               </p>
             </div>
           </div>
