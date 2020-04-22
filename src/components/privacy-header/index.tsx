@@ -9,8 +9,7 @@ export default () => {
           <div className="header-res-content">
               <h2>Privacy Policy</h2>
               <p>
-                  We’d love to learn more about your project, business, and users. 
-                  Drop us a note to tell us more about what you’re looking to do!
+              We respect your privacy and for that reason we keep your personal information safe and secure.
                </p>
           </div>
         </div>
