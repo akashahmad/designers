@@ -30,9 +30,9 @@ export default () => {
               </p>
             </div>
             <div className="btn-div">
-              <button className="btn-orange-color who-btn">
+              {/* <button className="btn-orange-color who-btn">
                 Read Success Story
-              </button>
+              </button> */}
             </div>
           </div>
           <div className="res-bg-image"></div>
