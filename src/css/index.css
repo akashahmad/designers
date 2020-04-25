@@ -5,6 +5,7 @@
 @import '../../node_modules/aos/dist/aos.css';
 
 @tailwind utilities;
+
 @import '../../node_modules/react-responsive-carousel/lib/styles/carousel.min.css';
 body{
     font-family: 'Raleway', sans-serif!important;
@@ -217,8 +218,58 @@ body{
  .fourofour-page a:hover{
    color: #ef5737;
 }
-
 /* 404 page design end */
+/* privacy start  */
+.privacy-page .space-top{margin-top: 25px;}
+.privacy-page{
+    box-shadow: inset 0 20px 20px 2px hsla(0,0%,77%,.15);
+    padding: 69px 0 60px 0;
+}
+.privacy-header .contact-image-bg{
+    background-image: url('../images/reponsiveprivacy.jpg');
+    align-items: center;
+    height: 374px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    display: none;
+}
+
+.privacy-page .content-section>p,h2,ul{
+    margin-bottom:20px;
+}
+.privacy-page .content-section h2{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+}
+.privacy-page>div{
+    padding:unset
+}
+.privacy-page .content-section p{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+}
+.privacy-page .content-section ul{
+    list-style: circle;
+    padding-left: 16px;
+}
+.privacy-page .content-section a{
+   padding:10px 30px;
+   background-color: #ef5737;
+   color: #fff;
+   border-radius: 8px;
+   top:0;
+} 
+.privacy-page .content-section a:hover{
+    color: #fff;
+ } 
+/* privacy end */
 /* success  start */
     .form-main{
         height: 100%;
@@ -854,6 +905,20 @@ body{
    z-index: -1;
    right:0;
 }
+.privacy-header{
+    height:629px;
+}
+.privacy-header .services-head-image{
+    background-image: url('../images/privacy.png');
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    top: 0;
+    position: absolute;
+    z-index: -1;
+    right:-11px;
+ }
 .without-stroke{
     width: 517px;
     height: 508px;
@@ -1500,6 +1565,23 @@ body{
     .services-section .slider-image-res{
         display: block;
     }
+    .privacy-header .responsive-slider{
+        background-image: unset;
+        width:100%;
+        height:100%;
+        display: flex!important;
+        align-items: center;
+     }
+     .privacy-page{
+        padding: 36px 0 36px;
+     }
+     .privacy-page>div{
+         padding:18px;
+         width: 100%;
+     }
+    .privacy-header .contact-image-bg{
+        display: block;
+    }
     .form-container .jaliright-container{
         right:0;
         display: none;
@@ -1918,6 +2000,23 @@ body{
 
 }
 @media (max-width: 574px) and (min-width: 480px){
+    .privacy-header .responsive-slider{
+        background-image: unset;
+        width:100%;
+        height:100%;
+        display: flex!important;
+        align-items: center;
+     }
+     .privacy-page{
+        padding: 36px 0 36px;
+     }
+     .privacy-page>div{
+         padding:18px;
+         width: 100%;
+     }
+    .privacy-header .contact-image-bg{
+        display: block;
+    }
     .services-section .slider-image-res{
         display: block;
     }
@@ -2277,6 +2376,23 @@ body{
 /* team section end */
 }
 @media (max-width: 991px) and (min-width: 768px){
+    .privacy-header .responsive-slider{
+        background-image: unset;
+        width:100%;
+        height:100%;
+        display: flex!important;
+        align-items: center;
+     }
+     .privacy-page{
+        padding: 36px 0 36px;
+     }
+     .privacy-page>div{
+         padding:18px;
+         width: 100%;
+     }
+    .privacy-header .contact-image-bg{
+        display: block;
+    }
     .services-section .slider-image-res{
         display: block;
     }
@@ -2635,6 +2751,23 @@ body{
 /* team section end */
 }
 @media (max-width: 684px) and (min-width: 575px){
+    .privacy-header .responsive-slider{
+        background-image: unset;
+        width:100%;
+        height:100%;
+        display: flex!important;
+        align-items: center;
+     }
+     .privacy-page{
+        padding: 36px 0 36px;
+     }
+     .privacy-page>div{
+         padding:18px;
+         width: 100%;
+     }
+    .privacy-header .contact-image-bg{
+        display: block;
+    }
     .services-section .slider-image-res{
         display: block;
     }
@@ -2994,6 +3127,23 @@ body{
 /* team section end */
 }
 @media (max-width: 767px) and (min-width: 685px){
+    .privacy-header .responsive-slider{
+        background-image: unset;
+        width:100%;
+        height:100%;
+        display: flex!important;
+        align-items: center;
+     }
+     .privacy-page{
+        padding: 36px 0 36px;
+     }
+     .privacy-page>div{
+         padding:18px;
+         width: 100%;
+     }
+    .privacy-header .contact-image-bg{
+        display: block;
+    }
     .services-section .slider-image-res{
         display: block;
     }

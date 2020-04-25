@@ -29,11 +29,11 @@ export default () => {
                 execution and reporting...that's right, we've got you covered
               </p>
             </div>
-            <div className="btn-div">
+            {/* <div className="btn-div">
               <button className="btn-orange-color who-btn">
                 Read Success Story
               </button>
-            </div>
+            </div> */}
           </div>
           <div className="res-bg-image"></div>
           <div
