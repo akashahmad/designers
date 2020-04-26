@@ -1539,10 +1539,9 @@ body{
 
 .home-header .slider-home-res{
     animation-name: responsiveslider;
-    animation-duration: 25s;
+    animation-duration: 18s;
     animation-iteration-count: infinite;
     background-size: cover;
-    background-position: center;
     background-repeat: no-repeat;
     padding: 84px 18px;
     display:none;
