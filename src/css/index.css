@@ -1541,7 +1541,7 @@ body{
     animation-name: responsiveslider;
     animation-duration: 18s;
     animation-iteration-count: infinite;
-    background-size: cover;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     padding: 84px 18px;
     display:none;
