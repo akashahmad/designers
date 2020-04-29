@@ -14,6 +14,8 @@ export default () => {
               <h2>We have done lot of Agency Task</h2>
             </div>
           </div>
+          <div className="agency-carousel">
+          <Carousel>
           <div className="task-container-primary">
             <div>
               <div className="task-container image-task-one">
@@ -88,17 +90,20 @@ export default () => {
               </div>
             </div>
           </div>
+          <div>2</div>
+          </Carousel>
+          </div>
           <div className="task-slider">
-          <Carousel showThumbs={false}>
-                <div>
-                    <img src={require('../../images/c1.jpg')} alt="GeeksHub-Media" loading="lazy"/>
-                </div>
-                <div>
-                    <img src={require('../../images/c2.jpg')} alt="GeeksHub-Media" loading="lazy"/>
-                </div>
-                <div>
-                    <img src={require('../../images/c3.jpg')} alt="GeeksHub-Media" loading="lazy"/>
-                </div>
+            <Carousel showThumbs={false}>
+              <div>
+                <img src={require('../../images/c1.jpg')} alt="GeeksHub-Media" loading="lazy" />
+              </div>
+              <div>
+                <img src={require('../../images/c2.jpg')} alt="GeeksHub-Media" loading="lazy" />
+              </div>
+              <div>
+                <img src={require('../../images/c3.jpg')} alt="GeeksHub-Media" loading="lazy" />
+              </div>
             </Carousel>
           </div>
         </div>
