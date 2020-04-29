@@ -1,5 +1,6 @@
 import React, {useState} from "react"
 import axios from 'axios';
+import Cards from '../contact-cards/index';
 // import Data from '../config';
 export default () => {
     // console.log(Data)
@@ -22,7 +23,9 @@ export default () => {
       })
     }
     return (
-        <section className="contact-form">
+        <div className="form-cards">
+            <Cards/>
+            <section className="contact-form">
             <div className="contact-primary">
                 <div className="contact-head">
                     <h2>Get In Touch With Us</h2>
@@ -75,5 +78,6 @@ export default () => {
                 </div>
             </div>
         </section>
+        </div>
     )
 }
