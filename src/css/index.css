@@ -496,7 +496,7 @@ body{
     justify-content: center;
 }
 .agency .agency-carousel .carousel-slider{
-    height: unset;
+    height: unset!important;
 }
 .task-slider{display: none;}
 .agency .agency-primary{
@@ -546,6 +546,7 @@ body{
     overflow: hidden;
     position: relative;
     margin: 14px 0;
+    cursor: pointer;
 }
 .agency .agency-primary .task-container-primary .image-task-one{
     background-image: url('../images/c1.jpg');
@@ -598,6 +599,13 @@ body{
     color: #fff;
     font-weight: 600;
 }
+.agency-popup .agency-content{
+   display:flex;
+}
+.agency-popup .agency-content>div{
+    width:50%;
+ }
+
 /* agency section end */
 /* who we page start  */
 .whowe-header .services-head-image{
@@ -1184,7 +1192,7 @@ body{
     padding: 30px 0 0;
 }
 .contant-cards-section .card-contact{
-    width: 70%;
+    width: 58%;
 }
 .contant-cards-section .contact-main-cards .logo-icon{
     width: 28px;
