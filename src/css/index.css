@@ -2508,8 +2508,7 @@ body{
   /* service section end  */
      /* task agency start */
  .agency .agency-primary .task-container-primary .task-container{
-    width: 254px;
-    height: 205px;
+    width: 169px;
 }
 .agency .agency-main{
     width:unset;
@@ -2620,6 +2619,16 @@ body{
 .tech-services .tech-list-main .tech-list .tech-primary>div{
     width:246px;
 }
+.agency-popup .content-info p{
+    padding: 0 0;
+    font-size:12px;
+ }
+ .agency-popup{
+     padding:12px;
+ }
+ .agency .agency-primary .task-container-primary{
+     min-height: unset;
+ }
 }
 @media (max-width: 991px) and (min-width: 768px){
     .con-cards{
@@ -2906,7 +2915,7 @@ body{
   /* service section end  */
    /* task agency start */
  .agency .agency-primary .task-container-primary .task-container{
-    width:352px;
+    width:221px;
 }
 .agency .agency-main{
     width:unset;
@@ -3015,6 +3024,16 @@ body{
 .tech-services .tech-list-main .tech-list .tech-primary ul {
     padding: 0 32px 32px 48px;
 }
+.agency-popup .content-info p{
+    padding: 0 0;
+    font-size:12px;
+ }
+ .agency-popup{
+     padding:12px;
+ }
+ .agency .agency-primary .task-container-primary{
+     min-height: unset;
+ }
 }
 @media (max-width: 684px) and (min-width: 575px){
     .con-cards{
@@ -3295,12 +3314,14 @@ body{
   /* service section end  */
     /* task agency start */
     .agency .agency-primary .task-container-primary .task-container{
-        width: 295px;
-        height: 225px;
+        width: 169px;
     }
     .agency .agency-main{
         width:unset;
         padding:18px;
+    }
+    .agency .agency-primary .task-container-primary{
+        min-height: unset;
     }
     /* agency task section end */
     /* contact form  */
@@ -3408,6 +3429,9 @@ body{
 }
 .tech-services .tech-list-main .tech-list .tech-primary>div{
     width:246px;
+}
+.agency .agency-primary .task-container-primary .task-container{
+    width:186px;
 }
 }
 @media (max-width: 767px) and (min-width: 685px){
@@ -3689,7 +3713,7 @@ body{
   /* service section end  */
     /* task agency start */
  .agency .agency-primary .task-container-primary .task-container{
-    width:337px;
+    width:221px;
 }
 .agency .agency-main{
     width:unset;
@@ -3802,6 +3826,16 @@ body{
 .tech-services .tech-list-main .tech-list .tech-primary>div{
     width:246px;
 }
+.agency-popup .content-info p{
+    padding: 0 0;
+    font-size:12px;
+ }
+ .agency-popup{
+     padding:12px;
+ }
+ .agency .agency-primary .task-container-primary{
+     min-height: unset;
+ }
 }
 @media (max-width: 1199px) and (min-width: 1024px){
     .home-header .home-setting {
@@ -3928,6 +3962,9 @@ body{
     font-size: 23px;
 }
 .tech-services .tech-list-main .tech-list .tech-primary>div{
+    width:292px;
+}
+.agency .agency-primary .task-container-primary .task-container{
     width:292px;
 }
 }
