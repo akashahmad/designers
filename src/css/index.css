@@ -2115,6 +2115,9 @@ body{
 .tech-services .tech-list-main .tech-list .tech-primary>div{
     width:unset;
 }
+.con-cards{
+    flex-direction: column;
+}
 }
 @media (max-width: 574px) and (min-width: 480px){
     .privacy-header .responsive-slider{
@@ -2503,6 +2506,12 @@ body{
 }
 }
 @media (max-width: 991px) and (min-width: 768px){
+    .con-cards{
+        flex-wrap: wrap;
+    }
+    .contant-cards-section .con-cards .contact-main-cards {
+        width: 236px;
+    }    
     .privacy-header .responsive-slider{
         background-image: unset;
         width:100%;
@@ -2891,6 +2900,12 @@ body{
 }
 }
 @media (max-width: 684px) and (min-width: 575px){
+    .con-cards{
+        flex-wrap: wrap;
+    }
+    .contant-cards-section .con-cards .contact-main-cards {
+        width: 150px;
+    }    
     .privacy-header .responsive-slider{
         background-image: unset;
         width:100%;
