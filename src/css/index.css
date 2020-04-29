@@ -540,7 +540,7 @@ body{
     min-height: 800px;
 }
 .agency .agency-primary .task-container-primary .task-container{
-    background-size: 100% 100%;
+    background-size: cover;
     background-repeat: no-repeat;
     width: 390px;
     height: 292px;
@@ -623,7 +623,7 @@ body{
 .image-popup{
     width:100%;
     height:100%;
-    background-size: 100% 100%;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }

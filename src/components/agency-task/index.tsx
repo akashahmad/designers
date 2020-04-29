@@ -423,7 +423,7 @@ export default () => {
                       <div className="agency-content">
                         <div>
                           <div className="image-popup" style={{
-                            backgroundImage: "url(" + require('../../images/nodle.jpg') + ")"
+                            backgroundImage: "url(" + require('../../images/gym.png') + ")"
                           }}></div>
                         </div>
                         <div>
@@ -441,7 +441,7 @@ export default () => {
                     </div>
                   </div>}
                   <div className="task-container" style={{
-                            backgroundImage: "url(" + require('../../images/nodle.jpg') + ")"
+                            backgroundImage: "url(" + require('../../images/gym.png') + ")"
                           }} onClick={() => handleCheck('9')}>
                     <div className="task-overlay">
                       <div className="centent-center">

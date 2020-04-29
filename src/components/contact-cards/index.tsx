@@ -43,7 +43,7 @@ export default () => {
                         <div>
                             <div className={`contact-main-cards ${desktop ? 'active-card' : ''}`} onClick={() => handle('desktop')}>
                                 <div className="logo-icon">
-                                    <img src={require('../../images/desktop-contact.png')} />
+                                    <img src={require('../../images/desktop-contact.png')} alt=""/>
                                 </div>
                                 <div>
                                     <p>Desktop</p>
@@ -53,7 +53,7 @@ export default () => {
                         <div>
                             <div className={`contact-main-cards ${mobile ? 'active-card' : ''}`} onClick={() => handle('mobile')}>
                                 <div className="logo-icon">
-                                    <img src={require('../../images/mobile.png')} />
+                                    <img src={require('../../images/mobile.png')} alt=""/>
                                 </div>
                                 <div>
                                     <p>Mobile</p>
@@ -63,7 +63,7 @@ export default () => {
                         <div>
                             <div className={`contact-main-cards ${other ? 'active-card' : ''}`} onClick={() => handle('other')}>
                                 <div className="logo-icon">
-                                    <img src={require('../../images/desk.png')} />
+                                    <img src={require('../../images/desk.png')} alt=""/>
                                 </div>
                                 <div>
                                     <p>Other</p>
