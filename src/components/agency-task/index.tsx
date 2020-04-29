@@ -97,7 +97,7 @@ export default () => {
                           <div className="content-info">
                             <div className="close-icon" onClick={() => handleClose()}><span>&#10006;</span></div>
                             <h2>AB|FINANCE</h2>
-                            <span><Link to="https://ab.finance/">Website Link</Link></span>
+                            <span><a href="https://ab.finance/" target="_blank">Website Link</a></span>
                             <p>We help you finance a purchase the yacht of your dreams<br />
                             AB|Finance is a member of the Azimut Benetti group, incorporated to assist in financingacquisitions of Azimut yachts.</p>
                             <p>The company will offer finance to customers to assist in the initial purchase of the vessel andshall contribute up to 50% of the purchase price net of taxes.<br />
@@ -132,7 +132,7 @@ export default () => {
                           <div className="content-info">
                             <div className="close-icon" onClick={() => handleClose()}><span>&#10006;</span></div>
                             <h2>Equal parts</h2>
-                            <span><Link to="https://equalparts.com/">Website Link</Link></span>
+                            <span><a href="https://equalparts.com/" target="_blank">Website Link</a></span>
                             <p>Meet high-quality cookware designed to cook faster and clean easier<br />
                             Equal Parts cookware is coated with non-toxic ceramic, so you don’t have to worry aboutharmful chemicals (no PFOA or PTFE) making their way into your food as you cook. And withnon-stick properties, it serves and cleans easily.
                             </p>
@@ -170,7 +170,7 @@ export default () => {
                           <div className="content-info">
                             <div className="close-icon" onClick={() => handleClose()}><span>&#10006;</span></div>
                             <h2>Chaboni Foodservice</h2>
-                            <span><Link to="https://www.chobanifoodservice.com/">Website Link</Link></span>
+                            <span><a href="https://www.chobanifoodservice.com/" target="_blank">Website Link</a></span>
                             <p>Something for everyone<br />
                             Chobani® Greek Yogurt is the perfect option for delivering on great taste and functionality. Yourmenu can do it all with these healthy replacements.<br />
                             Chobani is on a mission to provide better food for more people, including those withmedically-based dietary restrictions. This resource provides information and tips for building adelicious, balanced gluten-free diet using nutrient-rich Chaboni Greek Yogurt.
@@ -206,7 +206,7 @@ export default () => {
                           <div className="content-info">
                             <div className="close-icon" onClick={() => handleClose()}><span>&#10006;</span></div>
                             <h2>NEORig</h2>
-                            <span><Link to="https://neo-rig.com/">Website Link</Link></span>
+                            <span><a href="https://neo-rig.com/">Website Link</a></span>
                             <p>Where German quality & engineering meet American craft <br />
                             The company offers high-quality automated land drilling systems and rig components thatsatisfy the needs of our customers
                             </p>
@@ -244,7 +244,7 @@ export default () => {
                           <div className="content-info">
                             <div className="close-icon" onClick={() => handleClose()}><span>&#10006;</span></div>
                             <h2>Letsgetwavy</h2>
-                            <span><Link to="https://letsgetwavey.com/">Website Link</Link></span>
+                            <span><a href="https://letsgetwavey.com/" target="_blank">Website Link</a></span>
                             <p>Join People Around You Doing Cool Things<br />
                             Joining a party get’s easier than ever with wavy,You can now join the and share the fun with other people.All you have to do is open wavy and click join on any of the party or event that suits you more.
                             </p>
@@ -279,7 +279,7 @@ export default () => {
                           <div className="content-info">
                             <div className="close-icon" onClick={() => handleClose()}><span>&#10006;</span></div>
                             <h2>J.Powers Events</h2>
-                            <span><Link to="https://jpowers.events/">Website Link</Link></span>
+                            <span><a href="https://jpowers.events/">Website Link</a></span>
                             <p>Elegance in every moment.<br />
                             J.Powers are a team of experienced event managers, luxury event venue and cateredexperience that delivers exceptional service and exquisite cuisine working for more than 3decades in Rochester.<br />
                             They provide event spaces that are fully equipped with state-of-the-art audiovisual technologyand first-class amenities.
@@ -317,7 +317,7 @@ export default () => {
                           <div className="content-info">
                             <div className="close-icon" onClick={() => handleClose()}><span>&#10006;</span></div>
                             <h2>The Stylist Group.</h2>
-                            <span><Link to="https://www.thestylistgroup.com/">Website Link</Link></span>
+                            <span><a to="https://www.thestylistgroup.com/" target="_blank">Website Link</a></span>
                             <p>The Stylist Group creates content women are proud to enjoy<br />
                             The stylist group are the content creators and magazine designers for the stylists women. Thestylist group are the digital publishers and with pioneering brands Stylist and Stylist Loves.
                             </p>
@@ -352,7 +352,7 @@ export default () => {
                           <div className="content-info">
                             <div className="close-icon" onClick={() => handleClose()}><span>&#10006;</span></div>
                             <h2>The Everpress</h2>
-                            <span><Link to="https://everpress.com/">Website Link</Link></span>
+                            <span><a href="https://everpress.com/" target="_blank">Website Link</a></span>
                             <p>REAL DESIGNS BY REAL ARTISTS FOR REAL PEOPLE<br />
                             Everpress is a global marketplace for independent creativity. By offering the tools to sell,manufacture, and distribute your own creations; they’re changing the way things get made. No risk.No waste. ​A genuine alternative to the tyranny and wastefulness of conventional retail.
                             </p>
@@ -395,7 +395,7 @@ export default () => {
                           <div className="content-info">
                             <div className="close-icon" onClick={() => handleClose()}><span>&#10006;</span></div>
                             <h2>Nudie Jeans</h2>
-                            <span><Link to="https://www.nudiejeans.com/">Website Link</Link></span>
+                            <span><a href="https://www.nudiejeans.com/" target="_blank">Website Link</a></span>
                             <p>Safe shopping at Nudie jeans Home deliveries for all<br />
                             Nudie Jeans is an online Jeans outlet providing the best quality fabric all around the world. In2013, Nudie Jeans launched the Repair Shop concept. With this came a promise; every pair ofNudie Jeans, no matter where you got them, is eligible for free repairs forever.
                             </p>
@@ -430,7 +430,7 @@ export default () => {
                           <div className="content-info">
                             <div className="close-icon" onClick={() => handleClose()}><span>&#10006;</span></div>
                             <h2>GYMBOX</h2>
-                            <span><Link to="https://gymbox.com">Website Link</Link></span>
+                            <span><a href="https://gymbox.com">Website Link</a></span>
                             <p>Add clean and Jerks to your employee works<br />
                             Gymbox is the chain of non-traditional gyms operating successfully in London. It is home to themost unique and diverse classes in London. Olympic sized boxing rings, combat cages,world-class free weights sections, live DJs and larger-than-life personal trainers.
                             </p>
@@ -500,7 +500,7 @@ export default () => {
                           <div className="content-info">
                             <div className="close-icon" onClick={() => handleClose()}><span>&#10006;</span></div>
                             <h2>The QC Terme Shop</h2>
-                            <span><Link to="https://shop.qcterme.com/en">Website Link</Link></span>
+                            <span><a href="https://shop.qcterme.com/en" target="_blank">Website Link</a></span>
                             <p>Experiences that improve the quality of life.<br />
                             The QC Terme Wellness Centres offer the best well-being experiences in vast architecturalspaces and large gardens, such as whirlpools, saunas, Turkish baths, Kneipp paths, Japanesebaths, foot baths, waterfalls, Vichy showers, relaxation rooms and massage areas.<br />
                             QC Terme creates comprehensive wellness experiences for those who want to improve theirquality of life in the centers located in Bormio, Pré-Saint Didier, Milan, Turin, Rome, SanPellegrino, The Friulian Dolomites and Chamonix-Mont-Blanc.
@@ -538,7 +538,7 @@ export default () => {
                           <div className="content-info">
                             <div className="close-icon" onClick={() => handleClose()}><span>&#10006;</span></div>
                             <h2>Isupportcause</h2>
-                            <span><Link to="https://www.isupportcause.com/">Website Link</Link></span>
+                            <span><a href="https://www.isupportcause.com/" target="_blank">Website Link</a></span>
                             <p>Create a viral campaign to support your cause, raise awareness, and promote yourorganization.<br />
                             Over 700,000+ supporters have used iSupportCause to advocate for various social causes andcampaigns. Thousands of non-profit, NGOs, and corporate organizations are usingiSupportCause daily to launch new campaigns, gather supporters, and raise awareness.
                             </p>
