@@ -551,6 +551,9 @@ body{
     cursor: pointer;
     background-position: center;
 }
+.agency .carousel .slide {
+    background-color: #fff!important;
+}
 .agency .agency-primary .task-container-primary .image-task-one{
     background-image: url('../images/c1.jpg');
 }
