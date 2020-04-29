@@ -1666,6 +1666,9 @@ body{
 /* home slider end */
 /* header start */
 @media (max-width: 479px) and (min-width: 320px){
+    .contant-cards-section .card-contact {
+        width: 100%;
+    }
     .home-header .slider-home-res{
         display: block;
     }
@@ -2118,8 +2121,25 @@ body{
 .con-cards{
     flex-direction: column;
 }
+.con-cards>div{
+    display:flex;
+    justify-content: center;
+}
+.content-head{
+    padding:10px 20px;
+}
+.contant-cards-section .con-cards .contact-main-cards{
+    margin: 0 0 26px 0;
+}
 }
 @media (max-width: 574px) and (min-width: 480px){
+    .con-cards{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .contant-cards-section .con-cards .contact-main-cards {
+        width: 236px;
+    }    
     .privacy-header .responsive-slider{
         background-image: unset;
         width:100%;
@@ -2508,6 +2528,7 @@ body{
 @media (max-width: 991px) and (min-width: 768px){
     .con-cards{
         flex-wrap: wrap;
+        justify-content: center;
     }
     .contant-cards-section .con-cards .contact-main-cards {
         width: 236px;
@@ -2902,6 +2923,7 @@ body{
 @media (max-width: 684px) and (min-width: 575px){
     .con-cards{
         flex-wrap: wrap;
+        justify-content: center;
     }
     .contant-cards-section .con-cards .contact-main-cards {
         width: 150px;
@@ -3293,6 +3315,13 @@ body{
 }
 }
 @media (max-width: 767px) and (min-width: 685px){
+    .con-cards{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .contant-cards-section .con-cards .contact-main-cards {
+        width: 236px;
+    }    
     .privacy-header .responsive-slider{
         background-image: unset;
         width:100%;
