@@ -663,7 +663,30 @@ body{
  .agency-popup .content-info p{
     padding: 15px 0;
  }
-
+.slider-agency .image-container{
+    height: 200px;
+}
+.slider-agency .image-container img{
+    width:100%;
+    height: 100%;
+}
+.res-slider-content{
+    padding:20px;
+    text-align: left;
+}
+.slider-agency .res-slider-content h2{
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+.task-slider .control-dots{
+    bottom:-16px;
+}
+.slider-agency .res-slider-content span{
+    color: #ef5737;
+    font-weight: 600;
+    font-size: 14px;
+ }
 
 /* agency section end */
 /* who we page start  */
@@ -1548,9 +1571,6 @@ body{
   .agency .agency-main .control-dots .dot{
       background-color:#e8a233!important;
   }
-  .agency .agency-main .carousel-slider{
-      height: 363px;
-  }
   .responsive-slider{
       background: rgba(0, 0, 0, 0.41);
   }
@@ -1736,6 +1756,12 @@ body{
 /* home slider end */
 /* header start */
 @media (max-width: 479px) and (min-width: 320px){
+    .agency .agency-main{
+        width:100%;
+    }
+    .res-slider-content p{
+        padding:10px 0;
+    }
     .contant-cards-section .card-contact {
         width: 100%;
     }
