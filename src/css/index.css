@@ -504,7 +504,7 @@ body{
 }
 .agency .agency-primary .agency-head{
     position: relative;
-    top: 25px;
+    top: 20px;
 }
 .agency .agency-primary .agency-head .leaf-image{
     background-image: url('../images/leaves.png');
@@ -536,9 +536,11 @@ body{
     background-repeat: no-repeat;
     background-position: 50%;
     margin: 0 0 15px;
+    position: relative;
+    min-height: 800px;
 }
 .agency .agency-primary .task-container-primary .task-container{
-    background-size: cover;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     width: 390px;
     height: 292px;
@@ -547,6 +549,7 @@ body{
     position: relative;
     margin: 14px 0;
     cursor: pointer;
+    background-position: center;
 }
 .agency .agency-primary .task-container-primary .image-task-one{
     background-image: url('../images/c1.jpg');
@@ -599,12 +602,67 @@ body{
     color: #fff;
     font-weight: 600;
 }
+.agency-popup{
+    width: 80%;
+    background-color: #fff;
+    padding:26px;
+    border-radius: 6px;
+}
+.popup{
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    bottom: 0;
+    left:0;
+    right:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image-popup{
+    width:100%;
+    height:100%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
 .agency-popup .agency-content{
    display:flex;
 }
-.agency-popup .agency-content>div{
+.agency-popup .agency-content>div:nth-child(1) {
     width:50%;
  }
+ .agency-popup .agency-content>div:nth-child(2) {
+    width:50%;
+ }
+ .agency-popup .content-info {
+    text-align: left;
+    padding: 14px 14px 14px 27px;
+    position: relative;
+}
+.agency-popup .close-icon{
+    position: absolute;
+    right:0;
+    cursor: pointer;
+    top:0;
+}
+.agency-popup .close-icon span{
+    color:#000!important;
+}
+ .agency-popup .content-info h2{
+    font-weight: 600;
+    font-size: 22px;
+    margin-bottom: 8px;
+ }
+ .agency-popup .content-info span{
+     color:#ef5737;
+     font-weight: 600;
+    font-size: 14px;
+ }
+ .agency-popup .content-info p{
+    padding: 15px 0;
+ }
+
 
 /* agency section end */
 /* who we page start  */
