@@ -112,9 +112,12 @@ export default () => {
                   }} onClick={() => handleCheck("1")}>
                     <div className="task-overlay">
                       <div className="centent-center">
-                        <p>
-                          AB|FINANCE
+                        <div>
+                          <p>
+                            AB|FINANCE
                         </p>
+                          <p>We help you finance a purchase the yacht of your dreams</p>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -150,9 +153,12 @@ export default () => {
                   }} onClick={() => handleCheck('2')}>
                     <div className="task-overlay">
                       <div className="centent-center">
+                        <div>
                         <p>
                           Equal parts
                         </p>
+                        <p>Meet high-quality cookware designed to cook faster and clean easier</p>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -186,9 +192,12 @@ export default () => {
                   }} onClick={() => handleCheck('3')}>
                     <div className="task-overlay">
                       <div className="centent-center">
-                        <p>
+                       <div>
+                       <p>
                           Chaboni Foodservice
                     </p>
+                        <p>Something for everyone</p>
+                       </div>
                       </div>
                     </div>
                   </div>
@@ -224,9 +233,12 @@ export default () => {
                   }} onClick={() => handleCheck('4')}>
                     <div className="task-overlay">
                       <div className="centent-center">
-                        <p>
+                       <div>
+                       <p>
                           NEORig
                         </p>
+                        <p>Where German quality & engineering meet American craft</p>
+                       </div>
                       </div>
                     </div>
                   </div>
@@ -259,9 +271,12 @@ export default () => {
                   }} onClick={() => handleCheck('5')}>
                     <div className="task-overlay">
                       <div className="centent-center">
-                        <p>
+                       <div>
+                       <p>
                           Letsgetwavy
                       </p>
+                        <p>Join People Around You Doing Cool Things</p>
+                       </div>
                       </div>
                     </div>
                   </div>
@@ -295,9 +310,12 @@ export default () => {
                   }} onClick={() => handleCheck('6')}>
                     <div className="task-overlay">
                       <div className="centent-center">
-                        <p>
+                       <div>
+                       <p>
                           J.Powers Events
                     </p>
+                        <p>Elegance in every moment.</p>
+                       </div>
                       </div>
                     </div>
                   </div>
@@ -332,9 +350,12 @@ export default () => {
                   }} onClick={() => handleCheck('7')}>
                     <div className="task-overlay">
                       <div className="centent-center">
+                        <div>
                         <p>
                           The Stylist Group.
                     </p>
+                        <p>The Stylist Group creates content women are proud to enjoy</p>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -375,9 +396,12 @@ export default () => {
                   }} onClick={() => handleCheck('7')}>
                     <div className="task-overlay">
                       <div className="centent-center">
+                        <div>
                         <p>
                           The Everpress
-                    </p>
+                         </p>
+                        <p>REAL DESIGNS BY REAL ARTISTS FOR REAL PEOPLE</p>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -410,9 +434,12 @@ export default () => {
                   }} onClick={() => handleCheck('8')}>
                     <div className="task-overlay">
                       <div className="centent-center">
+                        <div>
                         <p>
                           Nudie Jeans
                     </p>
+                        <p>Safe shopping at Nudie jeans Home deliveries for all</p>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -445,9 +472,12 @@ export default () => {
                   }} onClick={() => handleCheck('9')}>
                     <div className="task-overlay">
                       <div className="centent-center">
-                        <p>
+                       <div>
+                       <p>
                           GYMBOX
-                    </p>
+                        </p>
+                        <p>Add clean and Jerks to your employee works</p>
+                       </div>
                       </div>
                     </div>
                   </div>
@@ -480,9 +510,12 @@ export default () => {
                   }} onClick={() => handleCheck('10')}>
                     <div className="task-overlay">
                       <div className="centent-center">
+                        <div>
                         <p>
                           Noodle.Ai
-                    </p>
+                        </p>
+                        <p>To create a world without waste.</p>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -516,9 +549,12 @@ export default () => {
                   }} onClick={() => handleCheck('11')}>
                     <div className="task-overlay">
                       <div className="centent-center">
+                        <div>
                         <p>
                           The QC Terme Shop
-                    </p>
+                        </p>
+                        <p>Experiences that improve the quality of life.</p>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -559,9 +595,12 @@ export default () => {
                   }} onClick={() => handleCheck('12')}>
                     <div className="task-overlay">
                       <div className="centent-center">
-                        <p>
-                          Isupportcause
-                    </p>
+                        <div>
+                          <p>
+                            Isupportcause
+                           </p>
+                          <p>Create a viral campaign to support your cause, raise awareness, and promote your organization.</p>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -631,7 +670,7 @@ export default () => {
                   <div className="res-slider-content">
                     <h2>Letsgetwavy</h2>
                     <span><a href="https://letsgetwavey.com/" target="_blank">Website Link</a></span>
-                    <p>Join People Around You Doing Cool Things<br/>Joining a party get’s easier than ever with wavy,You can now join the and share the fun with other people.All you have to do is open wavy and click join on any of the party or event that suits you more.</p>
+                    <p>Join People Around You Doing Cool Things<br />Joining a party get’s easier than ever with wavy,You can now join the and share the fun with other people.All you have to do is open wavy and click join on any of the party or event that suits you more.</p>
                     <p>Not only parties you can now invite or join anyone on the beach for a little sunbath, joinsomeone for a ride or a Gym session, or in dance practice.</p>
                   </div>
                 </div>
@@ -644,7 +683,7 @@ export default () => {
                   <div className="res-slider-content">
                     <h2>J.Powers Events</h2>
                     <span><a href="https://jpowers.events/">Website Link</a></span>
-                    <p>Elegance in every moment.<br/>J.Powers are a team of experienced event managers, luxury event venue and cateredexperience that delivers exceptional service and exquisite cuisine working for more than 3decades in Rochester.<br/>They provide event spaces that are fully equipped with state-of-the-art audiovisual technologyand first-class amenities.</p>
+                    <p>Elegance in every moment.<br />J.Powers are a team of experienced event managers, luxury event venue and cateredexperience that delivers exceptional service and exquisite cuisine working for more than 3decades in Rochester.<br />They provide event spaces that are fully equipped with state-of-the-art audiovisual technologyand first-class amenities.</p>
                     <p>Whether you’re planning a wedding reception, corporate meeting, or social gathering, eachspace is designed to deliver a luxurious experience.</p>
                   </div>
                 </div>
@@ -657,7 +696,7 @@ export default () => {
                   <div className="res-slider-content">
                     <h2>The Everpress</h2>
                     <span><a href="https://everpress.com/" target="_blank">Website Link</a></span>
-                    <p>REAL DESIGNS BY REAL ARTISTS FOR REAL PEOPLE<br/>Everpress is a global marketplace for independent creativity. By offering the tools to sell,manufacture, and distribute your own creations; they’re changing the way things get made. No risk.No waste. ​A genuine alternative to the tyranny and wastefulness of conventional retail.</p>
+                    <p>REAL DESIGNS BY REAL ARTISTS FOR REAL PEOPLE<br />Everpress is a global marketplace for independent creativity. By offering the tools to sell,manufacture, and distribute your own creations; they’re changing the way things get made. No risk.No waste. ​A genuine alternative to the tyranny and wastefulness of conventional retail.</p>
                     <p>Their further features include:</p>
                     <ul><li>Shipping &amp; handling</li><li>Marketing tips, tricks and tools</li><li>Payment processing</li><li>Exporting customer data</li><li>Evergreen campaigns</li><li>Online stores</li></ul>
                   </div>
@@ -671,7 +710,7 @@ export default () => {
                   <div className="res-slider-content">
                     <h2>TNudie Jeans</h2>
                     <span><a href="https://www.nudiejeans.com/" target="_blank">Website Link</a></span>
-                    <p>Safe shopping at Nudie jeans Home deliveries for all<br/>Nudie Jeans is an online Jeans outlet providing the best quality fabric all around the world. In2013, Nudie Jeans launched the Repair Shop concept. With this came a promise; every pair ofNudie Jeans, no matter where you got them, is eligible for free repairs forever.</p>
+                    <p>Safe shopping at Nudie jeans Home deliveries for all<br />Nudie Jeans is an online Jeans outlet providing the best quality fabric all around the world. In2013, Nudie Jeans launched the Repair Shop concept. With this came a promise; every pair ofNudie Jeans, no matter where you got them, is eligible for free repairs forever.</p>
                     <p>The website hosts Re-use facilities to reduce the textile and water waste. Their Re-use Dropsare launched every now and then to make the best and defectless use of the product</p>
                   </div>
                 </div>
@@ -684,7 +723,7 @@ export default () => {
                   <div className="res-slider-content">
                     <h2>GYMBOX</h2>
                     <span><a href="https://gymbox.com">Website Link</a></span>
-                    <p>Add clean and Jerks to your employee works<br/>Gymbox is the chain of non-traditional gyms operating successfully in London. It is home to themost unique and diverse classes in London. Olympic sized boxing rings, combat cages,world-class free weights sections, live DJs and larger-than-life personal trainers.</p>
+                    <p>Add clean and Jerks to your employee works<br />Gymbox is the chain of non-traditional gyms operating successfully in London. It is home to themost unique and diverse classes in London. Olympic sized boxing rings, combat cages,world-class free weights sections, live DJs and larger-than-life personal trainers.</p>
                     <p>It is a playground designed to motivate people through fitness, fun, and full-on sweat-fests. Witha schedule of 110 classes each week, there’s something for everyone – whether you’re after achallenge that’ll put hairs on your chest or send you soaring to a celestial plane.They also provide very Personal Trainers and all the latest state-of-the-art equipment a gymshould ever have.</p>
                   </div>
                 </div>
@@ -697,8 +736,8 @@ export default () => {
                   <div className="res-slider-content">
                     <h2>Noodle.Ai</h2>
                     <span><a href="/https:/noodle.ai/">Website Link</a></span>
-                    <p>To create a world without waste.<br/>Partnering with the world's pioneering organizations to make business more radically efficient,and pushing each other to minimize waste and maximize our resourcefulness.</p>
-                    <p>To create a world without waste.<br/>Partnering with the world's pioneering organizations to make business more radically efficient,and pushing each other to minimize waste and maximize our resourcefulness.</p>
+                    <p>To create a world without waste.<br />Partnering with the world's pioneering organizations to make business more radically efficient,and pushing each other to minimize waste and maximize our resourcefulness.</p>
+                    <p>To create a world without waste.<br />Partnering with the world's pioneering organizations to make business more radically efficient,and pushing each other to minimize waste and maximize our resourcefulness.</p>
                   </div>
                 </div>
               </div>
@@ -710,7 +749,7 @@ export default () => {
                   <div className="res-slider-content">
                     <h2>The QC Terme Shop</h2>
                     <span><a href="https://shop.qcterme.com/en" target="_blank">Website Link</a></span>
-                    <p>Experiences that improve the quality of life.<br/>The QC Terme Wellness Centres offer the best well-being experiences in vast architecturalspaces and large gardens, such as whirlpools, saunas, Turkish baths, Kneipp paths, Japanesebaths, foot baths, waterfalls, Vichy showers, relaxation rooms and massage areas.<br/>QC Terme creates comprehensive wellness experiences for those who want to improve theirquality of life in the centers located in Bormio, Pré-Saint Didier, Milan, Turin, Rome, SanPellegrino, The Friulian Dolomites and Chamonix-Mont-Blanc.</p>
+                    <p>Experiences that improve the quality of life.<br />The QC Terme Wellness Centres offer the best well-being experiences in vast architecturalspaces and large gardens, such as whirlpools, saunas, Turkish baths, Kneipp paths, Japanesebaths, foot baths, waterfalls, Vichy showers, relaxation rooms and massage areas.<br />QC Terme creates comprehensive wellness experiences for those who want to improve theirquality of life in the centers located in Bormio, Pré-Saint Didier, Milan, Turin, Rome, SanPellegrino, The Friulian Dolomites and Chamonix-Mont-Blanc.</p>
                     <p>The centers offer revitalization through the healing properties of the spa water and experiencesthat improve the quality of life.</p>
                   </div>
                 </div>
@@ -723,7 +762,7 @@ export default () => {
                   <div className="res-slider-content">
                     <h2>Isupportcause</h2>
                     <span><a href="https://www.isupportcause.com/" target="_blank">Website Link</a></span>
-                    <p>Create a viral campaign to support your cause, raise awareness, and promote yourorganization.<br/>Over 700,000+ supporters have used iSupportCause to advocate for various social causes andcampaigns. Thousands of non-profit, NGOs, and corporate organizations are usingiSupportCause daily to launch new campaigns, gather supporters, and raise awareness.</p>
+                    <p>Create a viral campaign to support your cause, raise awareness, and promote yourorganization.<br />Over 700,000+ supporters have used iSupportCause to advocate for various social causes andcampaigns. Thousands of non-profit, NGOs, and corporate organizations are usingiSupportCause daily to launch new campaigns, gather supporters, and raise awareness.</p>
                     <ul><li>Use branding your audience is familiar with to increase trust and engagement.</li><li>Link to your organization's donation page or other external pages for additional ways tosupport your cause.</li><li>Keep your supporters focused on your cause by removing advertisements.</li><li>Link your social accounts to increase your followers.</li><li>Provide additional images and mission statements to further explain your cause.</li></ul>
                   </div>
                 </div>
