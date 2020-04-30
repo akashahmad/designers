@@ -25,10 +25,11 @@ export default () => {
     return (
         <div className="form-cards">
             <Cards/>
-            <section className="contact-form">
+            
+            <section className="contact-form" >
             <div className="contact-primary">
                 <div className="contact-head">
-                    <h2>Get In Touch With Us</h2>
+                    <h2 id="form">Get In Touch With Us</h2>
                 </div>
                 <div className="form-container">
                     <div className="jaliright-container"></div>
