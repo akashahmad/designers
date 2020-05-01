@@ -94,7 +94,7 @@ export default () => {
                             ></div>
                             <div className="name-profile">
                                 <h3>Muqarrab Khan</h3>
-                                <p>Co-Founder and UI/UX Designer</p>
+                                <p>Co-Founder and Lead UI/UX Designer</p>
                             </div>
                             {/* <div className="social-link">
                                 <div className="social-container">
