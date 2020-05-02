@@ -7,11 +7,11 @@ export default () => {
             <div>
                 <div className="content-section">
                     <h2>What are cookies</h2>
-                    <p>As per common practice by almost all modern professional websites; this site uses cookies.Cookies are tiny files that are downloaded to a user’s computer, to improve their overallbrowsing experience. This page describes what information they gather, how we use it and whywe sometimes need to store cookies. We will also share how you can prevent cookies frombeing stored. You should know that doing so may downgrade or ‘break’ certain elements of thissite’s functionality, We use cookies for a variety of reasons listed below.</p>
+                    <p>As per common practice by almost all modern professional websites; this site uses cookies. Cookies are tiny files that are downloaded to a user’s computer, to improve their over all browsing experience. This page describes what information they gather, how we use it and whywe sometimes need to store cookies. We will also share how you can prevent cookies from being stored. You should know that doing so may downgrade or ‘break’ certain elements of this site’s functionality, We use cookies for a variety of reasons listed below.</p>
                     <h2>Why we use cookies</h2>
-                    <p>We collect information that your browser sends whenever you visit our Site (“Log Data”). ThisLog Data may include information such as your computer’s  ​IP ​address, browser type, browserversion, the pages of our Site that you visit, the time and date of your visit, the time spent onthose pages and other statistics.</p>
+                    <p>We collect information that your browser sends whenever you visit our Site (“Log Data”). This Log Data may include information such as your computer’s  ​IP ​address, browser type, browser version, the pages of our Site that you visit, the time and date of your visit, the time spent on those pages and other statistics.</p>
                     <h2>Personal Information give out</h2>
-                    <p>Geekshub never shares your personal information and documents with any third-party, If it’s notfor any valid legal processes.</p>
+                    <p>Geekshub never shares your personal information and documents with any third-party, If it’s not for any valid legal processes.</p>
                     <h2>Data security</h2>
                     <p>None of the Geekshub’s personals have access to your information, except for the manager incharge of the customer communications.</p>
                     <h2>We use Third Party Cookies</h2>
