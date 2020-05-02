@@ -99,9 +99,9 @@ export default () => {
                             <h2>AB|FINANCE</h2>
                             <span><a href="https://ab.finance/" target="_blank">Website Link</a></span>
                             <p>We help you finance a purchase the yacht of your dreams<br />
-                            AB|Finance is a member of the Azimut Benetti group, incorporated to assist in financingacquisitions of Azimut yachts.</p>
-                            <p>The company will offer finance to customers to assist in the initial purchase of the vessel andshall contribute up to 50% of the purchase price net of taxes.<br />
-                             The company provides a standard term of 5 years, or 60 monthly installments. In someexceptions, this can be modified to suit the client's needs, however this is at AB Finance's solediscretion.</p>
+                            AB|Finance is a member of the Azimut Benetti group, incorporated to assist in financingac quisitions of Azimut yachts.</p>
+                            <p>The company will offer finance to customers to assist in the initial purchase of the vessel and shall contribute up to 50% of the purchase price net of taxes.<br />
+                             The company provides a standard term of 5 years, or 60 monthly installments. In some exceptions, this can be modified to suit the client's needs, however this is at AB Finance's soled iscretion.</p>
                           </div>
                         </div>
                       </div>
