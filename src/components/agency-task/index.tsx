@@ -175,7 +175,7 @@ export default () => {
                         <div>
                           <div className="image-popup" style={{
                             backgroundImage: "url(" + require('../../images/chaboni.png') + ")"
-                          }}></div>
+                          }}/>
                         </div>
                         <div>
                           <div className="content-info">
@@ -564,52 +564,52 @@ export default () => {
                   </div>
                 </div>
               </div>
-              <div className="task-container-primary">
-                <div>
-                  {tt && <div className="popup">
-                    <div className="agency-popup">
-                      <div className="agency-content">
-                        <div>
-                          <div className="image-popup" style={{
-                            backgroundImage: "url(" + require('../../images/isupport.png') + ")"
-                          }}></div>
-                        </div>
-                        <div>
-                          <div className="content-info">
-                            <div className="close-icon" onClick={() => handleClose()}><span>&#10006;</span></div>
-                            <h2>Isupportcause</h2>
-                            <span><a href="https://www.isupportcause.com/" target="_blank">Website Link</a></span>
-                            <p>
-                            Over 700,000+ supporters have used iSupportCause to advocate for various social causes and campaigns. Thousands of non-profit, NGOs, and corporate organizations are using iSupportCause daily to launch new campaigns, gather supporters, and raise awareness.
-                            </p>
-                            <ul>
-                              <li>Use branding your audience is familiar with to increase trust and engagement.</li>
-                              <li>Link to your organization's donation page or other external pages for additional ways tosupport your cause.</li>
-                              <li>Keep your supporters focused on your cause by removing advertisements.</li>
-                              <li>Link your social accounts to increase your followers.</li>
-                              <li>Provide additional images and mission statements to further explain your cause.</li>
-                            </ul>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>}
-                  <div className="task-container" style={{
-                    backgroundImage: "url(" + require('../../images/isupport.png') + ")"
-                  }} onClick={() => handleCheck('13')}>
-                    <div className="task-overlay">
-                      <div className="centent-center">
-                        <div>
-                          <p>
-                            Isupportcause
-                           </p>
-                          <p>Create a viral campaign to support your cause, raise awareness, and promote your organization.</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
+              {/*<div className="task-container-primary">*/}
+                {/*<div>*/}
+                  {/*{tt && <div className="popup">*/}
+                    {/*<div className="agency-popup">*/}
+                      {/*<div className="agency-content">*/}
+                        {/*<div>*/}
+                          {/*<div className="image-popup" style={{*/}
+                            {/*backgroundImage: "url(" + require('../../images/isupport.png') + ")"*/}
+                          {/*}}></div>*/}
+                        {/*</div>*/}
+                        {/*<div>*/}
+                          {/*<div className="content-info">*/}
+                            {/*<div className="close-icon" onClick={() => handleClose()}><span>&#10006;</span></div>*/}
+                            {/*<h2>Isupportcause</h2>*/}
+                            {/*<span><a href="https://www.isupportcause.com/" target="_blank">Website Link</a></span>*/}
+                            {/*<p>*/}
+                            {/*Over 700,000+ supporters have used iSupportCause to advocate for various social causes and campaigns. Thousands of non-profit, NGOs, and corporate organizations are using iSupportCause daily to launch new campaigns, gather supporters, and raise awareness.*/}
+                            {/*</p>*/}
+                            {/*<ul>*/}
+                              {/*<li>Use branding your audience is familiar with to increase trust and engagement.</li>*/}
+                              {/*<li>Link to your organization's donation page or other external pages for additional ways tosupport your cause.</li>*/}
+                              {/*<li>Keep your supporters focused on your cause by removing advertisements.</li>*/}
+                              {/*<li>Link your social accounts to increase your followers.</li>*/}
+                              {/*<li>Provide additional images and mission statements to further explain your cause.</li>*/}
+                            {/*</ul>*/}
+                          {/*</div>*/}
+                        {/*</div>*/}
+                      {/*</div>*/}
+                    {/*</div>*/}
+                  {/*</div>}*/}
+                  {/*<div className="task-container" style={{*/}
+                    {/*backgroundImage: "url(" + require('../../images/isupport.png') + ")"*/}
+                  {/*}} onClick={() => handleCheck('13')}>*/}
+                    {/*<div className="task-overlay">*/}
+                      {/*<div className="centent-center">*/}
+                        {/*<div>*/}
+                          {/*<p>*/}
+                            {/*Isupportcause*/}
+                           {/*</p>*/}
+                          {/*<p>Create a viral campaign to support your cause, raise awareness, and promote your organization.</p>*/}
+                        {/*</div>*/}
+                      {/*</div>*/}
+                    {/*</div>*/}
+                  {/*</div>*/}
+                {/*</div>*/}
+              {/*</div>*/}
             </Carousel>
           </div>
           <div className="task-slider">
