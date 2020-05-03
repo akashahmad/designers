@@ -17,6 +17,7 @@ export default () => {
   const [ten, setTen] = useState(false);
   const [eleven, setEleven] = useState(false);
   const [tw, setTw] = useState(false);
+  const [tt, setTt] = useState(false);
   const handleCheck = (key: any) => {
     switch (key) {
       case '1':
@@ -55,6 +56,9 @@ export default () => {
       case '12':
         setTw(!tw)
         break;
+        case '13':
+        setTt(!tt)
+        break;
     }
   }
   const handleClose = () => {
@@ -70,6 +74,7 @@ export default () => {
     setTen(false);
     setEleven(false);
     setTw(false);
+    setTt(false);
   }
   return (
     <section className="agency">
@@ -137,10 +142,10 @@ export default () => {
                             <h2>Equal parts</h2>
                             <span><a href="https://equalparts.com/" target="_blank">Website Link</a></span>
                             <p>Meet high-quality cookware designed to cook faster and clean easier<br />
-                            Equal Parts cookware is coated with non-toxic ceramic, so you don’t have to worry aboutharmful chemicals (no PFOA or PTFE) making their way into your food as you cook. And withnon-stick properties, it serves and cleans easily.
+                            Equal Parts cookware is coated with non-toxic ceramic, so you don’t have to worry about harmful chemicals (no PFOA or PTFE) making their way into your food as you cook. And withnon-stick properties, it serves and cleans easily.
                             </p>
-                            <p>We want to help you build a kitchen you love without taking up valuable space. We consciouslydesigned our products to be multi-purpose, suitable for cooking and serving. Plus, our pots andpans and mixing bowls also feature universal lids.<br />
-                            We chose matte black so our products feel at home in any kitchen. Our gender-neutralapproach makes them classic and accessible for any home cook.
+                            <p>We want to help you build a kitchen you love without taking up valuable space. We consciously designed our products to be multi-purpose, suitable for cooking and serving. Plus, our pots and pans and mixing bowls also feature universal lids.<br />
+                            We chose matte black so our products feel at home in any kitchen. Our gender-neutral approach makes them classic and accessible for any home cook.
                             </p>
 
                           </div>
@@ -179,9 +184,9 @@ export default () => {
                             <span><a href="https://www.chobanifoodservice.com/" target="_blank">Website Link</a></span>
                             <p>Something for everyone<br />
                             Chobani® Greek Yogurt is the perfect option for delivering on great taste and functionality. Yourmenu can do it all with these healthy replacements.<br />
-                            Chobani is on a mission to provide better food for more people, including those withmedically-based dietary restrictions. This resource provides information and tips for building adelicious, balanced gluten-free diet using nutrient-rich Chaboni Greek Yogurt.
+                            Chobani is on a mission to provide better food for more people, including those with medically-based dietary restrictions. This resource provides information and tips for building adelicious, balanced gluten-free diet using nutrient-rich Chaboni Greek Yogurt.
                             </p>
-                            <p>With a power-packed protein profile that outweighs the small amount of sugar used to balancetaste, Chaboni Greek Yogurt is a nutritious protein choice that can help people meet dietaryrecommendations and achieve an overall healthier diet conveniently and easily.</p>
+                            <p>With a power-packed protein profile that outweighs the small amount of sugar used to balance taste, Chaboni Greek Yogurt is a nutritious protein choice that can help people meet dietary recommendations and achieve an overall healthier diet conveniently and easily.</p>
                           </div>
                         </div>
                       </div>
@@ -221,7 +226,7 @@ export default () => {
                             </p>
                             <p>
                               Their worldwide network of state-of-the-art facilities and highly trained staff allows us to offer awide range of services that meet industry specifications<br />
-                            hey expand our global manufacturing footprint with fit-for-purpose rig and well constructionsystems that mobilize the future inland drilling.
+                            they expand our global manufacturing footprint with fit-for-purpose rig and well construction systems that mobilize the future inland drilling.
                             </p>
                           </div>
                         </div>
@@ -260,7 +265,7 @@ export default () => {
                             <p>Join People Around You Doing Cool Things<br />
                             Joining a party get’s easier than ever with wavy,You can now join the and share the fun with other people.All you have to do is open wavy and click join on any of the party or event that suits you more.
                             </p>
-                            <p>Not only parties you can now invite or join anyone on the beach for a little sunbath, joinsomeone for a ride or a Gym session, or in dance practice.</p>
+                            <p>Not only parties you can now invite or join anyone on the beach for a little sunbath, join someone for a ride or a Gym session, or in dance practice.</p>
                           </div>
                         </div>
                       </div>
@@ -296,8 +301,8 @@ export default () => {
                             <h2>J.Powers Events</h2>
                             <span><a href="https://jpowers.events/">Website Link</a></span>
                             <p>Elegance in every moment.<br />
-                            J.Powers are a team of experienced event managers, luxury event venue and cateredexperience that delivers exceptional service and exquisite cuisine working for more than 3decades in Rochester.<br />
-                            They provide event spaces that are fully equipped with state-of-the-art audiovisual technologyand first-class amenities.
+                            J.Powers are a team of experienced event managers, luxury event venue and catered experience that delivers exceptional service and exquisite cuisine working for more than 3 decades in Rochester.<br />
+                            They provide event spaces that are fully equipped with state-of-the-art audiovisual technology and first-class amenities.
                             </p>
                             <p>Whether you’re planning a wedding reception, corporate meeting, or social gathering, eachspace is designed to deliver a luxurious experience.</p>
                           </div>
@@ -361,7 +366,7 @@ export default () => {
                   </div>
                 </div>
                 <div>
-                  {seven && <div className="popup">
+                  {eight && <div className="popup">
                     <div className="agency-popup">
                       <div className="agency-content">
                         <div>
@@ -374,9 +379,8 @@ export default () => {
                             <div className="close-icon" onClick={() => handleClose()}><span>&#10006;</span></div>
                             <h2>The Everpress</h2>
                             <span><a href="https://everpress.com/" target="_blank">Website Link</a></span>
-                            <p>REAL DESIGNS BY REAL ARTISTS FOR REAL PEOPLE<br />
-                            Everpress is a global marketplace for independent creativity. By offering the tools to sell,manufacture, and distribute your own creations; they’re changing the way things get made. No risk.No waste. ​A genuine alternative to the tyranny and wastefulness of conventional retail.
-                            </p>
+                            <p>REAL DESIGNS BY REAL ARTISTS FOR REAL PEOPLE<br/>
+                            Everpress is a global marketplace for independent creativity. By offering the tools to sell, manufacture, and distribute your own creations; they’re changing the way things get made. No risk. No waste. A genuine alternative to the tyranny and wastefulness of conventional retail.</p>
                             <p>Their further features include:</p>
                             <ul>
                               <li>Shipping & handling</li>
@@ -393,12 +397,12 @@ export default () => {
                   </div>}
                   <div className="task-container" style={{
                     backgroundImage: "url(" + require('../../images/epress.jpg') + ")"
-                  }} onClick={() => handleCheck('7')}>
+                  }} onClick={() => handleCheck('8')}>
                     <div className="task-overlay">
                       <div className="centent-center">
                         <div>
                         <p>
-                          The Everpress
+                        The Everpress
                          </p>
                         <p>REAL DESIGNS BY REAL ARTISTS FOR REAL PEOPLE</p>
                         </div>
@@ -407,7 +411,7 @@ export default () => {
                   </div>
                 </div>
                 <div>
-                  {eight && <div className="popup">
+                  {nine && <div className="popup">
                     <div className="agency-popup">
                       <div className="agency-content">
                         <div>
@@ -420,10 +424,10 @@ export default () => {
                             <div className="close-icon" onClick={() => handleClose()}><span>&#10006;</span></div>
                             <h2>Nudie Jeans</h2>
                             <span><a href="https://www.nudiejeans.com/" target="_blank">Website Link</a></span>
-                            <p>Safe shopping at Nudie jeans Home deliveries for all<br />
-                            Nudie Jeans is an online Jeans outlet providing the best quality fabric all around the world. In2013, Nudie Jeans launched the Repair Shop concept. With this came a promise; every pair ofNudie Jeans, no matter where you got them, is eligible for free repairs forever.
-                            </p>
-                            <p>The website hosts Re-use facilities to reduce the textile and water waste. Their Re-use Dropsare launched every now and then to make the best and defectless use of the product</p>
+                              <p>Safe shopping at Nudie jeans Home deliveries for all<br/>
+                                Nudie Jeans is an online Jeans outlet providing the best quality fabric all around the world. In 2013, Nudie Jeans launched the Repair Shop concept. With this came a promise; every pair of Nudie Jeans, no matter where you got them, is eligible for free repairs forever.
+                              </p>
+                              <p>The website hosts Re-use facilities to reduce the textile and water waste. Their Re-use Drops are launched every now and then to make the best and defectless use of the product</p>
                           </div>
                         </div>
                       </div>
@@ -431,21 +435,21 @@ export default () => {
                   </div>}
                   <div className="task-container" style={{
                     backgroundImage: "url(" + require('../../images/jeans.jpg') + ")"
-                  }} onClick={() => handleCheck('8')}>
+                  }} onClick={() => handleCheck('9')}>
                     <div className="task-overlay">
                       <div className="centent-center">
                         <div>
                         <p>
-                          Nudie Jeans
+                        Nudie Jeans
                     </p>
-                        <p>Safe shopping at Nudie jeans Home deliveries for all</p>
+                        <p>Safe shopping at Nudie jeans Home deliveries for al</p>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
                 <div>
-                  {nine && <div className="popup">
+                  {ten && <div className="popup">
                     <div className="agency-popup">
                       <div className="agency-content">
                         <div>
@@ -461,7 +465,7 @@ export default () => {
                             <p>Add clean and Jerks to your employee works<br />
                             Gymbox is the chain of non-traditional gyms operating successfully in London. It is home to themost unique and diverse classes in London. Olympic sized boxing rings, combat cages,world-class free weights sections, live DJs and larger-than-life personal trainers.
                             </p>
-                            <p>It is a playground designed to motivate people through fitness, fun, and full-on sweat-fests. Witha schedule of 110 classes each week, there’s something for everyone – whether you’re after achallenge that’ll put hairs on your chest or send you soaring to a celestial plane.They also provide very Personal Trainers and all the latest state-of-the-art equipment a gymshould ever have.</p>
+                            <p>It is a playground designed to motivate people through fitness, fun, and full-on sweat-fests. With a schedule of 110 classes each week, there’s something for everyone – whether you’re after a challenge that’ll put hairs on your chest or send you soaring to a celestial plane.They also provide very Personal Trainers and all the latest state-of-the-art equipment a gym should ever have.</p>
                           </div>
                         </div>
                       </div>
@@ -469,7 +473,7 @@ export default () => {
                   </div>}
                   <div className="task-container" style={{
                     backgroundImage: "url(" + require('../../images/gym.png') + ")"
-                  }} onClick={() => handleCheck('9')}>
+                  }} onClick={() => handleCheck('10')}>
                     <div className="task-overlay">
                       <div className="centent-center">
                        <div>
@@ -483,7 +487,7 @@ export default () => {
                   </div>
                 </div>
                 <div>
-                  {ten && <div className="popup">
+                  {eleven && <div className="popup">
                     <div className="agency-popup">
                       <div className="agency-content">
                         <div>
@@ -499,7 +503,7 @@ export default () => {
                             <p>To create a world without waste.<br />
                             Partnering with the world's pioneering organizations to make business more radically efficient,and pushing each other to minimize waste and maximize our resourcefulness.
                             </p>
-                            <p>Their quirky, smart, interdisciplinary team of data scientists, engineers, designers, hardwarenerds, and supply chain experts have researched, calculated, coded, designed, and built theleading portfolio of Enterprise AI® products to reduce waste across complex supply chains andmanufacturing companies.</p>
+                            <p>Their quirky, smart, inter disciplinary team of data scientists, engineers, designers, hardware nerds, and supply chain experts have researched, calculated, coded, designed, and built the leading portfolio of Enterprise AI® products to reduce waste across complex supply chains and manufacturing companies.</p>
                           </div>
                         </div>
                       </div>
@@ -507,7 +511,7 @@ export default () => {
                   </div>}
                   <div className="task-container" style={{
                     backgroundImage: "url(" + require('../../images/nodle.jpg') + ")"
-                  }} onClick={() => handleCheck('10')}>
+                  }} onClick={() => handleCheck('11')}>
                     <div className="task-overlay">
                       <div className="centent-center">
                         <div>
@@ -521,7 +525,7 @@ export default () => {
                   </div>
                 </div>
                 <div>
-                  {eleven && <div className="popup">
+                  {tw && <div className="popup">
                     <div className="agency-popup">
                       <div className="agency-content">
                         <div>
@@ -536,9 +540,9 @@ export default () => {
                             <span><a href="https://shop.qcterme.com/en" target="_blank">Website Link</a></span>
                             <p>Experiences that improve the quality of life.<br />
                             The QC Terme Wellness Centres offer the best well-being experiences in vast architecturalspaces and large gardens, such as whirlpools, saunas, Turkish baths, Kneipp paths, Japanesebaths, foot baths, waterfalls, Vichy showers, relaxation rooms and massage areas.<br />
-                            QC Terme creates comprehensive wellness experiences for those who want to improve theirquality of life in the centers located in Bormio, Pré-Saint Didier, Milan, Turin, Rome, SanPellegrino, The Friulian Dolomites and Chamonix-Mont-Blanc.
+                            QC Terme creates comprehensive wellness experiences for those who want to improve their quality of life in the centers located in Bormio, Pré-Saint Didier, Milan, Turin, Rome, SanPellegrino, The Friulian Dolomites and Chamonix-Mont-Blanc.
                             </p>
-                            <p>The centers offer revitalization through the healing properties of the spa water and experiencesthat improve the quality of life.</p>
+                            <p>The centers offer revitalization through the healing properties of the spa water and experiences that improve the quality of life.</p>
                           </div>
                         </div>
                       </div>
@@ -546,7 +550,7 @@ export default () => {
                   </div>}
                   <div className="task-container" style={{
                     backgroundImage: "url(" + require('../../images/qc.jpg') + ")"
-                  }} onClick={() => handleCheck('11')}>
+                  }} onClick={() => handleCheck('12')}>
                     <div className="task-overlay">
                       <div className="centent-center">
                         <div>
@@ -562,7 +566,7 @@ export default () => {
               </div>
               <div className="task-container-primary">
                 <div>
-                  {tw && <div className="popup">
+                  {tt && <div className="popup">
                     <div className="agency-popup">
                       <div className="agency-content">
                         <div>
@@ -576,7 +580,7 @@ export default () => {
                             <h2>Isupportcause</h2>
                             <span><a href="https://www.isupportcause.com/" target="_blank">Website Link</a></span>
                             <p>Create a viral campaign to support your cause, raise awareness, and promote yourorganization.<br />
-                            Over 700,000+ supporters have used iSupportCause to advocate for various social causes andcampaigns. Thousands of non-profit, NGOs, and corporate organizations are usingiSupportCause daily to launch new campaigns, gather supporters, and raise awareness.
+                            Over 700,000+ supporters have used iSupportCause to advocate for various social causes and campaigns. Thousands of non-profit, NGOs, and corporate organizations are using iSupportCause daily to launch new campaigns, gather supporters, and raise awareness.
                             </p>
                             <ul>
                               <li>Use branding your audience is familiar with to increase trust and engagement.</li>
@@ -592,7 +596,7 @@ export default () => {
                   </div>}
                   <div className="task-container" style={{
                     backgroundImage: "url(" + require('../../images/isupport.png') + ")"
-                  }} onClick={() => handleCheck('12')}>
+                  }} onClick={() => handleCheck('13')}>
                     <div className="task-overlay">
                       <div className="centent-center">
                         <div>
@@ -631,8 +635,8 @@ export default () => {
                   <div className="res-slider-content">
                     <h2>Equal parts</h2>
                     <span><a href="https://equalparts.com/" target="_blank">Website Link</a></span>
-                    <p>Meet high-quality cookware designed to cook faster and clean easier<br />Equal Parts cookware is coated with non-toxic ceramic, so you don’t have to worry aboutharmful chemicals (no PFOA or PTFE) making their way into your food as you cook. And withnon-stick properties, it serves and cleans easily.</p>
-                    <p>We want to help you build a kitchen you love without taking up valuable space. We consciouslydesigned our products to be multi-purpose, suitable for cooking and serving. Plus, our pots andpans and mixing bowls also feature universal lids.<br />We chose matte black so our products feel at home in any kitchen. Our gender-neutralapproach makes them classic and accessible for any home cook.</p>
+                    <p>Meet high-quality cookware designed to cook faster and clean easier<br />Equal Parts cookware is coated with non-toxic ceramic, so you don’t have to worry about harmful chemicals (no PFOA or PTFE) making their way into your food as you cook. And withnon-stick properties, it serves and cleans easily.</p>
+                    <p>We want to help you build a kitchen you love without taking up valuable space. We consciously designed our products to be multi-purpose, suitable for cooking and serving. Plus, our pots and pans and mixing bowls also feature universal lids.<br />We chose matte black so our products feel at home in any kitchen. Our gender-neutral approach makes them classic and accessible for any home cook.</p>
                   </div>
                 </div>
               </div>
@@ -644,8 +648,8 @@ export default () => {
                   <div className="res-slider-content">
                     <h2>Chaboni Foodservice</h2>
                     <span><a href="https://www.chobanifoodservice.com/" target="_blank">Website Link</a></span>
-                    <p>Something for everyone<br />Chobani® Greek Yogurt is the perfect option for delivering on great taste and functionality. Yourmenu can do it all with these healthy replacements.<br />Chobani is on a mission to provide better food for more people, including those withmedically-based dietary restrictions. This resource provides information and tips for building adelicious, balanced gluten-free diet using nutrient-rich Chaboni Greek Yogurt.</p>
-                    <p>With a power-packed protein profile that outweighs the small amount of sugar used to balancetaste, Chaboni Greek Yogurt is a nutritious protein choice that can help people meet dietaryrecommendations and achieve an overall healthier diet conveniently and easily.</p>
+                    <p>Something for everyone<br />Chobani® Greek Yogurt is the perfect option for delivering on great taste and functionality. Yourmenu can do it all with these healthy replacements.<br />Chobani is on a mission to provide better food for more people, including those with medically-based dietary restrictions. This resource provides information and tips for building adelicious, balanced gluten-free diet using nutrient-rich Chaboni Greek Yogurt.</p>
+                    <p>With a power-packed protein profile that outweighs the small amount of sugar used to balance taste, Chaboni Greek Yogurt is a nutritious protein choice that can help people meet dietary recommendations and achieve an overall healthier diet conveniently and easily.</p>
                   </div>
                 </div>
               </div>
@@ -658,7 +662,7 @@ export default () => {
                     <h2>NEORig</h2>
                     <span><a href="https://neo-rig.com/">Website Link</a></span>
                     <p>Where German quality &amp; engineering meet American craft <br />The company offers high-quality automated land drilling systems and rig components thatsatisfy the needs of our customers</p>
-                    <p>Their worldwide network of state-of-the-art facilities and highly trained staff allows us to offer awide range of services that meet industry specifications<br />hey expand our global manufacturing footprint with fit-for-purpose rig and well constructionsystems that mobilize the future inland drilling.</p>
+                    <p>Their worldwide network of state-of-the-art facilities and highly trained staff allows us to offer awide range of services that meet industry specifications<br />hey expand our global manufacturing footprint with fit-for-purpose rig and well construction systems that mobilize the future inland drilling.</p>
                   </div>
                 </div>
               </div>
@@ -671,7 +675,7 @@ export default () => {
                     <h2>Letsgetwavy</h2>
                     <span><a href="https://letsgetwavey.com/" target="_blank">Website Link</a></span>
                     <p>Join People Around You Doing Cool Things<br />Joining a party get’s easier than ever with wavy,You can now join the and share the fun with other people.All you have to do is open wavy and click join on any of the party or event that suits you more.</p>
-                    <p>Not only parties you can now invite or join anyone on the beach for a little sunbath, joinsomeone for a ride or a Gym session, or in dance practice.</p>
+                    <p>Not only parties you can now invite or join anyone on the beach for a little sunbath, join someone for a ride or a Gym session, or in dance practice.</p>
                   </div>
                 </div>
               </div>
@@ -683,7 +687,8 @@ export default () => {
                   <div className="res-slider-content">
                     <h2>J.Powers Events</h2>
                     <span><a href="https://jpowers.events/">Website Link</a></span>
-                    <p>Elegance in every moment.<br />J.Powers are a team of experienced event managers, luxury event venue and cateredexperience that delivers exceptional service and exquisite cuisine working for more than 3decades in Rochester.<br />They provide event spaces that are fully equipped with state-of-the-art audiovisual technologyand first-class amenities.</p>
+                    <p>Elegance in every moment.<br />J.Powers are a team of experienced event managers, luxury event venue and catered experience that delivers exceptional service and exquisite cuisine working for more than 3 decades in Rochester.</p>
+                    <p>They provide event spaces that are fully equipped with state-of-the-art audiovisual technology and first-class amenities.</p>
                     <p>Whether you’re planning a wedding reception, corporate meeting, or social gathering, eachspace is designed to deliver a luxurious experience.</p>
                   </div>
                 </div>
@@ -724,7 +729,7 @@ export default () => {
                     <h2>GYMBOX</h2>
                     <span><a href="https://gymbox.com">Website Link</a></span>
                     <p>Add clean and Jerks to your employee works<br />Gymbox is the chain of non-traditional gyms operating successfully in London. It is home to themost unique and diverse classes in London. Olympic sized boxing rings, combat cages,world-class free weights sections, live DJs and larger-than-life personal trainers.</p>
-                    <p>It is a playground designed to motivate people through fitness, fun, and full-on sweat-fests. Witha schedule of 110 classes each week, there’s something for everyone – whether you’re after achallenge that’ll put hairs on your chest or send you soaring to a celestial plane.They also provide very Personal Trainers and all the latest state-of-the-art equipment a gymshould ever have.</p>
+                    <p>It is a playground designed to motivate people through fitness, fun, and full-on sweat-fests. With a schedule of 110 classes each week, there’s something for everyone – whether you’re after a challenge that’ll put hairs on your chest or send you soaring to a celestial plane.They also provide very Personal Trainers and all the latest state-of-the-art equipment a gym should ever have.</p>
                   </div>
                 </div>
               </div>
@@ -737,7 +742,7 @@ export default () => {
                     <h2>Noodle.Ai</h2>
                     <span><a href="/https:/noodle.ai/">Website Link</a></span>
                     <p>To create a world without waste.<br />Partnering with the world's pioneering organizations to make business more radically efficient,and pushing each other to minimize waste and maximize our resourcefulness.</p>
-                    <p>To create a world without waste.<br />Partnering with the world's pioneering organizations to make business more radically efficient,and pushing each other to minimize waste and maximize our resourcefulness.</p>
+                    <p>Their quirky, smart, inter disciplinary team of data scientists, engineers, designers, hardware nerds, and supply chain experts have researched, calculated, coded, designed, and built the leading portfolio of Enterprise AI® products to reduce waste across complex supply chains and manufacturing companies.</p>
                   </div>
                 </div>
               </div>
@@ -749,8 +754,8 @@ export default () => {
                   <div className="res-slider-content">
                     <h2>The QC Terme Shop</h2>
                     <span><a href="https://shop.qcterme.com/en" target="_blank">Website Link</a></span>
-                    <p>Experiences that improve the quality of life.<br />The QC Terme Wellness Centres offer the best well-being experiences in vast architecturalspaces and large gardens, such as whirlpools, saunas, Turkish baths, Kneipp paths, Japanesebaths, foot baths, waterfalls, Vichy showers, relaxation rooms and massage areas.<br />QC Terme creates comprehensive wellness experiences for those who want to improve theirquality of life in the centers located in Bormio, Pré-Saint Didier, Milan, Turin, Rome, SanPellegrino, The Friulian Dolomites and Chamonix-Mont-Blanc.</p>
-                    <p>The centers offer revitalization through the healing properties of the spa water and experiencesthat improve the quality of life.</p>
+                    <p>Experiences that improve the quality of life.<br />The QC Terme Wellness Centres offer the best well-being experiences in vast architecturalspaces and large gardens, such as whirlpools, saunas, Turkish baths, Kneipp paths, Japanesebaths, foot baths, waterfalls, Vichy showers, relaxation rooms and massage areas.<br />QC Terme creates comprehensive wellness experiences for those who want to improve their quality of life in the centers located in Bormio, Pré-Saint Didier, Milan, Turin, Rome, SanPellegrino, The Friulian Dolomites and Chamonix-Mont-Blanc.</p>
+                    <p>The centers offer revitalization through the healing properties of the spa water and experiences that improve the quality of life.</p>
                   </div>
                 </div>
               </div>
@@ -762,8 +767,8 @@ export default () => {
                   <div className="res-slider-content">
                     <h2>Isupportcause</h2>
                     <span><a href="https://www.isupportcause.com/" target="_blank">Website Link</a></span>
-                    <p>Create a viral campaign to support your cause, raise awareness, and promote yourorganization.<br />Over 700,000+ supporters have used iSupportCause to advocate for various social causes andcampaigns. Thousands of non-profit, NGOs, and corporate organizations are usingiSupportCause daily to launch new campaigns, gather supporters, and raise awareness.</p>
-                    <ul><li>Use branding your audience is familiar with to increase trust and engagement.</li><li>Link to your organization's donation page or other external pages for additional ways tosupport your cause.</li><li>Keep your supporters focused on your cause by removing advertisements.</li><li>Link your social accounts to increase your followers.</li><li>Provide additional images and mission statements to further explain your cause.</li></ul>
+                    <p>Create a viral campaign to support your cause, raise awareness, and promote your organization.<br />Over 700,000+ supporters have used iSupportCause to advocate for various social causes and campaigns. Thousands of non-profit, NGOs, and corporate organizations are using iSupportCause daily to launch new campaigns, gather supporters, and raise awareness.</p>
+                    <ul><li>Use branding your audience is familiar with to increase trust and engagement.</li><li>Link to your organization's donation page or other external pages for additional ways to support your cause.</li><li>Keep your supporters focused on your cause by removing advertisements.</li><li>Link your social accounts to increase your followers.</li><li>Provide additional images and mission statements to further explain your cause.</li></ul>
                   </div>
                 </div>
               </div>
