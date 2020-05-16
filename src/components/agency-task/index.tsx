@@ -88,7 +88,7 @@ export default () => {
             </div>
           </div>
           <div className="agency-carousel">
-            <Carousel>
+            <Carousel showArrows={false}>
               <div className="task-container-primary">
                 <div>
                   {first && <div className="popup">
