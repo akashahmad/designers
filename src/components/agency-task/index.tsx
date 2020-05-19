@@ -220,7 +220,7 @@ export default () => {
                           <div className="content-info">
                             <div className="close-icon" onClick={() => handleClose()}><span>&#10006;</span></div>
                             <h2>NEORig</h2>
-                            <span><a href="https://neo-rig.com/">Website Link</a></span>
+                            <span><a href="https://neo-rig.com/" target="_blank">Website Link</a></span>
                             <p>
                             The company offers high-quality automated land drilling systems and rig components thatsatisfy the needs of our customers
                             </p>
@@ -299,7 +299,7 @@ export default () => {
                           <div className="content-info">
                             <div className="close-icon" onClick={() => handleClose()}><span>&#10006;</span></div>
                             <h2>J.Powers Events</h2>
-                            <span><a href="https://jpowers.events/">Website Link</a></span>
+                            <span><a href="https://jpowers.events/" target="_blank">Website Link</a></span>
                             <p>
                             J.Powers are a team of experienced event managers, luxury event venue and catered experience that delivers exceptional service and exquisite cuisine working for more than 3 decades in Rochester.<br />
                             They provide event spaces that are fully equipped with state-of-the-art audiovisual technology and first-class amenities.
@@ -340,7 +340,7 @@ export default () => {
                           <div className="content-info">
                             <div className="close-icon" onClick={() => handleClose()}><span>&#10006;</span></div>
                             <h2>The Stylist Group.</h2>
-                            <span><a to="https://www.thestylistgroup.com/" target="_blank">Website Link</a></span>
+                            <span><a href="https://www.thestylistgroup.com/" target="_blank">Website Link</a></span>
                             <p>
                             The stylist group are the content creators and magazine designers for the stylists women. Thestylist group are the digital publishers and with pioneering brands Stylist and Stylist Loves.
                             </p>
@@ -499,7 +499,7 @@ export default () => {
                           <div className="content-info">
                             <div className="close-icon" onClick={() => handleClose()}><span>&#10006;</span></div>
                             <h2>Noodle.Ai</h2>
-                            <span><Link to="https://noodle.ai/">Website Link</Link></span>
+                            <span><a href="https://noodle.ai/" target="_blank">Website Link</a></span>
                             <p>
                             Partnering with the world's pioneering organizations to make business more radically efficient,and pushing each other to minimize waste and maximize our resourcefulness.
                             </p>
