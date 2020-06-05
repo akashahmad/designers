@@ -48,7 +48,7 @@ export default () => {
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="https://www.instagram.com/geeks._.hub" target="_blank"
+                                    <a href="https://www.instagram.com/geekshub_org" target="_blank"
                                        rel="noopener noreferrer">
                                         <div className="link-images social-link-insta"></div>
                                         <div className="link-images social-link-insta-white"></div>
