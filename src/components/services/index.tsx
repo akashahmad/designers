@@ -42,7 +42,7 @@ export default () => {
                                 <h2>Creative Design</h2>
                                 <p>
                                     Designing UI and UX is our area of expertise, and remains the
-                                    lifeblood of our business to this today.
+                                    lifeblood of our business to this day.
                                 </p>
                             </div>
                         </div>
