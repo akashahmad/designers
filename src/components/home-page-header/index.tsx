@@ -9,7 +9,7 @@ export default () => {
         <div className="slider-home-res p-set">
           <div className="overlay">
           <div className="header-res-content">
-              <h2>Let’s talk about your great ambitionss</h2>
+              <h2>Let’s talk about your great ambitions</h2>
               <p>We partner with organizations that are looking to create greater impact in their work and the world around them.</p>
           </div>
           </div>

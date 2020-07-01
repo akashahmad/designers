@@ -13,7 +13,7 @@ export default () => {
             <p>
               We are here to help you achieve success in your business that you dreamed of. With our help,
               you can stay absolutely focused on your business market, leaving all technicalities for us to
-              worry about. Working with our passionate team of high achievers the success we are promising youis guaranteed.
+              worry about. Working with our passionate team of high achievers the success we are promising you is guaranteed.
               We plan and list for you the most efficient strategies to follow, making your way to higher ranks
               in the market. We tend to study all the technical aspects very carefully for the sake of
               compiling the best plan for you. Our goal is to provide you with the market’s limelight.
@@ -21,7 +21,6 @@ export default () => {
             <p>
               We believe that the success you dreamed and hoped for when you first sat on a
               desk and decided to work on your own idea should be what you achieve and nothing less.
-
             </p>
           </div>
           <div className="card-content">
