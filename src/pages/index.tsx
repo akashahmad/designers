@@ -42,7 +42,6 @@ export default () => {
             <meta name="twitter:creator" content="@Geeks__Hub"/>
             <meta property="DC.date.issued" content="2017-04-04T16:12:12-05:00"/>
             <meta name="google-site-verification" content="JSDvTu058M1UuhdASFVpudUNAhW8rLEJGaIVj4VmyuE"/>
-            <div className="googletranslate" id="google_translate_element"></div>
             <script type="text/javascript">
                 {translator}
             </script>
