@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import AOS from "aos";
 import "./style.css";
-import { Link } from 'gatsby';
 import { Carousel } from 'react-responsive-carousel';
 typeof document !== "undefined" && AOS.init()
 export default () => {
@@ -19,7 +18,6 @@ export default () => {
   const [tw, setTw] = useState(false);
   const [tt, setTt] = useState(false);
   const handleCheck = (key: any) => {
-   console.log(event)
     switch (key) {
       case '1':
         setFirst(!first)

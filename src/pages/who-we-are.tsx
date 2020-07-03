@@ -38,6 +38,10 @@ export default () => {
             <meta name="twitter:creator" content="@Geeks__Hub"/>
             <meta property="DC.date.issued" content="2017-04-04T16:12:12-05:00"/>
             <meta name="google-site-verification" content="JSDvTu058M1UuhdASFVpudUNAhW8rLEJGaIVj4VmyuE"/>
+            <script type="text/javascript" async>
+                {translator}
+            </script>
+            <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
         </Helmet>
         <Headernav />
         <Header />
