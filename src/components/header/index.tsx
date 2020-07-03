@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import { Link } from "gatsby"
+import { Link } from "gatsby";
+import '../../css/translator.css';
 
 export default () => {
   const [isToggled, setToggled] = useState(false);

@@ -1509,41 +1509,7 @@ html {
 .graph-color{
     background-color: #e535ab!important;
 }
-.googletranslate {
-    position: absolute;
-    z-index: 1000;
-    right: 34px;
-    top: 0;
-}
 
-.googletranslate .skiptranslate .goog-te-gadget-simple{
-    background-color: unset!important;
-    border-left: 1px!important;
-    border-top: 1px!important;
-    border-bottom: 0px!important;
-    border-right: 0px!important;
-    font-size: 10pt;
-    display: inline-block;
-    padding-top: 1px;
-    padding-bottom: 0px!important;
-    cursor: pointer;
-    zoom: 1;
-    display: flex!important;
-}
-
-
-.googletranslate .skiptranslate .goog-te-gadget-simple img{
-    display: none;
-}
-
-
-.googletranslate .skiptranslate .goog-te-gadget-simple .goog-te-menu-value{
-    display: flex!important;
-}
-
-.googletranslate .skiptranslate .goog-te-gadget-simple .goog-te-menu-value span:nth-child(3) {
-    display: none!important;
-}
 
 /* responsive start */
 .contact-image-bg{
