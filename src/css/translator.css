@@ -33,3 +33,18 @@
 .googletranslate .skiptranslate .goog-te-gadget-simple .goog-te-menu-value span:nth-child(3) {
     display: none!important;
 }
+
+.googletranslate .goog-te-gadget{
+    font-size: 0px;
+}
+
+.googletranslate .skiptranslate span a{
+    display: none
+}
+
+#google_translate_element{
+    display: block;
+}
+#google_translate_element1{
+    display: none;
+}
