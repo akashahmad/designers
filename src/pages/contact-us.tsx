@@ -42,10 +42,10 @@ export default () => {
             <meta property="DC.date.issued" content="2017-04-04T16:12:12-05:00"/>
             <meta name="google-site-verification" content="JSDvTu058M1UuhdASFVpudUNAhW8rLEJGaIVj4VmyuE"/>
             <script type="text/javascript" async>
-                {typeof document !== "undefined" && document.body.clientWidth > 767 && translator}
+                {typeof document !== "undefined" && document.body.clientWidth > 991 && translator}
             </script>
             <script type="text/javascript" async>
-                {typeof document !== "undefined" && document.body.clientWidth < 768 && translator1}
+                {typeof document !== "undefined" && document.body.clientWidth < 992 && translator1}
             </script>
             <script type="text/javascript"
                     src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>

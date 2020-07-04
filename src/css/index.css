@@ -4796,7 +4796,18 @@ html {
     .agency .agency-primary .task-container-primary {
         min-height: unset;
     }
-
+    .googletranslate {
+        position: absolute;
+        z-index: 1000;
+        right: 17px!important;
+        top: 0;
+    }
+    #google_translate_element{
+        display: none!important;
+    }
+    #google_translate_element1{
+        display: block!important;
+    }
 
 }
 
