@@ -86,7 +86,7 @@ export default () => {
             </div>
           </div>
           <div className="agency-carousel">
-            <Carousel showArrows={false} showThumbs={false} showStatus={false} useKeyboardArrows={true} infiniteLoop={true} autoPlay={true} swipeable={true} emulateTouch={true} interval={5000} transitionTime={1500} stopOnHover={false}>
+            <Carousel showArrows={false} showThumbs={false} showStatus={false} useKeyboardArrows={true} infiniteLoop={true} autoPlay={true} swipeable={true} emulateTouch={true} interval={5000} transitionTime={1500} stopOnHover={true}>
               <div className="task-container-primary">
                 <div>
                   {first && <div className="popup">
@@ -611,7 +611,7 @@ export default () => {
             </Carousel>
           </div>
           <div className="task-slider">
-            <Carousel showArrows={false} showThumbs={false} showStatus={false} useKeyboardArrows={true} infiniteLoop={true} autoPlay={true} swipeable={true} emulateTouch={true} interval={5000} transitionTime={1500} stopOnHover={false}>
+            <Carousel showArrows={false} showThumbs={false} showStatus={false} useKeyboardArrows={true} infiniteLoop={true} autoPlay={true} swipeable={true} emulateTouch={true} interval={5000} transitionTime={1500} stopOnHover={true}>
               <div>
                 <div className="slider-agency">
                   <div className="image-container">
