@@ -82,11 +82,11 @@ export default () => {
           <div className="agency-head" data-aos="fade-right">
             <div className="leaf-image vert-move" />
             <div className="agency-header">
-              <h2>We have done lot of Agency Task</h2>
+              <h2>We hold vast realm for Agency Tasks</h2>
             </div>
           </div>
           <div className="agency-carousel">
-            <Carousel showArrows={false}>
+            <Carousel showThumbs={false} showStatus={false} useKeyboardArrows={true} infiniteLoop={true} autoPlay={true} swipeable={true} emulateTouch={true} interval={5000} transitionTime={1500} stopOnHover={false}>
               <div className="task-container-primary">
                 <div>
                   {first && <div className="popup">
@@ -611,7 +611,7 @@ export default () => {
             </Carousel>
           </div>
           <div className="task-slider">
-            <Carousel showThumbs={false}>
+            <Carousel showThumbs={false} showStatus={false} useKeyboardArrows={true} infiniteLoop={true} autoPlay={true} swipeable={true} emulateTouch={true} interval={5000} transitionTime={1500} stopOnHover={false}>
               <div>
                 <div className="slider-agency">
                   <div className="image-container">
