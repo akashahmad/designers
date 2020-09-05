@@ -1490,6 +1490,7 @@ html {
     position: relative;
     padding: 36px;
     cursor: pointer;
+    border: solid 1px transparent;
 }
 
 .contant-cards-section .contact-main-cards:after {
@@ -1512,7 +1513,7 @@ html {
 }
 
 .active-card {
-    border: solid 1px #F39986;
+    border: solid 1px #F39986!important;
 }
 
 .active-card:after {
@@ -1524,10 +1525,10 @@ html {
     font-weight: 600;
     padding: 30px 0 0;
 }
-
+/* contact us page structure was bad due to this 
 .contant-cards-section .card-contact {
     width: 58%;
-}
+} */
 
 .contant-cards-section .contact-main-cards .logo-icon {
     width: 28px;

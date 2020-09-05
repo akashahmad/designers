@@ -924,7 +924,7 @@ export default () => {
                                     </div>
                                     <div className="res-slider-content">
                                         <h2>Noodle.Ai</h2>
-                                        <span><a href="/https:/noodle.ai/">Website Link</a></span>
+                                        <span><a href="https:/noodle.ai/">Website Link</a></span>
                                         <p>To create a world without waste.<br />Partnering with the world's pioneering
                                             organizations to make business more radically efficient,and pushing each
                                             other to minimize waste and maximize our resourcefulness.</p>

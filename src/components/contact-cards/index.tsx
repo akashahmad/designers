@@ -33,7 +33,8 @@ export default () => {
         }
     }
     return (
-        <section className="contant-cards-section">
+        <section className="contant-cards-section flex justify-center">
+            <div>
             <div className="card-primary">
                 <div className="card-contact">
                     <div className="content-head">
@@ -111,6 +112,7 @@ export default () => {
                         </div>
                     </div>
                 </div>
+            </div>
             </div>
         </section>
     )
