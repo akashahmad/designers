@@ -1,8 +1,37 @@
-import React from "react"
-import AOS from "aos"
+import React,{useEffect} from "react"
 import {Link} from "gatsby"
-typeof document !== "undefined" && AOS.init()
+import {TweenMax,gsap} from 'gsap'
+import {ScrollTrigger} from "gsap/ScrollTrigger";
 export default () => {
+    if (typeof window !== `undefined`) {
+        gsap.registerPlugin(ScrollTrigger)
+        gsap
+            .core
+            .globals("ScrollTrigger", ScrollTrigger)
+    }
+    let fadeUp = null;
+    let fadeLeft = null;
+
+    useEffect(() =>{
+        TweenMax.from(fadeUp, {
+            scrollTrigger: {
+                trigger: fadeUp,
+                toggleActions: "restart reverse restart resume"
+            },
+            y: 150,
+            opacity: 0,
+            duration: 2
+        });
+        TweenMax.from(fadeLeft, {
+            scrollTrigger: {
+                trigger: fadeLeft,
+                toggleActions: "restart reverse restart resume"
+            },
+            x: 100,
+            opacity: 0,
+            duration: 2
+        });
+    },[])
     return (
         <section className="our-sevices">
             <div className="our-sevices-image"/>
@@ -10,9 +39,7 @@ export default () => {
                 <div className="our-sevices-primary">
                     <div
                         className="sevices-content"
-                        data-aos="fade-up"
-                        data-aos-delay="50"
-                        data-aos-duration="2000"
+                        ref={el =>{fadeUp = el}}
                     >
                         <div className="content para-font-size">
                             <span>Our Services</span>
@@ -30,9 +57,7 @@ export default () => {
                     </div>
                     <div
                         className="services-card-container"
-                        data-aos="fade-left"
-                        data-aos-delay="50"
-                        data-aos-duration="2000"
+                        ref={el =>{fadeLeft = el}}
                     >
                         <div className="card-container">
                             <div className="head-img">

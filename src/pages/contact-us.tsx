@@ -35,7 +35,7 @@ export default () => {
             <meta name="twitter:card" content="summary"/>
             <meta name="twitter:description"
                   content="We are working with the modern technologies to build web applications and hybrid applications in both corporate and startup environments with broad and diverse experience that balance code, cost, user experience and performance."/>
-            <meta name="twitter:title" content="GeeksHub"/>
+            <meta name="twitter:title" content="GeeksHub"/>     
             <meta name="twitter:site" content="@Geeks__Hub"/>
             <meta name="twitter:image" content={require("../images/geekshub-black-logo.png")}/>
             <meta name="twitter:creator" content="@Geeks__Hub"/>

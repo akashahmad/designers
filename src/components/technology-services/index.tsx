@@ -1,5 +1,46 @@
-import React from "react"
+import React,{useEffect} from "react"
+import {TimelineLite} from "gsap"
 export default () => {
+
+  let reactc = null;
+    let nodec = null;
+    let sqlc = null;
+    let nextc = null;
+    let mongoc = null;
+    let gatsbyc = null;
+    let restc = null;
+    let graphc = null;
+    let tl = new TimelineLite();
+
+
+    useEffect(() =>{
+      tl.fromTo([
+        reactc, sqlc, mongoc, restc
+    ], 2, {
+        y: 0,
+        repeat: -1,
+        ease: "none",
+        yoyo: true
+    }, {
+        y: 10,
+        repeat: -1,
+        ease: "none",
+        yoyo: true
+    }).fromTo([
+        nodec, nextc, gatsbyc, graphc
+    ], 2, {
+        y: -10,
+        repeat: -1,
+        ease: "none",
+        yoyo: true
+    }, {
+        y: 0,
+        repeat: -1,
+        ease: "none",
+        yoyo: true
+    }, "-=0");
+
+    },[])
   return (
     <section className="tech-services">
       <div className="tech-head">
@@ -11,34 +52,34 @@ export default () => {
         <div className="technologies-primary">
           <div>
             <div className="tech-container">
-              <div className="circle-tech react-color vert-move">
+              <div className="circle-tech react-color " ref={el => {reactc = el}}>
                 <img src={require("../../images/reactjs.png")} alt="GeeksHub-Media" loading="lazy" />
               </div>
-              <div className="circle-tech nodejs-color vert-other ">
+              <div className="circle-tech nodejs-color" ref={el => {nodec = el}}>
                 <img src={require("../../images/nodejs.png")} alt="GeeksHub-Media" loading="lazy" />
               </div>
-              <div className="circle-tech mysql-color vert-move">
+              <div className="circle-tech mysql-color" ref={el => {sqlc = el}}>
                 <img src={require("../../images/MySQL.png")} alt="GeeksHub-Media" loading="lazy" />
               </div>
-              <div className="circle-tech next-color vert-other ">
+              <div className="circle-tech next-color" ref={el => {nextc = el}}>
                 <img
                   src={require("../../images/next-js-logo-7929BCD36F-seeklogo.com.png")}
                   alt="GeeksHub-Media" loading="lazy"
                 />
               </div>
-              <div className="circle-tech mongo-color vert-move">
+              <div className="circle-tech mongo-color" ref={el => {mongoc = el}}>
                 <img
                   src={require("../../images/mongo-db-design-mongodb-logo-mongodb-11562879783zbmzcchmau.png")}
                   alt="GeeksHub-Media" loading="lazy"
                 />
               </div>
-              <div className="circle-tech gatsby-color vert-other ">
+              <div className="circle-tech gatsby-color " ref={el => {gatsbyc = el}}>
                 <img src={require("../../images/gatsby.png")} alt="GeeksHub-Media" loading="lazy" />
               </div>
-              <div className="circle-tech rest-color vert-move">
+              <div className="circle-tech rest-color" ref={el => {restc = el}}>
                 <img src={require("../../images/rest-api.png")} alt="GeeksHub-Media" loading="lazy" />
               </div>
-              <div className="circle-tech graph-color vert-other ">
+              <div className="circle-tech graph-color" ref={el => {graphc = el}}>
                 <img src={require("../../images/graphql.png")} alt="GeeksHub-Media" loading="lazy" />
               </div>
             </div>

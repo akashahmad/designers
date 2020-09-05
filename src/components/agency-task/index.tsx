@@ -1,9 +1,18 @@
-import React, {useState} from "react";
+import React, {useState,useEffect} from "react";
 import AOS from "aos";
+import {TweenMax,gsap} from 'gsap'
+import {ScrollTrigger} from "gsap/ScrollTrigger";
 import "./style.css";
 import {Carousel} from 'react-responsive-carousel';
 typeof document !== "undefined" && AOS.init()
 export default () => {
+    if (typeof window !== `undefined`) {
+        gsap.registerPlugin(ScrollTrigger)
+        gsap
+            .core
+            .globals("ScrollTrigger", ScrollTrigger)
+    }
+
     const [first, setFirst] = useState(false);
     const [second, setSecond] = useState(false);
     const [third, setThird] = useState(false);
@@ -17,6 +26,28 @@ export default () => {
     const [eleven, setEleven] = useState(false);
     const [tw, setTw] = useState(false);
     const [tt, setTt] = useState(false);
+    let leaf = null;
+    let fadeRight = null;
+  
+      useEffect(() =>{
+  
+        TweenMax.to(leaf, 2, {
+          y: -10,
+          repeat: -1,
+          ease: "none",
+          yoyo: true
+      });
+      TweenMax.from(fadeRight, {
+        scrollTrigger: {
+            trigger: fadeRight,
+            toggleActions: "restart reverse restart resume"
+        },
+        x: -100,
+        opacity: 0,
+        duration: 1
+    });
+  
+      },[]);
     const handleCheck = (key: any) => {
         switch (key) {
             case '1':
@@ -79,8 +110,12 @@ export default () => {
         <section className="agency">
             <div className="agency-main">
                 <div className="agency-primary">
-                    <div className="agency-head" data-aos="fade-right">
-                        <div className="leaf-image vert-move"/>
+                    <div className="agency-head" ref={el =>{fadeRight = el}}
+                    
+                    >
+                        <div className="leaf-image" ref={el => {
+                            leaf = el
+                        }}/>
                         <div className="agency-header">
                             <h2>We hold vast realm for Agency Tasks</h2>
                         </div>

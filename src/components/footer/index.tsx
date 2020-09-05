@@ -1,7 +1,25 @@
-import React from "react"
+import React, {useEffect} from "react"
+import {TweenMax} from 'gsap';
 import {Link} from "gatsby"
 
-export default () => {
+export default() => {
+    let circle = null;
+    let square = null;
+
+    useEffect(() => {
+        TweenMax.to(circle, 2, {
+            y: -10,
+            repeat: -1,
+            ease: "none",
+            yoyo: true
+        });
+
+        TweenMax.to(square, 2, {
+            rotation: 360,
+            repeat: -1,
+            ease: "none"
+        });
+    },[])
     return (
         <section className="footer">
             <div className="footer-primary">
@@ -12,10 +30,9 @@ export default () => {
                             <div className="image-left">
                                 <img src={require("../../images/ftr.png")} alt="GeeksHub-Media" loading="lazy"/>
                             </div>
-                            <h3>We are creatives, so it might be about minions and stuff</h3>
+                            <h3>Our success is the sum of Excellence, Value, and Technology.</h3>
                             <p>
-                                We’d love to learn more about your project, business, and users.
-                                Drop us a note to tell us more about what you’re looking to do!
+                                Drop a note and let us know what’s on your mind!
                             </p>
                         </div>
                         <div className="button-section">
@@ -25,38 +42,60 @@ export default () => {
                                 </button>
                             </Link>
                         </div>
-                        <div className="button-bl vert-balloon"></div>
-                         <div className="rotate-div rotate"><div className="squre-angle"></div></div>
+                        <div
+                            ref={el => {
+                            circle = el
+                        }}
+                            className="button-bl"></div>
+                        <div
+                            className="rotate-div"
+                            ref={el => {
+                            square = el
+                        }}>
+                            <div className="squre-angle"></div>
+                        </div>
                     </div>
                     <div className="footer-logo">
                         <div className="footer-logo-img">
-                            <img src={require("../../images/geekshub-black-logo.png")} alt="GeeksHub-Media" loading="lazy"/>
+                            <img
+                                src={require("../../images/geekshub-black-logo.png")}
+                                alt="GeeksHub-Media"
+                                loading="lazy"/>
                         </div>
                         <div className="logo-footer">
                             <ul>
                                 <li className="active">
-                                    <a href="https://www.facebook.com/geekshub.io" target="_blank"
-                                       rel="noopener noreferrer">
+                                    <a
+                                        href="https://www.facebook.com/geekshub.io"
+                                        target="_blank"
+                                        rel="noopener noreferrer">
                                         <div className="link-images social-link-fb"></div>
                                         <div className="link-images social-link-fb-white"></div>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="https://twitter.com/Geeks__Hub" target="_blank" rel="noopener noreferrer">
+                                    <a
+                                        href="https://twitter.com/Geeks__Hub"
+                                        target="_blank"
+                                        rel="noopener noreferrer">
                                         <div className="link-images social-link-tw"></div>
                                         <div className="link-images social-link-tw-white"></div>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="https://www.instagram.com/geekshub_org" target="_blank"
-                                       rel="noopener noreferrer">
+                                    <a
+                                        href="https://www.instagram.com/geekshub_org"
+                                        target="_blank"
+                                        rel="noopener noreferrer">
                                         <div className="link-images social-link-insta"></div>
                                         <div className="link-images social-link-insta-white"></div>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="https://www.linkedin.com/company/43286270" target="_blank"
-                                       rel="noopener noreferrer">
+                                    <a
+                                        href="https://www.linkedin.com/company/43286270"
+                                        target="_blank"
+                                        rel="noopener noreferrer">
                                         <div className="link-images social-link-linkedin"></div>
                                         <div className="link-images social-link-linkedin-white"></div>
                                     </a>

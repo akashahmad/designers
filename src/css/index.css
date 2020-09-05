@@ -433,7 +433,7 @@ body {
 .card-container .card-content h2 {
     line-height: 1.2;
     font-weight: 600;
-    font-size: 22px;
+    font-size: 21px;
     padding: 24px 0;
 }
 
@@ -1987,130 +1987,7 @@ html {
     }
 }
 
-.vert-move {
-    -webkit-animation: mover 1s infinite alternate;
-    animation: mover 2s infinite alternate;
-}
 
-.vert-move {
-    -webkit-animation: mover 1s infinite alternate;
-    animation: mover 2s infinite alternate;
-}
-
-@-webkit-keyframes mover {
-    0% {
-        transform: translateY(0);
-    }
-    100% {
-        transform: translateY(-10px);
-    }
-}
-
-@keyframes mover {
-    0% {
-        transform: translateY(0);
-    }
-    100% {
-        transform: translateY(-10px);
-    }
-}
-
-.vert-other {
-    -webkit-animation: mover 1s infinite alternate;
-    animation: other 2s infinite alternate;
-}
-
-.vert-other {
-    -webkit-animation: mover 1s infinite alternate;
-    animation: other 2s infinite alternate;
-}
-
-@-webkit-keyframes other {
-    0% {
-        transform: translateY(0);
-    }
-    100% {
-        transform: translateY(10px);
-    }
-}
-
-@keyframes other {
-    0% {
-        transform: translateY(0);
-    }
-    100% {
-        transform: translateY(10px);
-    }
-}
-
-.vert-diamond {
-    -webkit-animation: other-diamond 1s infinite alternate;
-    animation: other-diamond 2s infinite alternate;
-}
-
-.vert-diamond {
-    -webkit-animation: other-diamond 1s infinite alternate;
-    animation: other-diamond 2s infinite alternate;
-}
-
-@-webkit-keyframes other-diamond {
-    0% {
-        transform: translateX(0);
-    }
-    100% {
-        transform: translateX(10px);
-    }
-}
-
-@keyframes other-diamond {
-    0% {
-        transform: translateX(0);
-    }
-    100% {
-        transform: translateX(10px);
-    }
-}
-
-.vert-balloon {
-    -webkit-animation: other-diamond 1s infinite alternate;
-    animation: other-diamond 2s infinite alternate;
-}
-
-.vert-balloon {
-    -webkit-animation: balloon 1s infinite alternate;
-    animation: balloon 2s infinite alternate;
-}
-
-@-webkit-keyframes balloon {
-    0% {
-        transform: translateY(0);
-    }
-    100% {
-        transform: translateY(10px);
-    }
-}
-
-@keyframes balloon {
-    0% {
-        transform: translateY(0);
-    }
-    100% {
-        transform: translateY(10px);
-    }
-}
-
-.rotate {
-    -webkit-animation: rotation 2s infinite linear;
-}
-
-@-webkit-keyframes rotation {
-    from {
-        -webkit-transform: rotate(0deg);
-    }
-    to {
-        -webkit-transform: rotate(359deg);
-    }
-}
 
 .home-header .slider-home-res {
     animation-name: responsiveslider;
