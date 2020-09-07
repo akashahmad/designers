@@ -2,9 +2,9 @@ import React, {useEffect} from "react"
 import {TweenMax} from 'gsap';
 import {Link} from "gatsby"
 
+let circle = null;
+let square = null;
 export default() => {
-    let circle = null;
-    let square = null;
 
     useEffect(() => {
         TweenMax.to(circle, 2, {

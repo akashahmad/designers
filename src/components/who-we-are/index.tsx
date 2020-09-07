@@ -1,11 +1,11 @@
 import React, {useEffect} from "react"
 import AOS from "aos"
 import {TweenMax} from 'gsap'
-typeof document !== "undefined" && AOS.init()
+typeof document !== "undefined" && AOS.init();
+let dots = null;
+let diamond = null;
 export default() => {
 
-    let dots = null;
-    let diamond = null;
 
     useEffect(() => {
 
@@ -18,14 +18,14 @@ export default() => {
             yoyo: true
         });
 
-    },[]);
+    }, []);
     return (
         <section className="who-we">
             <div
                 className="three-dots"
                 ref={el => {
-                dots = el
-            }}/>
+                    dots = el
+                }}/>
             <div className="whowe-primary">
                 <div className="whowe-secondery">
                     <div
@@ -36,8 +36,8 @@ export default() => {
                         <div
                             className="diamond-img"
                             ref={el => {
-                            diamond = el
-                        }}>
+                                diamond = el
+                            }}>
                             <img
                                 src={require("../../images/diamond.png")}
                                 alt="GeeksHub-Media"
@@ -57,10 +57,10 @@ export default() => {
                             </p>
                         </div>
                         {/* <div className="btn-div">
-              <button className="btn-orange-color who-btn">
-                Read Success Story
-              </button>
-            </div> */}
+                         <button className="btn-orange-color who-btn">
+                         Read Success Story
+                         </button>
+                         </div> */}
                     </div>
                     <div className="res-bg-image"></div>
                     <div

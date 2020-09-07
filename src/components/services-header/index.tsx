@@ -1,6 +1,9 @@
 import React, {useEffect} from "react"
 import {TweenMax, gsap} from 'gsap'
 import {ScrollTrigger} from "gsap/ScrollTrigger";
+let bean = null;
+let fadeRight = null;
+let fadeUp = null;
 export default() => {
     if (typeof window !== `undefined`) {
         gsap.registerPlugin(ScrollTrigger)
@@ -8,9 +11,6 @@ export default() => {
             .core
             .globals("ScrollTrigger", ScrollTrigger)
     }
-    let bean = null;
-    let fadeRight = null;
-    let fadeUp = null;
     useEffect(() => {
         TweenMax.to(bean, 2, {
             y: -10,

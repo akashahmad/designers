@@ -2,7 +2,8 @@ import React, {useEffect} from "react"
 import AOS from "aos"
 import {gsap, TweenMax} from 'gsap'
 import {ScrollTrigger} from "gsap/ScrollTrigger";
-typeof document !== "undefined" && AOS.init()
+typeof document !== "undefined" && AOS.init();
+let fadeRight = null;
 export default() => {
     if (typeof window !== `undefined`) {
         gsap.registerPlugin(ScrollTrigger)
@@ -10,7 +11,6 @@ export default() => {
             .core
             .globals("ScrollTrigger", ScrollTrigger)
     }
-    let fadeRight = null
     useEffect(() => {
         TweenMax.from(fadeRight, {
             scrollTrigger: {
@@ -27,7 +27,9 @@ export default() => {
             <div className="what-we-primary">
                 <div className="whatwe-main">
                     <div className="image-container">
-                        <div className="img-one" ref= {el =>{fadeRight=el}}></div>
+                        <div className="img-one" ref={el => {
+                            fadeRight = el
+                        }}></div>
                         <div
                             className="img-two"
                             data-aos="flip-left"

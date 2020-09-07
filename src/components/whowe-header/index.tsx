@@ -2,16 +2,15 @@ import React, {useEffect} from "react"
 import AOS from "aos"
 import {ScrollTrigger} from "gsap/ScrollTrigger";
 import {TweenMax, gsap} from "gsap";
-
-typeof document !== "undefined" && AOS.init()
+typeof document !== "undefined" && AOS.init();
+let fadeRight = null;
 export default() => {
     if (typeof window !== `undefined`) {
-        gsap.registerPlugin(ScrollTrigger)
+        gsap.registerPlugin(ScrollTrigger);
         gsap
             .core
             .globals("ScrollTrigger", ScrollTrigger)
     }
-    let fadeRight = null;
 
     useEffect(() => {
         TweenMax.from(fadeRight, {

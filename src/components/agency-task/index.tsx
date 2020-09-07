@@ -4,10 +4,12 @@ import {TweenMax,gsap} from 'gsap'
 import {ScrollTrigger} from "gsap/ScrollTrigger";
 import "./style.css";
 import {Carousel} from 'react-responsive-carousel';
-typeof document !== "undefined" && AOS.init()
+typeof document !== "undefined" && AOS.init();
+let leaf = null;
+let fadeRight = null;
 export default () => {
     if (typeof window !== `undefined`) {
-        gsap.registerPlugin(ScrollTrigger)
+        gsap.registerPlugin(ScrollTrigger);
         gsap
             .core
             .globals("ScrollTrigger", ScrollTrigger)
@@ -26,8 +28,6 @@ export default () => {
     const [eleven, setEleven] = useState(false);
     const [tw, setTw] = useState(false);
     const [tt, setTt] = useState(false);
-    let leaf = null;
-    let fadeRight = null;
   
       useEffect(() =>{
   
@@ -141,7 +141,7 @@ export default () => {
                                                         <div className="close-icon" onClick={() => handleClose()}>
                                                             <span>&#10006;</span></div>
                                                         <h2>AB|FINANCE</h2>
-                                                        <span><a href="https://ab.finance/"
+                                                        <span><a href="https://ab.finance/" rel="noopener noreferrer"
                                                                  target="_blank">Website Link</a></span>
                                                         <p>AB|Finance is a member of the Azimut Benetti group,
                                                             incorporated to assist in financingac quisitions of Azimut
@@ -187,7 +187,7 @@ export default () => {
                                                         <div className="close-icon" onClick={() => handleClose()}>
                                                             <span>&#10006;</span></div>
                                                         <h2>Equal parts</h2>
-                                                        <span><a href="https://equalparts.com/" target="_blank">Website Link</a></span>
+                                                        <span><a href="https://equalparts.com/" target="_blank" rel="noopener noreferrer">Website Link</a></span>
                                                         <p>
                                                             Equal Parts cookware is coated with non-toxic ceramic, so
                                                             you don’t have to worry about harmful chemicals (no PFOA or
@@ -240,7 +240,7 @@ export default () => {
                                                             <span>&#10006;</span></div>
                                                         <h2>Chaboni Foodservice</h2>
                                                         <span><a href="https://www.chobanifoodservice.com/"
-                                                                 target="_blank">Website Link</a></span>
+                                                                 target="_blank" rel="noopener noreferrer">Website Link</a></span>
                                                         <p>
                                                             Chobani® Greek Yogurt is the perfect option for delivering
                                                             on great taste and functionality. Yourmenu can do it all
@@ -290,7 +290,7 @@ export default () => {
                                                         <div className="close-icon" onClick={() => handleClose()}>
                                                             <span>&#10006;</span></div>
                                                         <h2>NEORig</h2>
-                                                        <span><a href="https://neo-rig.com/" target="_blank">Website Link</a></span>
+                                                        <span><a href="https://neo-rig.com/" target="_blank" rel="noopener noreferrer">Website Link</a></span>
                                                         <p>
                                                             The company offers high-quality automated land drilling
                                                             systems and rig components thatsatisfy the needs of our
@@ -338,7 +338,7 @@ export default () => {
                                                         <div className="close-icon" onClick={() => handleClose()}>
                                                             <span>&#10006;</span></div>
                                                         <h2>Letsgetwavy</h2>
-                                                        <span><a href="https://letsgetwavey.com/" target="_blank">Website Link</a></span>
+                                                        <span><a href="https://letsgetwavey.com/" target="_blank" rel="noopener noreferrer">Website Link</a></span>
                                                         <p>
                                                             Joining a party get’s easier than ever with wavy,You can now
                                                             join the and share the fun with other people.All you have to
@@ -382,7 +382,7 @@ export default () => {
                                                         <div className="close-icon" onClick={() => handleClose()}>
                                                             <span>&#10006;</span></div>
                                                         <h2>J.Powers Events</h2>
-                                                        <span><a href="https://jpowers.events/" target="_blank">Website Link</a></span>
+                                                        <span><a href="https://jpowers.events/" target="_blank" rel="noopener noreferrer">Website Link</a></span>
                                                         <p>
                                                             J.Powers are a team of experienced event managers, luxury
                                                             event venue and catered experience that delivers exceptional
@@ -432,7 +432,7 @@ export default () => {
                                                             <span>&#10006;</span></div>
                                                         <h2>The Stylist Group.</h2>
                                                         <span><a href="https://www.thestylistgroup.com/"
-                                                                 target="_blank">Website Link</a></span>
+                                                                 target="_blank" rel="noopener noreferrer">Website Link</a></span>
                                                         <p>
                                                             The stylist group are the content creators and magazine
                                                             designers for the stylists women. Thestylist group are the
@@ -476,7 +476,7 @@ export default () => {
                                                         <div className="close-icon" onClick={() => handleClose()}>
                                                             <span>&#10006;</span></div>
                                                         <h2>The Everpress</h2>
-                                                        <span><a href="https://everpress.com/" target="_blank">Website Link</a></span>
+                                                        <span><a href="https://everpress.com/" target="_blank" rel="noopener noreferrer">Website Link</a></span>
                                                         <p>
                                                             Everpress is a global marketplace for independent
                                                             creativity. By offering the tools to sell, manufacture, and
@@ -526,7 +526,7 @@ export default () => {
                                                         <div className="close-icon" onClick={() => handleClose()}>
                                                             <span>&#10006;</span></div>
                                                         <h2>Nudie Jeans</h2>
-                                                        <span><a href="https://www.nudiejeans.com/" target="_blank">Website Link</a></span>
+                                                        <span><a href="https://www.nudiejeans.com/" target="_blank" rel="noopener noreferrer">Website Link</a></span>
                                                         <p>
                                                             Nudie Jeans is an online Jeans outlet providing the best
                                                             quality fabric all around the world. In 2013, Nudie Jeans
@@ -621,7 +621,7 @@ export default () => {
                                                             <span>&#10006;</span></div>
                                                         <h2>Noodle.Ai</h2>
                                                         <span><a href="https://noodle.ai/"
-                                                                 target="_blank">Website Link</a></span>
+                                                                 target="_blank" rel="noopener noreferrer">Website Link</a></span>
                                                         <p>
                                                             Partnering with the world's pioneering organizations to make
                                                             business more radically efficient,and pushing each other to
@@ -667,7 +667,7 @@ export default () => {
                                                         <div className="close-icon" onClick={() => handleClose()}>
                                                             <span>&#10006;</span></div>
                                                         <h2>The QC Terme Shop</h2>
-                                                        <span><a href="https://shop.qcterme.com/en" target="_blank">Website Link</a></span>
+                                                        <span><a href="https://shop.qcterme.com/en" target="_blank" rel="noopener noreferrer">Website Link</a></span>
                                                         <p>Experiences that improve the quality of life.<br />
                                                             The QC Terme Wellness Centres offer the best well-being
                                                             experiences in vast architecturalspaces and large gardens,
@@ -718,7 +718,7 @@ export default () => {
                             {/*<div className="content-info">*/}
                             {/*<div className="close-icon" onClick={() => handleClose()}><span>&#10006;</span></div>*/}
                             {/*<h2>Isupportcause</h2>*/}
-                            {/*<span><a href="https://www.isupportcause.com/" target="_blank">Website Link</a></span>*/}
+                            {/*<span><a href="https://www.isupportcause.com/" target="_blank" rel="noopener noreferrer">Website Link</a></span>*/}
                             {/*<p>*/}
                             {/*Over 700,000+ supporters have used iSupportCause to advocate for various social causes and campaigns. Thousands of non-profit, NGOs, and corporate organizations are using iSupportCause daily to launch new campaigns, gather supporters, and raise awareness.*/}
                             {/*</p>*/}
@@ -766,7 +766,7 @@ export default () => {
                                     </div>
                                     <div className="res-slider-content">
                                         <h2>AB|FINANCE</h2>
-                                        <span><a href="https://ab.finance/" target="_blank">Website Link</a></span>
+                                        <span><a href="https://ab.finance/" target="_blank" rel="noopener noreferrer">Website Link</a></span>
                                         <p>We help you finance a purchase the yacht of your dreams<br />AB|Finance is a
                                             member of the Azimut Benetti group, incorporated to assist in financingac
                                             quisitions of Azimut yachts.</p>
@@ -786,7 +786,7 @@ export default () => {
                                     </div>
                                     <div className="res-slider-content">
                                         <h2>Equal parts</h2>
-                                        <span><a href="https://equalparts.com/" target="_blank">Website Link</a></span>
+                                        <span><a href="https://equalparts.com/" target="_blank" rel="noopener noreferrer">Website Link</a></span>
                                         <p>Meet high-quality cookware designed to cook faster and clean easier<br />Equal
                                             Parts cookware is coated with non-toxic ceramic, so you don’t have to worry
                                             about harmful chemicals (no PFOA or PTFE) making their way into your food as
@@ -809,7 +809,7 @@ export default () => {
                                     <div className="res-slider-content">
                                         <h2>Chaboni Foodservice</h2>
                                         <span><a href="https://www.chobanifoodservice.com/"
-                                                 target="_blank">Website Link</a></span>
+                                                 target="_blank" rel="noopener noreferrer">Website Link</a></span>
                                         <p>Something for everyone<br />Chobani® Greek Yogurt is the perfect option for
                                             delivering on great taste and functionality. Yourmenu can do it all with
                                             these healthy replacements.<br />Chobani is on a mission to provide better
@@ -852,7 +852,7 @@ export default () => {
                                     <div className="res-slider-content">
                                         <h2>Letsgetwavy</h2>
                                         <span><a href="https://letsgetwavey.com/"
-                                                 target="_blank">Website Link</a></span>
+                                                 target="_blank" rel="noopener noreferrer">Website Link</a></span>
                                         <p>Join People Around You Doing Cool Things<br />Joining a party get’s easier
                                             than ever with wavy,You can now join the and share the fun with other
                                             people.All you have to do is open wavy and click join on any of the party or
@@ -890,7 +890,7 @@ export default () => {
                                     </div>
                                     <div className="res-slider-content">
                                         <h2>The Everpress</h2>
-                                        <span><a href="https://everpress.com/" target="_blank">Website Link</a></span>
+                                        <span><a href="https://everpress.com/" target="_blank" rel="noopener noreferrer">Website Link</a></span>
                                         <p>REAL DESIGNS BY REAL ARTISTS FOR REAL PEOPLE<br />Everpress is a global
                                             marketplace for independent creativity. By offering the tools to
                                             sell,manufacture, and distribute your own creations; they’re changing the
@@ -917,7 +917,7 @@ export default () => {
                                     <div className="res-slider-content">
                                         <h2>TNudie Jeans</h2>
                                         <span><a href="https://www.nudiejeans.com/"
-                                                 target="_blank">Website Link</a></span>
+                                                 target="_blank" rel="noopener noreferrer">Website Link</a></span>
                                         <p>Safe shopping at Nudie jeans Home deliveries for all<br />Nudie Jeans is an
                                             online Jeans outlet providing the best quality fabric all around the world.
                                             In2013, Nudie Jeans launched the Repair Shop concept. With this came a
@@ -979,7 +979,7 @@ export default () => {
                                     <div className="res-slider-content">
                                         <h2>The QC Terme Shop</h2>
                                         <span><a href="https://shop.qcterme.com/en"
-                                                 target="_blank">Website Link</a></span>
+                                                 target="_blank" rel="noopener noreferrer">Website Link</a></span>
                                         <p>Experiences that improve the quality of life.<br />The QC Terme Wellness
                                             Centres offer the best well-being experiences in vast architecturalspaces
                                             and large gardens, such as whirlpools, saunas, Turkish baths, Kneipp paths,
@@ -1001,7 +1001,7 @@ export default () => {
                                     </div>
                                     <div className="res-slider-content">
                                         <h2>Isupportcause</h2>
-                                        <span><a href="https://www.isupportcause.com/" target="_blank">Website Link</a></span>
+                                        <span><a href="https://www.isupportcause.com/" target="_blank" rel="noopener noreferrer">Website Link</a></span>
                                         <p>Create a viral campaign to support your cause, raise awareness, and promote
                                             your organization.<br />Over 700,000+ supporters have used iSupportCause to
                                             advocate for various social causes and campaigns. Thousands of non-profit,

@@ -8,10 +8,10 @@ if (typeof window !== `undefined`) {
         .globals("ScrollTrigger", ScrollTrigger)
 }
 
+let bean = null;
+let fadeUp1 = null;
+let fadeRight1 = null;
 export default() => {
-    let bean = null;
-    let fadeUp1 = null
-    let fadeRight1 = null;
     useEffect(() => {
         TweenMax.to(bean, 2, {
             y: -10,

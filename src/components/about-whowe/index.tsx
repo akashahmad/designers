@@ -2,60 +2,57 @@ import React, {useEffect} from "react"
 import AOS from "aos"
 import {TweenMax, gsap} from 'gsap'
 import {ScrollTrigger} from "gsap/ScrollTrigger";
-'gsap'
+typeof document !== "undefined" && AOS.init();
 
-typeof document !== "undefined" && AOS.init()
+let dots = null;
+let diamond = null;
+let fadeRight = null;
 export default() => {
     if (typeof window !== `undefined`) {
-        gsap.registerPlugin(ScrollTrigger)
+        gsap.registerPlugin(ScrollTrigger);
         gsap
             .core
             .globals("ScrollTrigger", ScrollTrigger)
     }
 
-    let dots = null;
-    let diamond = null;
-    let fadeRight = null;
     useEffect(() => {
-
-        TweenMax.to([
-            dots, diamond
-        ], 2, {
-            y: -10,
-            repeat: -1,
-            ease: "none",
-            yoyo: true
-        });
-        TweenMax.from(fadeRight, {
-            scrollTrigger: {
-                trigger: fadeRight,
-                toggleActions: "restart reverse restart resume"
-            },
-            x: -100,
-            opacity: 0,
-            duration: 2
-        });
-
+            TweenMax.to([
+                dots, diamond
+            ], 2, {
+                y: -10,
+                repeat: -1,
+                ease: "none",
+                yoyo: true
+            });
+            TweenMax.from(fadeRight, {
+                scrollTrigger: {
+                    trigger: fadeRight,
+                    toggleActions: "restart reverse restart resume"
+                },
+                x: -100,
+                opacity: 0,
+                duration: 2
+            });
     }, []);
     return (
         <section className="who-we who-we-page shadow-who-we whowe-response">
             <div
                 className="three-dots"
                 ref={el => {
-                dots = el
-            }}/>
+                    dots = el
+                }}/>
             <div className="whowe-primary">
                 <div className="whowe-secondery">
                     <div
                         className="whowe-left-content"
                         ref={el => {
-                        fadeRight = el
-                    }}>
+                            fadeRight = el
+                        }}>
                         <div
                             className="diamond-img"
                             ref={el => {
-                            diamond = el
-                        }}>
+                                diamond = el
+                            }}>
                             <img
                                 src={require("../../images/diamond.png")}
                                 alt="GeeksHub-Media"

@@ -1,13 +1,13 @@
 import React, {useEffect} from "react"
 import {TweenMax} from 'gsap'
 import AOS from "aos"
-typeof document !== "undefined" && AOS.init()
-export default() => {
-    let diamond1 = null;
-    let diamond2 = null;
-    let diamond3 = null;
-    let diamond4 = null;
+typeof document !== "undefined" && AOS.init();
 
+let diamond1 = null;
+let diamond2 = null;
+let diamond3 = null;
+let diamond4 = null;
+export default() => {
     useEffect(() => {
         TweenMax.to([
             diamond1, diamond2, diamond3, diamond4
