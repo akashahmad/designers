@@ -1,15 +1,17 @@
 import React, {useEffect} from "react"
 import {TweenMax, gsap} from 'gsap'
+import AOS from "aos";
+
 import {ScrollTrigger} from "gsap/ScrollTrigger";
 let bean = null;
 let fadeRight = null;
-let fadeUp = null;
 export default() => {
     if (typeof window !== `undefined`) {
         gsap.registerPlugin(ScrollTrigger)
         gsap
             .core
-            .globals("ScrollTrigger", ScrollTrigger)
+            .globals("ScrollTrigger", ScrollTrigger);
+        AOS.init();
     }
     useEffect(() => {
         TweenMax.to(bean, 2, {
@@ -28,16 +30,7 @@ export default() => {
             opacity: 0,
             duration: 2
         });
-        TweenMax.from(fadeUp, {
-            scrollTrigger: {
-                trigger: fadeUp,
-                toggleActions: "restart reverse restart resume"
-            },
-            y: 150,
-            opacity: 0,
-            duration: 2
-        });
-    },[])
+    }, [])
     return (
         <section className="home-header services-section">
             <div className="slider-image-res">
@@ -68,11 +61,7 @@ export default() => {
                             </div>
                         </div>
                         <div className="home-right-slider">
-                            <div
-                                className="stroke-container"
-                                ref={el => {
-                                fadeUp = el
-                            }}>
+                            <div className="stroke-container" data-aos="fade-up" data-aos-duration="2000">
                                 <div className="slider-image"/>
                                 <div className="follower-image">
                                     <img
