@@ -16,7 +16,7 @@ export default () => {
               </div>
               <div className="circle-tech">
                 <div>
-                  <span>Project Done </span>
+                  <span>Projects Done </span>
                   <span>200+ </span>
                 </div>
               </div>
