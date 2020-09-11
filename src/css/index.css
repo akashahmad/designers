@@ -40,13 +40,10 @@ body {
 
 .home-header .home-primary .navigation-home ul li {
     float: left;
-}
-.home-header .home-primary .navigation-home ul li:hover{
-    color:#ef5737;
-}
-
-.home-header .home-primary .navigation-home ul li a {
     padding: 12px 25px;
+}
+.home-header .home-primary .navigation-home ul li a:hover{
+    color:#ef5737;
 }
 
 .home-header .navigation-home {
