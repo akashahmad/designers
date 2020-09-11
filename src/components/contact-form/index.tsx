@@ -67,7 +67,7 @@ export default () => {
                         </div>
                         <div className="quick-detail">
                             <h3>Contact Number</h3>
-                            <h3>+92 (0) 3333453636</h3>
+                            <h3>+92 3333453636</h3>
                             <p>Monday–Friday 9am-6pm</p>
                         </div>
                         <div className="quick-detail">
