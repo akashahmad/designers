@@ -23,13 +23,13 @@ export default () => {
                 </div>
                 <div>
                   <ul>
-                    <li>
-                      <Link to="/who-we-are">Who We Are</Link>
+                    <li className="nav-hover">
+                      <Link to="/who-we-are" className="nav-hover">Who We Are</Link>
                     </li>
-                    <li>
+                    <li className="nav-hover">
                       <Link to="/our-services">Our Services</Link>
                     </li>
-                    <li>
+                    <li className="nav-hover">
                       <Link to="/contact-us">Contact Us</Link>
                     </li>
                   </ul>
