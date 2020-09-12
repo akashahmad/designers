@@ -106,6 +106,7 @@ export default () => {
         setTw(false);
         setTt(false);
     }
+    console.log((!first && !second && !third && !four && !five && !six && !seven && !eight && !nine && !ten && !eleven && !tw))
     return (
         <section className="agency">
             <div className="agency-main">
@@ -121,11 +122,12 @@ export default () => {
                         </div>
                     </div>
                     <div className="agency-carousel">
-                        <Carousel showArrows={false} showThumbs={false} showStatus={false} useKeyboardArrows={true}
+                        <Carousel showArrows={false} showThumbs={false} showStatus={false} useKeyboardArrows={false}
                                   infiniteLoop={true}
-                                  autoPlay={!first && !second && !third && !four && !five && !six && !seven && !eight && !nine && !ten && !tw && !tt}
-                                  swipeable={true} emulateTouch={true} interval={5000} transitionTime={2000}
-                                  stopOnHover={false}>
+                                  showIndicators={(!first && !second && !third && !four && !five && !six && !seven && !eight && !nine && !ten && !eleven && !tw)}
+                                  autoPlay={(!first && !second && !third && !four && !five && !six && !seven && !eight && !nine && !ten && !eleven && !tw)}
+                                  swipeable={ (!first && !second && !third && !four && !five && !six && !seven && !eight && !nine && !ten && !eleven && !tw)} emulateTouch={true} interval={5000} transitionTime={2000}
+                                  stopOnHover={( first || second || third || four || five  || six || seven || eight || nine || ten || eleven || tw)}>
                             <div className="task-container-primary">
                                 <div>
                                     {first && <div className="popup">
@@ -753,11 +755,11 @@ export default () => {
                         </Carousel>
                     </div>
                     <div className="task-slider">
-                        <Carousel showArrows={false} showThumbs={false} showStatus={false} useKeyboardArrows={true}
+                        <Carousel showArrows={false} showThumbs={false} showStatus={false} useKeyboardArrows={false}
                                   infiniteLoop={true}
-                                  autoPlay={!first && !second && !third && !four && !five && !six && !seven && !eight && !nine && !ten && !tw && !tt}
-                                  swipeable={true} emulateTouch={true} interval={5000} transitionTime={2000}
-                                  stopOnHover={false}>
+                                  showIndicators={true}
+                                  autoPlay={true}
+                                  swipeable={true} emulateTouch={true} interval={5000} transitionTime={2000}>
                             <div>
                                 <div className="slider-agency">
                                     <div className="image-container">

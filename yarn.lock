@@ -12758,12 +12758,12 @@ react-icons@^3.0.1:
   dependencies:
     camelcase "^5.0.0"
 
-react-is@^16.12.0:
+react-is@^16.12.0, react-is@^16.8.1:
   version "16.13.1"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
   integrity sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
 
-react-is@^16.7.0, react-is@^16.8.1:
+react-is@^16.7.0:
   version "16.8.3"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.8.3.tgz#4ad8b029c2a718fc0cfc746c8d4e1b7221e5387d"
   integrity sha512-Y4rC1ZJmsxxkkPuMLwvKvlL1Zfpbcu+Bf4ZigkHup3v9EfdYhAlWAaVyA19olXq2o2mGn0w+dFKvk3pVVlYcIA==
@@ -12818,9 +12818,9 @@ react-remove-scroll@^2.3.0:
     use-sidecar "^1.0.1"
 
 react-responsive-carousel@^3.2.4:
-  version "3.2.4"
-  resolved "https://registry.yarnpkg.com/react-responsive-carousel/-/react-responsive-carousel-3.2.4.tgz#06b2bbb0824878cb9883b9902f3c178262ee7da3"
-  integrity sha512-lJdXaJj2V9sSD7LjGDHpKT4M9Rg6grUHsSNBB0nRUz8hqCDXeoSmxM7OhlXhLY7D98N0DlI/e9BPpmgYc8KiMQ==
+  version "3.2.9"
+  resolved "https://registry.yarnpkg.com/react-responsive-carousel/-/react-responsive-carousel-3.2.9.tgz#15ea4d2849bdce2fe3d9071976dd86479e6d6e62"
+  integrity sha512-oTLbI4VnZXmRDRHBa7EHFCydHi4ZraH5sZTMR/7pMnapCTdNzdwC3sXeJVduJYM29TEs9lGYgkKQPLB6GlEuUg==
   dependencies:
     classnames "^2.2.5"
     prop-types "^15.5.8"

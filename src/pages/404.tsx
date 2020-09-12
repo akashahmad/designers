@@ -22,12 +22,12 @@ export default () => {
                 <meta name="description"
                       content="We build business web and application development services that balance code, cost, and compliance. Premium quality. Ethical sourcing."/>
                 <meta name="keywords"
-                      content="Development, Mobile Development, UX/UI, NodeJS, javascript, web design, web dev, geekshub, geeks, hub, geekshub.org"/>
+                      content="Development, Mobile Development, UX/UI, NodeJS, javascript, web design, web dev, geekshub, geeks, hub, geekshub.io, geekshub.org"/>
                 <meta name="author" content="GeeksHub"/>
                 <meta property="og:title" content="GeeksHub"/>
                 <meta property="og:description"
                       content="We build business web and application development services that balance code, cost, and compliance. Premium quality. Ethical sourcing."/>
-                <meta property="og:url" content="https://www.geekshub.org/"/>
+                <meta property="og:url" content="https://www.geekshub.io/"/>
                 <meta property="og:site_name" content="GeeksHub"/>
                 <meta property="og:image" content={require("../images/geekshub-black-logo.png")}/>
                 <meta property="og:image:width" content="420"/>
