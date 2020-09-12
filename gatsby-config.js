@@ -3,7 +3,7 @@ module.exports = {
         title: `Gatsby Typescript Tailwind`,
         description: `An example config of Gatsby + TypeScript + Tailwind CSS`,
         author: `@gatsbyjs`,
-        siteUrl: `https://www.geekshub.org`,
+        siteUrl: `https://www.geekshub.io`,
 
     },
     plugins: [
