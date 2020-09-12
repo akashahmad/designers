@@ -106,7 +106,6 @@ export default () => {
         setTw(false);
         setTt(false);
     }
-    console.log((!first && !second && !third && !four && !five && !six && !seven && !eight && !nine && !ten && !eleven && !tw))
     return (
         <section className="agency">
             <div className="agency-main">

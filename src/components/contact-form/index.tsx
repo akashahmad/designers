@@ -3,7 +3,6 @@ import axios from 'axios';
 import Cards from '../contact-cards/index';
 // import Data from '../config';
 export default () => {
-    // console.log(Data)
     const [isSubmited, setIsSubmitted] = useState(false);
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
