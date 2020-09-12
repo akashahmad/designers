@@ -19,6 +19,7 @@ export default () => {
                 <title>Geeks Hub</title>
                 <meta property="og:locale" content="en_US"/>
                 <meta property="og:type" content="website"/>
+                <link rel="alternate" href="https://www.geekshub.io" hreflang="en-us" />
                 <meta name="description"
                       content="We build business web and application development services that balance code, cost, and compliance. Premium quality. Ethical sourcing."/>
                 <meta name="keywords"
