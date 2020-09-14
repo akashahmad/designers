@@ -4,36 +4,10 @@ module.exports = {
         description: `We are working with the modern technologies to build web applications and hybrid applications in both corporate and startup environments with broad and diverse experience that balance code, cost, user experience and performance.`,
         author: `AK`,
         siteUrl: `https://www.geekshub.io`,
+
     },
     plugins: [
-        {
-            resolve: `gatsby-plugin-sitemap`,
-            options: {
-                serialize: [
-                    {
-                        url: `https://www.geekshub.io/`,
-                        lastmod: `2020-09-14T22:43:01+00:00`,
-                        priority: 1.0
-                    }, {
-                        url: `https://www.geekshub.io/our-services/`,
-                        lastmod: `2020-09-14T22:44:03+00:00`,
-                        priority: 0.9
-                    }, {
-                        url: `https://www.geekshub.io/contact-us/`,
-                        lastmod: `2020-09-14T22:44:22+00:00`,
-                        priority: 0.8
-                    }, {
-                        url: `https://www.geekshub.io/who-we-are/`,
-                        lastmod: `2020-09-14T22:44:51+00:00`,
-                        priority: 0.7
-                    }, {
-                        url: `https://www.geekshub.io/privacy-policy/`,
-                        lastmod: `2020-09-14T22:45:07+00:00`,
-                        priority: 0.6
-                    }
-                ]
-            }
-        },
+        `gatsby-plugin-sitemap`,
         'gatsby-plugin-robots-txt',
         `gatsby-plugin-react-helmet`,
         {
