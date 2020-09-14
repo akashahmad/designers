@@ -7,9 +7,39 @@ module.exports = {
 
     },
     plugins: [
-        `gatsby-plugin-sitemap`,
         'gatsby-plugin-robots-txt',
         `gatsby-plugin-react-helmet`,
+        {
+            resolve: `gatsby-plugin-sitemap`,
+            options: {
+                output: `/sitemap.xml`,
+                serialize: ()=>{
+                    return [
+                        {
+                            url: `https://www.geekshub.io/`,
+                            lastmod: new Date(`2020-09-14T22:43:01+00:00`),
+                            priority: 1.0
+                        }, {
+                            url: `https://www.geekshub.io/our-services/`,
+                            lastmod: new Date(`2020-09-14T22:44:03+00:00`),
+                            priority: 0.9
+                        }, {
+                            url: `https://www.geekshub.io/contact-us/`,
+                            lastmod: new Date(`2020-09-14T22:44:22+00:00`),
+                            priority: 0.8
+                        }, {
+                            url: `https://www.geekshub.io/who-we-are/`,
+                            lastmod: new Date(`2020-09-14T22:44:51+00:00`),
+                            priority: 0.7
+                        }, {
+                            url: `https://www.geekshub.io/privacy-policy/`,
+                            lastmod: new Date(`2020-09-14T22:45:07+00:00`),
+                            priority: 0.6
+                        }
+                    ]
+                }
+            }
+        },
         {
             resolve: `gatsby-source-filesystem`,
             options: {
