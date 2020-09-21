@@ -16,24 +16,24 @@ module.exports = {
                 serialize: ()=>{
                     return [
                         {
-                            url: `https://www.geekshub.io`,
-                            lastmod: new Date(`2020-09-18T20:47:41+00:00`),
+                            url: `https://www.geekshub.io/`,
+                            lastmod: new Date(`2020-09-21T22:21:39+00:00`),
                             priority: 1.0
                         }, {
-                            url: `https://www.geekshub.io/our-services`,
-                            lastmod: new Date(`2020-09-18T20:48:01+00:00`),
+                            url: `https://www.geekshub.io/our-services/`,
+                            lastmod: new Date(`2020-09-21T22:21:52+00:00`),
                             priority: 0.9
                         }, {
-                            url: `https://www.geekshub.io/contact-us`,
-                            lastmod: new Date(`2020-09-18T20:48:16+00:00`),
+                            url: `https://www.geekshub.io/contact-us/`,
+                            lastmod: new Date(`2020-09-21T22:22:06+00:00`),
                             priority: 0.8
                         }, {
-                            url: `https://www.geekshub.io/who-we-are`,
-                            lastmod: new Date(`2020-09-18T20:48:41+00:00`),
+                            url: `https://www.geekshub.io/who-we-are/`,
+                            lastmod: new Date(`2020-09-21T22:22:23+00:00`),
                             priority: 0.7
                         }, {
-                            url: `https://www.geekshub.io/privacy-policy`,
-                            lastmod: new Date(`2020-09-18T20:48:59+00:00`),
+                            url: `https://www.geekshub.io/privacy-policy/`,
+                            lastmod: new Date(`2020-09-21T22:22:40+00:00`),
                             priority: 0.6
                         }
                     ]
