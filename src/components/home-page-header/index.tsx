@@ -25,10 +25,10 @@ export default() => {
         TweenMax.from(fadeRight1, {
             scrollTrigger: {
                 trigger: fadeRight1,
-                toggleActions: "restart reverse restart resume"
+                toggleActions: "play pause pause pause"
             },
             x: -100,
-            opacity: 0,
+            // opacity: 1,
             duration: 2
         });
 

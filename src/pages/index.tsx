@@ -8,7 +8,6 @@ import Agency from "../components/agency-task/index"
 import Headernav from "../components/header/index"
 import {Helmet} from "react-helmet"
 
-
 export default () => {
     return (
         <>
@@ -17,8 +16,8 @@ export default () => {
             <title>Geeks Hub</title>
             <meta property="og:locale" content="en_US"/>
             <meta property="og:type" content="website"/>
-            <link rel="alternate" href="https://www.geekshub.io" hreflang="en-us" />
-            <link rel="canonical" href="https://www.geekshub.io/" />
+            <link rel="alternate" href="https://www.geekshub.io" hreflang="en-us"/>
+            <link rel="canonical" href="https://www.geekshub.io/"/>
             <meta name="description"
                   content="We are working with the modern technologies to build web applications and hybrid applications in both corporate and startup environments with broad and diverse experience that balance code, cost, user experience and performance."/>
             <meta name="keywords"
@@ -51,7 +50,8 @@ export default () => {
             new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.VERTICAL}, 'google_translate_element1');
         }`}
             </script>
-            <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+            <script type="text/javascript"
+                    src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
         </Helmet>
         <Headernav />
         <Header />

@@ -9,11 +9,9 @@ export default() => {
 
     useEffect(() => {
 
-        TweenMax.to([
-            dots, diamond
-        ], 2, {
+        TweenMax.to([dots, diamond], 2, {
             y: -10,
-            repeat: -1,
+            repeat: 1,
             ease: "none",
             yoyo: true
         });
