@@ -59,30 +59,30 @@ export default () => {
                                 </div> */}
                             </div>
                         </div>
-                        <div className="slider-settings">
-                            <div className="team-primary">
-                                <div
-                                    className="team-container-img profile-three"
+                        {/*<div className="slider-settings">*/}
+                            {/*<div className="team-primary">*/}
+                                {/*<div*/}
+                                    {/*className="team-container-img profile-three"*/}
 
-                                ></div>
-                                <div className="name-profile">
-                                    <h3>Shehnam Zubair</h3>
-                                    <p>Co-Founder and Lead UI/UX Designer</p>
-                                </div>
-                                {/* <div className="social-link">
-                                    <div className="social-container">
-                                        <a href="/#">
-                                            <i className="fa fa-facebook"></i>
-                                        </a>
-                                    </div>
-                                    <div className="social-container">
-                                        <a href="/#">
-                                            <i className="fa fa-facebook"></i>
-                                        </a>
-                                    </div>
-                                </div> */}
-                            </div>
-                        </div>
+                                {/*></div>*/}
+                                {/*<div className="name-profile">*/}
+                                    {/*<h3>Shehnam Zubair</h3>*/}
+                                    {/*<p>Co-Founder and Lead UI/UX Designer</p>*/}
+                                {/*</div>*/}
+                                {/*/!* <div className="social-link">*/}
+                                    {/*<div className="social-container">*/}
+                                        {/*<a href="/#">*/}
+                                            {/*<i className="fa fa-facebook"></i>*/}
+                                        {/*</a>*/}
+                                    {/*</div>*/}
+                                    {/*<div className="social-container">*/}
+                                        {/*<a href="/#">*/}
+                                            {/*<i className="fa fa-facebook"></i>*/}
+                                        {/*</a>*/}
+                                    {/*</div>*/}
+                                {/*</div> *!/*/}
+                            {/*</div>*/}
+                        {/*</div>*/}
                     </Carousel>
                 </div>
                 <div className="team">
@@ -134,30 +134,30 @@ export default () => {
                             </div> */}
                         </div>
                     </div>
-                    <div>
-                        <div className="team-primary">
-                            <div
-                                className="team-container-img profile-three"
-                                data-aos="flip-left"
-                            ></div>
-                            <div className="name-profile">
-                                <h3>Shehnam Zubair</h3>
-                                <p>Co-Founder and Lead UI/UX Designer</p>
-                            </div>
-                            {/* <div className="social-link">
-                                <div className="social-container">
-                                    <a href="/#">
-                                        <i className="fa fa-facebook"></i>
-                                    </a>
-                                </div>
-                                <div className="social-container">
-                                    <a href="/#">
-                                        <i className="fa fa-facebook"></i>
-                                    </a>
-                                </div>
-                            </div> */}
-                        </div>
-                    </div>
+                    {/*<div>*/}
+                        {/*<div className="team-primary">*/}
+                            {/*<div*/}
+                                {/*className="team-container-img profile-three"*/}
+                                {/*data-aos="flip-left"*/}
+                            {/*></div>*/}
+                            {/*<div className="name-profile">*/}
+                                {/*<h3>Shehnam Zubair</h3>*/}
+                                {/*<p>Co-Founder and Lead UI/UX Designer</p>*/}
+                            {/*</div>*/}
+                            {/*/!* <div className="social-link">*/}
+                                {/*<div className="social-container">*/}
+                                    {/*<a href="/#">*/}
+                                        {/*<i className="fa fa-facebook"></i>*/}
+                                    {/*</a>*/}
+                                {/*</div>*/}
+                                {/*<div className="social-container">*/}
+                                    {/*<a href="/#">*/}
+                                        {/*<i className="fa fa-facebook"></i>*/}
+                                    {/*</a>*/}
+                                {/*</div>*/}
+                            {/*</div> *!/*/}
+                        {/*</div>*/}
+                    {/*</div>*/}
                 </div>
             </div>
         </section>

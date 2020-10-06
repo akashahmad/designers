@@ -5,7 +5,6 @@ import {Link} from "gatsby"
 let circle = null;
 let square = null;
 export default() => {
-
     useEffect(() => {
         TweenMax.to(circle, 2, {
             y: -10,
@@ -19,7 +18,7 @@ export default() => {
             repeat: -1,
             ease: "none"
         });
-    },[])
+    }, [])
     return (
         <section className="footer">
             <div className="footer-primary">
@@ -44,14 +43,14 @@ export default() => {
                         </div>
                         <div
                             ref={el => {
-                            circle = el
-                        }}
+                                circle = el
+                            }}
                             className="button-bl"></div>
                         <div
                             className="rotate-div"
                             ref={el => {
-                            square = el
-                        }}>
+                                square = el
+                            }}>
                             <div className="squre-angle"></div>
                         </div>
                     </div>
@@ -106,7 +105,8 @@ export default() => {
                     <div className="copy-right-section">
                         <p>
                             © Copyright 2020 &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;All Rights
-                            Reserved&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<Link to="/privacy-policy">Privacy Policy</Link>
+                            Reserved&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<Link to="/privacy-policy">Privacy
+                            Policy</Link>
                         </p>
                     </div>
                 </div>

@@ -13,12 +13,11 @@ export default() => {
     }
     let fadeRight = null;
     let fadeLeft = null;
-
     useEffect(() => {
         TweenMax.from(fadeRight, {
             scrollTrigger: {
                 trigger: fadeRight,
-                toggleActions: "restart pause pause pause"
+                toggleActions: "restart complete complete complete"
             },
             x: -100,
             opacity: 0,
@@ -27,7 +26,8 @@ export default() => {
         TweenMax.from(fadeLeft, {
             scrollTrigger: {
                 trigger: fadeLeft,
-                toggleActions: "restart pause pause pause"
+                toggleActions: "restart complete complete complete"
+
             },
             x: 100,
             opacity: 0,
