@@ -14,7 +14,6 @@ export default() => {
             .core
             .globals("ScrollTrigger", ScrollTrigger)
     }
-
     useEffect(() => {
             TweenMax.to([
                 dots, diamond
