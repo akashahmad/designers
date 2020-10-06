@@ -26,7 +26,6 @@ export default() => {
                 toggleActions: "play pause pause pause"
             },
             x: -100,
-            opacity: 1,
             duration: 2
         });
 
