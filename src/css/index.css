@@ -42,8 +42,9 @@ body {
     float: left;
     padding: 12px 25px;
 }
-.home-header .home-primary .navigation-home ul li a:hover{
-    color:#ef5737;
+
+.home-header .home-primary .navigation-home ul li a:hover {
+    color: #ef5737;
 }
 
 .home-header .navigation-home {
@@ -1513,7 +1514,7 @@ html {
 }
 
 .active-card {
-    border: solid 1px #F39986!important;
+    border: solid 1px #F39986 !important;
 }
 
 .active-card:after {
@@ -1525,7 +1526,8 @@ html {
     font-weight: 600;
     padding: 30px 0 0;
 }
-/* contact us page structure was bad due to this 
+
+/* contact us page structure was bad due to this
 .contant-cards-section .card-contact {
     width: 58%;
 } */
@@ -1986,8 +1988,6 @@ html {
         opacity: 1;
     }
 }
-
-
 
 .home-header .slider-home-res {
     animation-name: responsiveslider;
@@ -2615,14 +2615,16 @@ html {
     .googletranslate {
         position: absolute;
         z-index: 1000;
-        right: 17px!important;
+        right: 17px !important;
         top: 0;
     }
-    #google_translate_element{
-        display: none!important;
+
+    #google_translate_element {
+        display: none !important;
     }
-    #google_translate_element1{
-        display: block!important;
+
+    #google_translate_element1 {
+        display: block !important;
     }
 
 }
@@ -2704,6 +2706,7 @@ html {
         margin-top: 2px;
         height: 4px;
         border-radius: 5px;
+        cursor: pointer;
     }
 
     .home-header .home-primary {
@@ -3132,14 +3135,16 @@ html {
     .googletranslate {
         position: absolute;
         z-index: 1000;
-        right: 17px!important;
+        right: 17px !important;
         top: 0;
     }
-    #google_translate_element{
-        display: none!important;
+
+    #google_translate_element {
+        display: none !important;
     }
-    #google_translate_element1{
-        display: block!important;
+
+    #google_translate_element1 {
+        display: block !important;
     }
 }
 
@@ -3639,17 +3644,20 @@ html {
     .agency .agency-primary .task-container-primary .task-container {
         width: 186px;
     }
+
     .googletranslate {
         position: absolute;
         z-index: 1000;
-        right: 17px!important;
+        right: 17px !important;
         top: 0;
     }
-    #google_translate_element{
-        display: none!important;
+
+    #google_translate_element {
+        display: none !important;
     }
-    #google_translate_element1{
-        display: block!important;
+
+    #google_translate_element1 {
+        display: block !important;
     }
 
 }
@@ -4160,18 +4168,18 @@ html {
     .googletranslate {
         position: absolute;
         z-index: 1000;
-        right: 17px!important;
+        right: 17px !important;
         top: 0;
     }
-    #google_translate_element{
-        display: none!important;
+
+    #google_translate_element {
+        display: none !important;
     }
-    #google_translate_element1{
-        display: block!important;
+
+    #google_translate_element1 {
+        display: block !important;
     }
 }
-
-
 
 @media (max-width: 991px) and (min-width: 768px) {
     .con-cards {
@@ -4678,17 +4686,20 @@ html {
     .agency .agency-primary .task-container-primary {
         min-height: unset;
     }
+
     .googletranslate {
         position: absolute;
         z-index: 1000;
-        right: 17px!important;
+        right: 17px !important;
         top: 0;
     }
-    #google_translate_element{
-        display: none!important;
+
+    #google_translate_element {
+        display: none !important;
     }
-    #google_translate_element1{
-        display: block!important;
+
+    #google_translate_element1 {
+        display: block !important;
     }
 
 }

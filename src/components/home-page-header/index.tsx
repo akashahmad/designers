@@ -7,11 +7,10 @@ if (typeof window !== `undefined`) {
     gsap
         .core
         .globals("ScrollTrigger", ScrollTrigger);
-        AOS.init();
+    AOS.init();
 }
 
 let bean = null;
-
 let fadeRight1 = null;
 export default() => {
     useEffect(() => {
@@ -21,14 +20,12 @@ export default() => {
             ease: "none",
             yoyo: true
         });
-
         TweenMax.from(fadeRight1, {
             scrollTrigger: {
                 trigger: fadeRight1,
-                toggleActions: "restart reverse restart resume"
+                toggleActions: "restart complete complete complete"
             },
             x: -100,
-            opacity: 0,
             duration: 2
         });
 
@@ -55,8 +52,8 @@ export default() => {
                         <div
                             className="content-image"
                             ref={el => {
-                            fadeRight1 = el
-                        }}>
+                                fadeRight1 = el
+                            }}>
                             <div className="content-div para-font-size">
                                 <h2>We want you to grow beyond limits!</h2>
                                 <p>Collaborating with organizations to provide a sound technical foundation, an

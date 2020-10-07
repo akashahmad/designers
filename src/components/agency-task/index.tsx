@@ -28,9 +28,9 @@ export default () => {
     const [eleven, setEleven] = useState(false);
     const [tw, setTw] = useState(false);
     const [tt, setTt] = useState(false);
-  
+
       useEffect(() =>{
-  
+
         TweenMax.to(leaf, 2, {
           y: -10,
           repeat: -1,
@@ -40,13 +40,13 @@ export default () => {
       TweenMax.from(fadeRight, {
         scrollTrigger: {
             trigger: fadeRight,
-            toggleActions: "restart reverse restart resume"
+            toggleActions: "restart complete complete complete"
         },
         x: -100,
         opacity: 0,
         duration: 1
     });
-  
+
       },[]);
     const handleCheck = (key: any) => {
         switch (key) {
@@ -111,7 +111,7 @@ export default () => {
             <div className="agency-main">
                 <div className="agency-primary">
                     <div className="agency-head" ref={el =>{fadeRight = el}}
-                    
+
                     >
                         <div className="leaf-image" ref={el => {
                             leaf = el

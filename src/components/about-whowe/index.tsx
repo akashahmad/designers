@@ -14,25 +14,24 @@ export default() => {
             .core
             .globals("ScrollTrigger", ScrollTrigger)
     }
-
     useEffect(() => {
-            TweenMax.to([
-                dots, diamond
-            ], 2, {
-                y: -10,
-                repeat: -1,
-                ease: "none",
-                yoyo: true
-            });
-            TweenMax.from(fadeRight, {
-                scrollTrigger: {
-                    trigger: fadeRight,
-                    toggleActions: "restart reverse restart resume"
-                },
-                x: -100,
-                opacity: 0,
-                duration: 2
-            });
+        TweenMax.to([
+            dots, diamond
+        ], 2, {
+            y: -10,
+            repeat: -1,
+            ease: "none",
+            yoyo: true
+        });
+        TweenMax.from(fadeRight, {
+            scrollTrigger: {
+                trigger: fadeRight,
+                toggleActions: "restart complete complete complete"
+            },
+            x: -100,
+            opacity: 0,
+            duration: 2
+        });
     }, []);
     return (
         <section className="who-we who-we-page shadow-who-we whowe-response">

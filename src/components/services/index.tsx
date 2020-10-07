@@ -17,7 +17,7 @@ export default () => {
         TweenMax.from(fadeUp, {
             scrollTrigger: {
                 trigger: fadeUp,
-                toggleActions: "restart reverse restart resume"
+                toggleActions: "restart complete complete complete"
             },
             y: 150,
             opacity: 0,
@@ -26,10 +26,10 @@ export default () => {
         TweenMax.from(fadeLeft, {
             scrollTrigger: {
                 trigger: fadeLeft,
-                toggleActions: "restart reverse restart resume"
+                toggleActions: "restart complete complete complete"
             },
             x: 100,
-            opacity: 0,
+             opacity: 1,
             duration: 2
         });
     },[])
