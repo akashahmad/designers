@@ -1506,7 +1506,7 @@ html {
     position: relative;
     padding: 36px;
     cursor: pointer;
-    border: solid 1px transparent;
+    border: none;
 }
 
 .contant-cards-section .contact-main-cards:after {
