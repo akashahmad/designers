@@ -92,7 +92,7 @@ export default() => {
                                 </li>
                                 <li>
                                     <a
-                                        href="https://www.linkedin.com/company/43286270"
+                                        href="https://www.linkedin.com/company/geekshub-io"
                                         target="_blank"
                                         rel="noopener noreferrer">
                                         <div className="link-images social-link-linkedin"></div>
