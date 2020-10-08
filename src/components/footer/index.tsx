@@ -91,8 +91,7 @@ export default() => {
                                         <div className="link-images social-link-insta-white"></div>
                                     </li>
                                 </a>
-                                <a
-                                    href="https://www.linkedin.com/company/43286270"
+                                <a href="https://www.linkedin.com/company/geekshub-io"
                                     target="_blank"
                                     rel="noopener noreferrer">
                                     <li>
