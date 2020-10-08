@@ -11,8 +11,6 @@ let restc = null;
 let graphc = null;
 let tl = new TimelineLite();
 export default () => {
-
-
     useEffect(() => {
         tl.fromTo([
             reactc, sqlc, mongoc, restc
