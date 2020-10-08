@@ -39,7 +39,7 @@ export default () => {
             <meta name="twitter:image" content={require("../images/geekshub-black-logo.png")}/>
             <meta name="twitter:creator" content="@Geeks__Hub"/>
             <meta property="DC.date.issued" content="2017-04-04T16:12:12-05:00"/>
-            <meta name="google-site-verification" content="Ywrq8HNnx83ftCVbpm6IC53-ECY8-1Piz9K7mMWX-cI" />
+            <meta name="google-site-verification" content="JSDvTu058M1UuhdASFVpudUNAhW8rLEJGaIVj4VmyuE"/>
             <script type="text/javascript" async>
                 {typeof document !== "undefined" && document.body.clientWidth > 991 && `function googleTranslateElementInit() {
             new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
