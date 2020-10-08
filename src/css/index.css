@@ -10,17 +10,21 @@
 body {
     font-family: 'Raleway', sans-serif !important;
 }
+
 .width-100 {
     width: 100%;
 }
+
 .width-0 {
     width: 0;
 }
+
 .sidenav {
     height: 100%;
     overflow-x: hidden;
     transition: 0.9s;
 }
+
 /* home page header section START  */
 .home-header .home-main {
     display: flex;
@@ -818,8 +822,7 @@ html {
     padding: 15px 0;
 }
 
-.
-slider-agency .image-container {
+.slider-agency .image-container {
     height: 200px;
 }
 
