@@ -20,7 +20,7 @@ export default () => {
             <div className="googletranslate" id="google_translate_element1"/>
             <div className="home-main">
                 <div
-                    className={isToggled ? "width-100 navigation-responsive sidenav" : "navigation-responsive width-0"}>
+                    className={isToggled ? "width-100 navigation-responsive sidenav" : "navigation-responsive width-0 sidenav"}>
                     <div className="overlay-bg">
                         <div className="navigation-container">
                             <div className="logo-responsive">
