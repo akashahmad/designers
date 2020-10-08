@@ -62,7 +62,7 @@ export default () => {
                         </div>
                         <div className="quick-detail">
                             <h3>Email:</h3>
-                            <p>info@geekshub.org</p>
+                            <p>info@geekshub.io</p>
                         </div>
                         <div className="quick-detail">
                             <h3>Contact Number</h3>
