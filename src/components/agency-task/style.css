@@ -9,5 +9,5 @@
     background-color: #fff!important;
 }
 .carousel .slider-wrapper.axis-horizontal .slider{
-    align-items: flex-end;
+    align-items: flex-start;
 }

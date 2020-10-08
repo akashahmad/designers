@@ -1,6 +1,6 @@
-import React, {useState,useEffect} from "react";
+import React, {useState, useEffect} from "react";
 import AOS from "aos";
-import {TweenMax,gsap} from 'gsap'
+import {TweenMax, gsap} from 'gsap'
 import {ScrollTrigger} from "gsap/ScrollTrigger";
 import "./style.css";
 import {Carousel} from 'react-responsive-carousel';
@@ -29,25 +29,25 @@ export default () => {
     const [tw, setTw] = useState(false);
     const [tt, setTt] = useState(false);
 
-      useEffect(() =>{
+    useEffect(() => {
 
         TweenMax.to(leaf, 2, {
-          y: -10,
-          repeat: -1,
-          ease: "none",
-          yoyo: true
-      });
-      TweenMax.from(fadeRight, {
-        scrollTrigger: {
-            trigger: fadeRight,
-            toggleActions: "restart complete complete complete"
-        },
-        x: -100,
-        opacity: 0,
-        duration: 1
-    });
+            y: -10,
+            repeat: -1,
+            ease: "none",
+            yoyo: true
+        });
+        TweenMax.from(fadeRight, {
+            scrollTrigger: {
+                trigger: fadeRight,
+                toggleActions: "restart complete complete complete"
+            },
+            x: -100,
+            opacity: 0,
+            duration: 1
+        });
 
-      },[]);
+    }, []);
     const handleCheck = (key: any) => {
         switch (key) {
             case '1':
@@ -110,7 +110,9 @@ export default () => {
         <section className="agency">
             <div className="agency-main">
                 <div className="agency-primary">
-                    <div className="agency-head" ref={el =>{fadeRight = el}}
+                    <div className="agency-head" ref={el => {
+                        fadeRight = el
+                    }}
 
                     >
                         <div className="leaf-image" ref={el => {
@@ -125,8 +127,9 @@ export default () => {
                                   infiniteLoop={true}
                                   showIndicators={(!first && !second && !third && !four && !five && !six && !seven && !eight && !nine && !ten && !eleven && !tw)}
                                   autoPlay={(!first && !second && !third && !four && !five && !six && !seven && !eight && !nine && !ten && !eleven && !tw)}
-                                  swipeable={ (!first && !second && !third && !four && !five && !six && !seven && !eight && !nine && !ten && !eleven && !tw)} emulateTouch={true} interval={5000} transitionTime={2000}
-                                  stopOnHover={( first || second || third || four || five  || six || seven || eight || nine || ten || eleven || tw)}>
+                                  swipeable={ (!first && !second && !third && !four && !five && !six && !seven && !eight && !nine && !ten && !eleven && !tw)}
+                                  emulateTouch={true} interval={5000} transitionTime={2000}
+                        >
                             <div className="task-container-primary">
                                 <div>
                                     {first && <div className="popup">
@@ -188,7 +191,8 @@ export default () => {
                                                         <div className="close-icon" onClick={() => handleClose()}>
                                                             <span>&#10006;</span></div>
                                                         <h2>Equal parts</h2>
-                                                        <span><a href="https://equalparts.com/" target="_blank" rel="noopener noreferrer">Website Link</a></span>
+                                                        <span><a href="https://equalparts.com/" target="_blank"
+                                                                 rel="noopener noreferrer">Website Link</a></span>
                                                         <p>
                                                             Equal Parts cookware is coated with non-toxic ceramic, so
                                                             you don’t have to worry about harmful chemicals (no PFOA or
@@ -241,7 +245,8 @@ export default () => {
                                                             <span>&#10006;</span></div>
                                                         <h2>Chaboni Foodservice</h2>
                                                         <span><a href="https://www.chobanifoodservice.com/"
-                                                                 target="_blank" rel="noopener noreferrer">Website Link</a></span>
+                                                                 target="_blank"
+                                                                 rel="noopener noreferrer">Website Link</a></span>
                                                         <p>
                                                             Chobani® Greek Yogurt is the perfect option for delivering
                                                             on great taste and functionality. Yourmenu can do it all
@@ -291,7 +296,8 @@ export default () => {
                                                         <div className="close-icon" onClick={() => handleClose()}>
                                                             <span>&#10006;</span></div>
                                                         <h2>NEORig</h2>
-                                                        <span><a href="https://neo-rig.com/" target="_blank" rel="noopener noreferrer">Website Link</a></span>
+                                                        <span><a href="https://neo-rig.com/" target="_blank"
+                                                                 rel="noopener noreferrer">Website Link</a></span>
                                                         <p>
                                                             The company offers high-quality automated land drilling
                                                             systems and rig components thatsatisfy the needs of our
@@ -339,7 +345,8 @@ export default () => {
                                                         <div className="close-icon" onClick={() => handleClose()}>
                                                             <span>&#10006;</span></div>
                                                         <h2>Letsgetwavy</h2>
-                                                        <span><a href="https://letsgetwavey.com/" target="_blank" rel="noopener noreferrer">Website Link</a></span>
+                                                        <span><a href="https://letsgetwavey.com/" target="_blank"
+                                                                 rel="noopener noreferrer">Website Link</a></span>
                                                         <p>
                                                             Joining a party get’s easier than ever with wavy,You can now
                                                             join the and share the fun with other people.All you have to
@@ -383,7 +390,8 @@ export default () => {
                                                         <div className="close-icon" onClick={() => handleClose()}>
                                                             <span>&#10006;</span></div>
                                                         <h2>J.Powers Events</h2>
-                                                        <span><a href="https://jpowers.events/" target="_blank" rel="noopener noreferrer">Website Link</a></span>
+                                                        <span><a href="https://jpowers.events/" target="_blank"
+                                                                 rel="noopener noreferrer">Website Link</a></span>
                                                         <p>
                                                             J.Powers are a team of experienced event managers, luxury
                                                             event venue and catered experience that delivers exceptional
@@ -433,7 +441,8 @@ export default () => {
                                                             <span>&#10006;</span></div>
                                                         <h2>The Stylist Group.</h2>
                                                         <span><a href="https://www.thestylistgroup.com/"
-                                                                 target="_blank" rel="noopener noreferrer">Website Link</a></span>
+                                                                 target="_blank"
+                                                                 rel="noopener noreferrer">Website Link</a></span>
                                                         <p>
                                                             The stylist group are the content creators and magazine
                                                             designers for the stylists women. Thestylist group are the
@@ -477,7 +486,8 @@ export default () => {
                                                         <div className="close-icon" onClick={() => handleClose()}>
                                                             <span>&#10006;</span></div>
                                                         <h2>The Everpress</h2>
-                                                        <span><a href="https://everpress.com/" target="_blank" rel="noopener noreferrer">Website Link</a></span>
+                                                        <span><a href="https://everpress.com/" target="_blank"
+                                                                 rel="noopener noreferrer">Website Link</a></span>
                                                         <p>
                                                             Everpress is a global marketplace for independent
                                                             creativity. By offering the tools to sell, manufacture, and
@@ -527,7 +537,8 @@ export default () => {
                                                         <div className="close-icon" onClick={() => handleClose()}>
                                                             <span>&#10006;</span></div>
                                                         <h2>Nudie Jeans</h2>
-                                                        <span><a href="https://www.nudiejeans.com/" target="_blank" rel="noopener noreferrer">Website Link</a></span>
+                                                        <span><a href="https://www.nudiejeans.com/" target="_blank"
+                                                                 rel="noopener noreferrer">Website Link</a></span>
                                                         <p>
                                                             Nudie Jeans is an online Jeans outlet providing the best
                                                             quality fabric all around the world. In 2013, Nudie Jeans
@@ -622,7 +633,8 @@ export default () => {
                                                             <span>&#10006;</span></div>
                                                         <h2>Noodle.Ai</h2>
                                                         <span><a href="https://noodle.ai/"
-                                                                 target="_blank" rel="noopener noreferrer">Website Link</a></span>
+                                                                 target="_blank"
+                                                                 rel="noopener noreferrer">Website Link</a></span>
                                                         <p>
                                                             Partnering with the world's pioneering organizations to make
                                                             business more radically efficient,and pushing each other to
@@ -668,7 +680,8 @@ export default () => {
                                                         <div className="close-icon" onClick={() => handleClose()}>
                                                             <span>&#10006;</span></div>
                                                         <h2>The QC Terme Shop</h2>
-                                                        <span><a href="https://shop.qcterme.com/en" target="_blank" rel="noopener noreferrer">Website Link</a></span>
+                                                        <span><a href="https://shop.qcterme.com/en" target="_blank"
+                                                                 rel="noopener noreferrer">Website Link</a></span>
                                                         <p>Experiences that improve the quality of life.<br />
                                                             The QC Terme Wellness Centres offer the best well-being
                                                             experiences in vast architecturalspaces and large gardens,
@@ -787,7 +800,8 @@ export default () => {
                                     </div>
                                     <div className="res-slider-content">
                                         <h2>Equal parts</h2>
-                                        <span><a href="https://equalparts.com/" target="_blank" rel="noopener noreferrer">Website Link</a></span>
+                                        <span><a href="https://equalparts.com/" target="_blank"
+                                                 rel="noopener noreferrer">Website Link</a></span>
                                         <p>Meet high-quality cookware designed to cook faster and clean easier<br />Equal
                                             Parts cookware is coated with non-toxic ceramic, so you don’t have to worry
                                             about harmful chemicals (no PFOA or PTFE) making their way into your food as
@@ -891,7 +905,8 @@ export default () => {
                                     </div>
                                     <div className="res-slider-content">
                                         <h2>The Everpress</h2>
-                                        <span><a href="https://everpress.com/" target="_blank" rel="noopener noreferrer">Website Link</a></span>
+                                        <span><a href="https://everpress.com/" target="_blank"
+                                                 rel="noopener noreferrer">Website Link</a></span>
                                         <p>REAL DESIGNS BY REAL ARTISTS FOR REAL PEOPLE<br />Everpress is a global
                                             marketplace for independent creativity. By offering the tools to
                                             sell,manufacture, and distribute your own creations; they’re changing the
@@ -1002,7 +1017,8 @@ export default () => {
                                     </div>
                                     <div className="res-slider-content">
                                         <h2>Isupportcause</h2>
-                                        <span><a href="https://www.isupportcause.com/" target="_blank" rel="noopener noreferrer">Website Link</a></span>
+                                        <span><a href="https://www.isupportcause.com/" target="_blank"
+                                                 rel="noopener noreferrer">Website Link</a></span>
                                         <p>Create a viral campaign to support your cause, raise awareness, and promote
                                             your organization.<br />Over 700,000+ supporters have used iSupportCause to
                                             advocate for various social causes and campaigns. Thousands of non-profit,
