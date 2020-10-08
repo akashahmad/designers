@@ -74,7 +74,7 @@ export default() => {
                                 </li>
                                 <li>
                                     <a
-                                        href="https://twitter.com/Geeks__Hub"
+                                        href="https://twitter.com/GeeksHub_io"
                                         target="_blank"
                                         rel="noopener noreferrer">
                                         <div className="link-images social-link-tw"></div>
