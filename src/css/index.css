@@ -1493,9 +1493,7 @@ html {
 
 .contant-cards-section .con-cards .contact-main-cards {
     width: 254px;
-    padding: 20px 36px 30px 36px;
     background-image: url('../images/vector-smart-12.jpg');
-    background-size: contain;
     background-repeat: no-repeat;
     background-position: right;
     background-size: 50% 100%;
@@ -1506,7 +1504,7 @@ html {
     position: relative;
     padding: 36px;
     cursor: pointer;
-    border: solid 1px transparent;
+    border: 1px solid #f3effe;
 }
 
 .contant-cards-section .contact-main-cards:after {

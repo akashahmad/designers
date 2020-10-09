@@ -63,42 +63,43 @@ export default() => {
                         </div>
                         <div className="logo-footer">
                             <ul>
-                                <li className="active">
-                                    <a
-                                        href="https://www.facebook.com/geekshub.io"
-                                        target="_blank"
-                                        rel="noopener noreferrer">
+                                <a
+                                    href="https://www.facebook.com/geekshub.io"
+                                    target="_blank"
+                                    rel="noopener noreferrer">
+                                    <li className="active">
                                         <div className="link-images social-link-fb"></div>
                                         <div className="link-images social-link-fb-white"></div>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a
-                                        href="https://twitter.com/GeeksHub_io"
-                                        target="_blank"
-                                        rel="noopener noreferrer">
+                                    </li>
+                                </a>
+                                <a
+                                    href="https://twitter.com/GeeksHub_io"
+                                    target="_blank"
+                                    rel="noopener noreferrer">
+                                    <li>
                                         <div className="link-images social-link-tw"></div>
                                         <div className="link-images social-link-tw-white"></div>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a
-                                        href="https://www.instagram.com/geekshub.io"
-                                        target="_blank"
-                                        rel="noopener noreferrer">
+                                    </li>
+                                </a>
+                                <a
+                                    href="https://www.instagram.com/geekshub.io"
+                                    target="_blank"
+                                    rel="noopener noreferrer">
+                                    <li>
+
                                         <div className="link-images social-link-insta"></div>
                                         <div className="link-images social-link-insta-white"></div>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a
-                                        href="https://www.linkedin.com/company/geekshub-io"
-                                        target="_blank"
-                                        rel="noopener noreferrer">
+                                    </li>
+                                </a>
+                                <a href="https://www.linkedin.com/company/geekshub-io"
+                                    target="_blank"
+                                    rel="noopener noreferrer">
+                                    <li>
+
                                         <div className="link-images social-link-linkedin"></div>
                                         <div className="link-images social-link-linkedin-white"></div>
-                                    </a>
-                                </li>
+                                    </li>
+                                </a>
                             </ul>
                         </div>
                     </div>
